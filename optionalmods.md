@@ -3,7 +3,7 @@
 Mods just outside Dungeon Delver's Odyssey: not in `mods.lock.json`, close enough to the theme (class-based action RPG,
 dungeons, bosses, villages) that you may want them. None are tested with the pack.
 
-Pack size: **138 of 150** mods, so 12 slots free.
+Pack size: **142 of 150** mods, so 8 slots free.
 
 Every row was checked against Modrinth on 2026-10-07 for a **Minecraft 1.20.1 Forge release**. "Client / Server" is the side
 the mod declares (req = required, opt = optional, - = unsupported). Versions are the latest release at that check and drift.
@@ -34,20 +34,14 @@ the mod declares (req = required, opt = optional, - = unsupported). Versions are
 | --- | --- | --- | --- |
 | Xaero's Minimap | `xaeros-minimap` | req / opt | Alternative to JourneyMap, which is in the pack. Pick one. |
 | Xaero's World Map | `xaeros-world-map` | req / opt | Pairs with the minimap. |
-| Entity Model Features | `entity-model-features` | req / - | Custom entity models for resource packs. Needs one more mod. |
 | Chat Heads | `chat-heads` | req / - | Player heads in chat. |
 | Shoulder Surfing Reloaded | `shoulder-surfing-reloaded` | req / - | Over-the-shoulder camera. Overlaps Better Third Person, which is in the pack, and Epic Fight's own camera. |
 | Not Enough Animations | `not-enough-animations` | req / - | Player animation changes. **Likely to clash with Epic Fight and Player Animator.** Untested. |
-
-| Mod | Slug | Client / Server | Notes |
-| --- | --- | --- | --- |
 
 ## Economy add-ons (the pack has Lightman's Currency)
 
 | Mod | Slug | Client / Server | Notes |
 | --- | --- | --- | --- |
-| Lightman's Currency Tech | `lc-tech` | req / req | Machines for Lightman's Currency. |
-| Lightman's Currency: Villager Tycoon addon | `lightmans-currency-villager-tycoon-addon` | req / req | Villager shop integration. |
 | Create: Numismatics | `numismatics` | req / req | A second currency system on Create. Do not run both currencies. Needs Create, which is in the pack. |
 
 ## Bigger content (heavy)
@@ -82,9 +76,9 @@ These started on this list or were requested, so they are no longer optional.
 | Storage | Tom's Simple Storage, Sophisticated Storage and Sophisticated Backpacks (with Sophisticated Core). Backpacks sit in the Curios `back` slot; `classes.js` exempts them from the class slot restriction. |
 | Structures | Dungeons and Taverns plus its Ancient City, Pillager Outpost, Stronghold and Swamp Hut overhauls; CTOV - Create: Structures and Create: Structures (a 2023 beta, pinned with a `release_filter_exception`). |
 | Classes | Paladins & Priests, Rogues & Warriors, Wizards, Archers (RPG Series), with Spell Engine, Spell Power Attributes, Structure Pool API and Armor Model API. Villager Recruits. Ars Nouveau. |
-| Currency | Lightman's Currency. |
+| Currency | Lightman's Currency, plus its Tech machines and Villager Tycoon addon. |
 | Performance | Embeddium, Entity Culling, ImmediatelyFast, Dynamic FPS (client); Clumps, Memory Leak Fix, spark (both); Async Locator, Noisium (server). |
-| Interface | JourneyMap, Oculus, Mouse Tweaks, Controlling (with Searchables), Better Third Person. |
+| Interface | Entity Model Features (with Entity Texture Features; client only), JourneyMap, Oculus, Mouse Tweaks, Controlling (with Searchables), Better Third Person. |
 | Immersion | AmbientSounds (with CreativeCore), Falling Leaves, Sodium Dynamic Lights (with Sodium Options API) on the client; Immersive Weathering and Visual Workbench on both sides. |
 | Content | Alex's Mobs (with Citadel), Dungeon Crawl, Immersive Armors, L2 Weaponry (with L2 Library and L2 Complements). Their gear went through `tools/gen_gear_rebalance.py`. |
 | Dimensions | Jaden's Nether Expansion (with Elysium API) and Incendium Legacy; Nullscape and Moog's End Structures (with Moog's Structure Lib). |

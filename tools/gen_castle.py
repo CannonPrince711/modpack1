@@ -556,8 +556,9 @@ def tavern(w, cx, cz, facing):
                 w.pane(x, y, z)
     w.fill(x1 + 2, 0, z2 - 2, x2 - 2, 0, z2 - 2, PLANKS)             # bar
     for x in range(x1 + 3, x2 - 2, 2):
-        w.set(x, 1, z2 - 2, "minecraft:barrel", {"facing": "up", "open": "false"})
-        w.set(x, 0, z2 - 1, "minecraft:barrel", {"facing": "up", "open": "false"})
+        # casks, not barrels: a barrel is the Fisherman's job site, and villagers climbed onto the bar to reach it
+        w.set(x, 1, z2 - 2, "minecraft:stripped_spruce_log", {"axis": "x"})
+        w.set(x, 0, z2 - 1, "minecraft:stripped_spruce_log", {"axis": "x"})
     for tx, tz in ((cx - 3, cz - 2), (cx + 1, cz - 2), (cx - 3, cz + 1), (cx + 1, cz + 1)):
         w.fill(tx, 0, tz, tx + 1, 0, tz, "minecraft:oak_fence")
         w.fill(tx, 1, tz, tx + 1, 1, tz, "minecraft:oak_pressure_plate", {"powered": "false"})
@@ -621,9 +622,9 @@ def stall(w, x, z, colour):
         for dz in range(-2, 3):
             w.set(x + dx, 3, z + dz, f"minecraft:{colour}_wool" if (dx + dz) % 2 == 0 else "minecraft:white_wool")
     w.fill(x - 1, 0, z, x + 1, 0, z, "minecraft:spruce_planks")
-    w.set(x - 1, 1, z, "minecraft:barrel", {"facing": "up", "open": "false"})
+    w.set(x - 1, 1, z, "minecraft:stripped_oak_log", {"axis": "x"})      # no job-site blocks on counters (see tavern)
     w.set(x + 1, 1, z, "minecraft:hay_block", {"axis": "y"})
-    w.set(x, 1, z, "minecraft:composter", {"level": "4"})
+    w.set(x, 1, z, "minecraft:potted_poppy")
 
 
 def tree(w, x, z, h):

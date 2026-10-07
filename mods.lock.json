@@ -2123,6 +2123,84 @@
         "client": "optional",
         "server": "required"
       }
+    },
+    {
+      "name": "Lightman's Currency Tech",
+      "slug": "lc-tech",
+      "project_id": "US8EsYXT",
+      "version": "1.20.1-0.2.2.7",
+      "version_id": "C7DB0Wli",
+      "filename": "lctech-1.20.1-0.2.2.7.jar",
+      "url": "https://cdn.modrinth.com/data/US8EsYXT/versions/C7DB0Wli/lctech-1.20.1-0.2.2.7.jar",
+      "sha1": "17ae4cf7eee68eb3afa49450d492ac4f22310ab0",
+      "sha512": "4d329eba205c46e36ec335b7126d836d26f1c1d338ce1fda8c1b97f19c3ff12f907fdf25453bc7db2e1dff779773955f9c695a9d99d66cebed0521e354c671c2",
+      "size": 532053,
+      "published": "2026-01-01T22:10:26.598318Z",
+      "required_dependencies": [
+        "wvMc8AJt"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Lightman's Currency Villager Tycoon Addon",
+      "slug": "lightmans-currency-villager-tycoon-addon",
+      "project_id": "L6ZpEVcm",
+      "version": "1.2",
+      "version_id": "HvKYRkzL",
+      "filename": "lcvillagertycoon-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/L6ZpEVcm/versions/HvKYRkzL/lcvillagertycoon-1.2.jar",
+      "sha1": "58425e4daea8cd89baa233a4a20b7460a7acc84b",
+      "sha512": "8d8b01087db9348ea58b7fce2beda2146ac27a064937338d74a2b15337b0eeb9d17f7e931a1a152f8895e31b979d16a7e4451624dd0cf181dcdcfc5d4c8ce575",
+      "size": 67175,
+      "published": "2026-04-23T12:03:42.001071Z",
+      "required_dependencies": [
+        "wvMc8AJt"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "[EMF] Entity Model Features",
+      "slug": "entity-model-features",
+      "project_id": "4I1XuqiY",
+      "version": "3.3.11-forge-1.20.1",
+      "version_id": "6RQ5C1J6",
+      "filename": "entity_model_features-3.3.11-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/6RQ5C1J6/entity_model_features-3.3.11-1.20.1-forge.jar",
+      "sha1": "eaf743492f8a38ea54ff1b27ccec5a0f3db0b60f",
+      "sha512": "5b1f8da334931ca5ab157001384fc56e38317d774512522823530504f2e1d6060f9d940181200a4b3c5ec17cb1c77d93cee559e3af58065286d8c94d92907ffa",
+      "size": 839768,
+      "published": "2026-10-05T00:51:05.658142Z",
+      "required_dependencies": [
+        "BVzZfTc1"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "[ETF] Entity Texture Features",
+      "slug": "entitytexturefeatures",
+      "project_id": "BVzZfTc1",
+      "version": "7.2.5-forge-1.20.1",
+      "version_id": "VkWikkyj",
+      "filename": "entity_texture_features-7.2.5-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/VkWikkyj/entity_texture_features-7.2.5-1.20.1-forge.jar",
+      "sha1": "90d2eb37c8572bc39246b938d3610d30afe7e509",
+      "sha512": "a0573d09d468d37ba069a28bc12d530a23fccd5aa491461ef977ebeee54d866e5d77bc57f519cbea51ca261e745ff4c9baf4c0ffa8109bde888437a36d51514c",
+      "size": 999301,
+      "published": "2026-10-04T06:44:16.550760Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
     }
   ],
   "curseforge_mods": [

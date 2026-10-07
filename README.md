@@ -4,7 +4,7 @@ Forge 1.20.1 RPG pack configuration: three KubeJS classes (plus the RPG Series),
 progression with coin bounties, Apotheosis dungeon-tier affixes, a scripted royal opening in a
 walled town and castle, quest chapters, a balance worksheet, and a Modrinth pack builder.
 
-**Mods:** 138 of a 150 cap (`mods.lock.json`). Forge 47.4.0, Java 17. `optionalmods.md` lists
+**Mods:** 142 of a 150 cap (`mods.lock.json`). Forge 47.4.0, Java 17. `optionalmods.md` lists
 mods that sit just outside the pack.
 
 ## Build and install

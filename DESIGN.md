@@ -96,23 +96,32 @@ which is why these exact values are used for the interface rather than prettier 
 These are not aspirations; each has a named delivery mechanism in `INTEGRATION_LOG.md` and is
 independently re-testable.
 
-1. **The Dive Through the Face.** At night, on still water, with a *looking-glass* in hand, the surface
-   shows a teal world with an upside-down sky in it. Enter it: you are inside the Reflected Deep — a
-   lit, survivable, breathable underwater dimension whose sea floor is a ceiling of glass, through which
-   you can see your own salt flats from below. The first screenshot anyone takes of this pack is this one.
-   *Delivery: custom datapack dimension + a `surface_check`/`dive` command pair bound to a quest trigger.*
-2. **The Drowned Cathedral.** Three harbour bells rung, three beacons lit, and the map's largest mirror
-   clears its glare to reveal the cathedral spires standing inside the reflection, doors open, pews full
-   of nine centuries of silt. This is Act II's curtain and Act III's entrance — and it is *lit*, not
-   haunted: candles still burn at the altar because someone intended them to.
-   *Delivery: datapack structure `saltglass:drowned_cathedral` placed in the Reflected Deep, gated by
-   three beacon quests, plus a single scripted particle/light event.*
-3. **The Turning.** Placing the Tide Heart in the last dry trench. Each relit beacon floods the basin
-   around it — a bounded, deliberate 64-block radius of salt flat becoming water, wave-front by wave-front,
-   over a few minutes, with the sound of a sea arriving. The place you spawned is a harbour again when you
-   walk back.
-   *Delivery: one datapack function per beacon running staged `fill` + `particle` + `playsound` passes;
-   bounded radius keeps it server-cheap, and the state is saved so it can never run twice.*
+1. **The Dive Through the Face.** Lay tinted glass flat on the flats, stand on it, and crouch at
+   night. You go *through*. You surface inside the Reflected Deep — a lit, survivable, breathable
+   underwater dimension that is an infinite still ocean under an unbroken four-block ceiling of glass,
+   with a starfield beyond it and the cathedral's spires pressed up against the far side. The deep does
+   not let you drown; it remembers what you are. The first screenshot anyone takes of this pack is this one.
+   *Delivery: a datapack dimension (`saltglass:reflected_deep`, flat generator) plus two tick-function
+   checks against two datapack predicates — `night` and `crouching` — over tinted glass, which call
+   `saltglass:dive/enter`.*
+2. **The Drowned Cathedral, and its doors.** The first dive raises the cathedral out of the dark
+   (a structure placed by the datapack the tick after a diver is inside the deep, so the chunks are
+   loaded and the player *watches it arrive* at a distance). Its three doors are shut. Three harbour
+   bells rung and three beacons lit, and the doors come off their hinges with a beacon's sound — this
+   is Act II's curtain and Act III's entrance, and it is *lit*, not haunted: candles still burn at the
+   altar because someone intended them to.
+   *Delivery: `saltglass:drowned_cathedral` placed by `cathedral/place`, doors built as tinted glass
+   and replaced with air by `saltglass:cathedral/open`, fired as the reward of the "Three Beacons at
+   Dusk" quest.*
+3. **The Turning.** Setting the Tide Heart in the one trench on the basin that is still dry — a socket,
+   not an accident. The sea comes back in four waves, each one further out, at all three harbours at once:
+   radii 12, 26, 38, then 48, staged across about twenty seconds with a rising narration, splash fronts
+   and the sound of a sea arriving. Ninety-six blocks of basin per harbour. Your first camp goes under,
+   and the place you spawned is a harbour again when you walk back.
+   *Delivery: `saltglass:turning/set` places the trench, spends the Heart of the Sea and hands off to
+   `turning/tick`, which fires `wave1`–`wave4` off a countdown score. Each wave is a pair of `fill`
+   commands per harbour — split along z because a single 97×4×97 fill is 37,636 blocks and vanilla's
+   limit is 32,768. A scoreboard flag means it can never run twice.*
 
 ### Three refusals
 
@@ -143,8 +152,10 @@ plus `zz_reference`). All directions are written in the salvage-priests' voice �
 - Cut and polish your first *looking-glass* from the flat's black glass; discover that still surfaces show
   the wrong sky.
 - Salvage one stranded hull end to end; establish a chest-and-drawer base and a first small pump.
-- **Act gate:** craft and place a Moonstone Lens, then stand at the waterline of the Mirror Flats at night
-  and complete "The Wrong Sky."
+- **Act gate:** lay a mirror of tinted glass on the flat, stand on it, crouch at night, and complete
+  "The Wrong Sky" by arriving in the Reflected Deep. (The first draft called for a custom "Moonstone
+  Lens" item; the pack builds no custom items, so the gate is a physical object the player lays down —
+  which turned out to be the better ritual.)
 - *Feel:* quiet, dry, low stakes, enormous empty horizon. Deliberately slow. No combat arena, no timer.
 
 ### Act II — **The Drowned Bells**

@@ -4,6 +4,11 @@
 
 First release. 23 mods, Forge 47.4.10, Minecraft 1.20.1, Java 17.
 
+Every pin was resolved through the registry API on 2026-10-07 and carries the publisher's
+own filename, CDN URL, sha1 and sha512 (20 of 23; the three FTB libraries are CurseForge-only
+and carry a pinned CDN URL without a hash). Eleven pins changed as a result of checking — see
+`INTEGRATION_LOG.md` and `TEST_REPORT.md` §3 for the fourteen defects that were found and fixed.
+
 ### Added
 
 **Concept**
@@ -61,9 +66,10 @@ First release. 23 mods, Forge 47.4.10, Minecraft 1.20.1, Java 17.
 
 ### Known limitations
 
-* **Nothing was launched.** No JVM and no reachable mod CDN in the build environment. See
-  `TEST_REPORT.md` — it lists what was verified statically, what was not, and what a human should run
-  first.
+* **Nothing was launched.** No JVM and no reachable mod CDN in the build environment, so no world was
+  created, no moment was played, no server was booted, and no real log was audited. `TEST_REPORT.md`
+  lists exactly what was verified statically, what was assumed, and the acceptance sequence a human
+  should run first.
 * The wave-based flood is a bounded `fill` at three harbours with a maximum radius of 48 blocks, not
   a whole-map sea level change. That is the design, and it is documented as such in `DESIGN.md`
   rather than described as something larger.

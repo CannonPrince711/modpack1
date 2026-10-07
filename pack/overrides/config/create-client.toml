@@ -1,0 +1,6 @@
+# Saltglass — Create client settings
+[client]
+	# The Ponder system is this pack's illustrated guide. Leave it on.
+	enablePonder = true
+	# Keep the schematic overlay unobtrusive.
+	enableSchematicOverlay = true

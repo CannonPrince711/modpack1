@@ -1,0 +1,6 @@
+{
+	default_quest_shape: "circle",
+	grid_scale: 0.5,
+	pause_game: false,
+	show_lock_icons: true,
+}

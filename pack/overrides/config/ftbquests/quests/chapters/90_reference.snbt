@@ -1,0 +1,85 @@
+{
+	version: 13,
+	id: 8709657320097396326L,
+	group: "",
+	order_index: 5,
+	title: "The Salvage-Priests' Notes",
+	quests: [
+		{
+			id: 6332765236921825407L,
+			title: "On Water",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"A cistern, a pump and a pipe. The flat drinks everything you spill.",
+				"The deep will not let you drown — you do not need a helmet down there and you will not need one."
+			],
+			tasks: [
+				{
+					id: 1439675457753054639L,
+					type: "ftbquests:checkmark",
+					title: "Understood"
+				}
+			]
+		},
+		{
+			id: 5381534386869152467L,
+			title: "On Mirrors",
+			x: 2.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Tinted glass, laid flat, at night, crouching. That is the whole ritual and it is the only one in this pack.",
+				"Coming back puts you beside the nearest mirror you made, not necessarily the one you left from. Lay them deliberately."
+			],
+			tasks: [
+				{
+					id: 5692936345193564682L,
+					type: "ftbquests:checkmark",
+					title: "Understood"
+				}
+			]
+		},
+		{
+			id: 4438809467485351645L,
+			title: "On Hands",
+			x: 4.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"This pack binds nothing to a key except the four the guide lists in README.md, and it disables nothing you already know.",
+				"The quest book is bound to its own key. Open it once and forget it."
+			],
+			tasks: [
+				{
+					id: 8565810300938009180L,
+					type: "ftbquests:checkmark",
+					title: "Understood"
+				}
+			]
+		},
+		{
+			id: 7122973008823896054L,
+			title: "On the End",
+			x: 6.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"There is no final boss. The last thing you do is put a piece of the old waterline into a socket and stand back.",
+				"That is the ending. Everything after it is yours."
+			],
+			tasks: [
+				{
+					id: 1379920697719723031L,
+					type: "ftbquests:checkmark",
+					title: "Understood"
+				}
+			]
+		}
+	]
+}

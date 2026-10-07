@@ -1,0 +1,414 @@
+{
+  "pack": {
+    "id": "saltglass",
+    "name": "Saltglass \u2014 The Sea That Went Sideways",
+    "version": "1.0.0",
+    "minecraft": "1.20.1",
+    "java": "17 (64-bit)",
+    "min_ram_client_gb": 6,
+    "min_ram_server_gb": 4,
+    "forge": {
+      "version": "1.20.1-47.4.10",
+      "recommended": true,
+      "uninstaller_version": "1.20.1-47.4.10",
+      "universal_sha1": "9d27acaf82445da3419c21d5f2f87e86ff0f8abe",
+      "universal_md5": "414f479b3b65df41f56fe043a073972d",
+      "installer_sha1": "27b38c97615d138101caa13c01e6bfda6176dea3",
+      "installer_md5": "433765d31ead6260ef46503ff41e4069",
+      "installer_url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
+      "universal_url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html"
+        ],
+        "note": "47.4.10 is the build the Forge download page marks Recommended for 1.20.1; 47.4.26 is 'Latest' and was rejected because a pack of 23 mods should sit on the build the ecosystem has soaked. Checksums read from the same page's table."
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "mods/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+      "hashes": {
+        "sha1": "87ea0cd8ec56763185ee0db09eec7c676969e4da",
+        "sha512": "150acb106bcb5cb7c74ede40f92cd7f597cc5f735104633b9a068179b05f5488d844af00fde98195a9cb8091f8055011a65126a67d96a8a2af95515a4ae42e55"
+      },
+      "envs": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fM515JnW/versions/AuLdtrBY/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar"
+      ],
+      "fileSize": 53429226
+    },
+    {
+      "path": "mods/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+      "hashes": {
+        "sha1": "1004b6ae4e494039e28b14f2ba3ebe6b182487a8",
+        "sha512": "fb4460c6c808369bd8a2191413e2f59126ff6113ff266f40a8c872b9d412b7a804a66c8f8de58af48581c649cd23d59ae1b183af8031d532d5bbd595c3187f04"
+      },
+      "envs": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/OsZiaDHq/versions/J9tluyYl/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar"
+      ],
+      "fileSize": 1144069
+    },
+    {
+      "path": "mods/FarmersDelight-1.20.1-1.3.4.jar",
+      "hashes": {
+        "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+        "sha512": "932ae0ab95fa0755bb5a79fbf1d1e31d0e86f3c0f5186796ed06973a3019a618ee8c66a4eae5b901909aed6232abb2bd3b1ff0e1905f74fc70644fada94a80b5"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar"
+      ],
+      "fileSize": 3311051
+    },
+    {
+      "path": "mods/Paraglider-forge-20.1.3.jar",
+      "hashes": {
+        "sha1": "51fdf94686fc847515e6de8a6c9fd4dab3466ea5",
+        "sha512": "81212fb4b3a0cf7af4ce8df2f9bab0c0f05527bd7c022ae65dbe97032e06083401d81bc03c3b41f04651140a0261196e2cb14a0431b9b8d096e18de8129340a1"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/esqWA0aQ/versions/nudKlXXT/Paraglider-forge-20.1.3.jar"
+      ],
+      "fileSize": 589055
+    },
+    {
+      "path": "mods/Paxi-1.20-Forge-4.0.jar",
+      "hashes": {
+        "sha1": "a3a7008e07a27b3c831af7e4c82fbbc10a4da328",
+        "sha512": "50ed8c99981b9860c846a18cda215d388b67019b76a172833fa4e4b52cbd122eb8e49e594e5789790f95af06e0a98dcf2433b001b1f559b3e7071d2e6b7c1dd7"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/CU0PAyzb/versions/C7buFh0l/Paxi-1.20-Forge-4.0.jar"
+      ],
+      "fileSize": 96892
+    },
+    {
+      "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+      "hashes": {
+        "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+        "sha512": "7d83d94a90e55a712f6508485c044ff202916e9b9b9166b75177cb8f2eb919543bbbe1547d11c41cfd4763820f934235f47c0b26dd9e89bc1030954afa9fb889"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar"
+      ],
+      "fileSize": 370524
+    },
+    {
+      "path": "mods/YungsExtras-1.20-Forge-4.0.3.jar",
+      "hashes": {
+        "sha1": "4b2e632353a95c16a080c2e64c426480a139fbd6",
+        "sha512": "2c70e8e2c8e6161139bd19d302e225f7c12dc44f9cbdd63f4a548645fe923eb16de930abe2d2f8a89bee99f31d77798b7352bbd33f3642560cad18d86d372d4f"
+      },
+      "envs": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ZYgyPyfq/versions/h4m8J7w8/YungsExtras-1.20-Forge-4.0.3.jar"
+      ],
+      "fileSize": 200341
+    },
+    {
+      "path": "mods/alexsmobs-1.22.9.jar",
+      "hashes": {
+        "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+        "sha512": "b50280057926d750f9ffbf6a8df36deb37529356895f6bf59f25d272ecf69afccec65ec1a5c3a8bfad24f9475c15b93c5ec4666447b1fce26a90c41445bbfb04"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar"
+      ],
+      "fileSize": 26350793
+    },
+    {
+      "path": "mods/architectury-9.2.14-forge.jar",
+      "hashes": {
+        "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+        "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+      ],
+      "fileSize": 580602
+    },
+    {
+      "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar",
+      "hashes": {
+        "sha1": "6c23a97d771ea7ad43bee9bd71d2f2a1f2084170",
+        "sha512": "f3e3abf260fb3ef4c5b6b7324c055802135f82f4c550986f4e93b1a186c9b495cd8b6396ed89ab088b95e6176c0b9e290ccc69a528c521cd1bff19935ac36836"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TKB6INcv/versions/Hw2aD01e/ars_nouveau-1.20.1-4.12.7-all.jar"
+      ],
+      "fileSize": 12430237
+    },
+    {
+      "path": "mods/citadel-2.6.3-1.20.1.jar",
+      "hashes": {
+        "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+        "sha512": "42e3fa0ddefb1ebdbba4242d81caede834cd0bbd96e4e90b12b2157a5b07c68b625f64046de1f9e1ad4d6056d3536e17207be5f4b24960582052d713b13f22c0"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar"
+      ],
+      "fileSize": 3185275
+    },
+    {
+      "path": "mods/create-1.20.1-6.0.8.jar",
+      "hashes": {
+        "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+        "sha512": "5b51f5d31437d9bfbf221b67459abd87260d284874e1e23b7ed1d522b23a48059a3b1d2c1c541428da35dc6be15561b4f3c7f36aac6df3a0e8db6a278f6b0316"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar"
+      ],
+      "fileSize": 19170905
+    },
+    {
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "hashes": {
+        "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+        "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9"
+      },
+      "envs": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar"
+      ],
+      "fileSize": 1320675
+    },
+    {
+      "path": "mods/emi-1.1.24+1.20.1+forge.jar",
+      "hashes": {
+        "sha1": "ea320200878e4a49196760234a22da763671520a",
+        "sha512": "02743be3476b7dc5668cedbcc5a6d384e9806981833926a83fed76a2800c44da33576e86308c058250718c128d58076f1b62bc53d200464326ace70a43229c8b"
+      },
+      "envs": {
+        "client": "required",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fRiHVvU7/versions/Axuu9I9R/emi-1.1.24%2B1.20.1%2Bforge.jar"
+      ],
+      "fileSize": 1121750
+    },
+    {
+      "path": "mods/ftb-library-forge-2001.2.13.jar",
+      "hashes": {},
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://edge.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar"
+      ]
+    },
+    {
+      "path": "mods/ftb-quests-forge-2001.4.22.jar",
+      "hashes": {},
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar"
+      ]
+    },
+    {
+      "path": "mods/ftb-teams-forge-2001.3.2.jar",
+      "hashes": {},
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar"
+      ]
+    },
+    {
+      "path": "mods/modernfix-forge-5.27.83+mc1.20.1.jar",
+      "hashes": {
+        "sha1": "24109106b51846d387aa00c06d1445c35410c31c",
+        "sha512": "2987d43ab991c31c94e53d16fe0694dd29a405fc7cdf6be69f5bf5b3d6a06a5d1b82ba8f5d8ecb4df45e592c649e39bc69787caa62b3417b5548392793be6e55"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nmDcB62a/versions/jAZ7Ge3d/modernfix-forge-5.27.83%2Bmc1.20.1.jar"
+      ],
+      "fileSize": 1003230
+    },
+    {
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "hashes": {
+        "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+        "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5"
+      },
+      "envs": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar"
+      ],
+      "fileSize": 2851119
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+      "hashes": {
+        "sha1": "315a8151c0e89c71ae165e33bcfcfccc762a1766",
+        "sha512": "6d78f290fd4acb5e856da8e7f105d626fbb8d416439b2676f89f4239b56f3c146c1bd9df2a2119a07df24904bc4a598eeb8c17389424f75d18845564f01b9c98"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TyCTlI4b/versions/nSVHlIzZ/sophisticatedbackpacks-1.20.1-3.26.9.2194.jar"
+      ],
+      "fileSize": 1215727
+    },
+    {
+      "path": "mods/sophisticatedcore-1.20.1-1.5.6.2378.jar",
+      "hashes": {
+        "sha1": "6b43a36241c8f9ad777efd83a7ea2268af23230a",
+        "sha512": "6a2246e61f0180368bb93ce0992209bef887f37b640a0ddec771b00b0dcdbc299ae0399675163a8f75297f7e6205d8bed8bb12e76ed5bbbd9c5c0eda3805bf1a"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nmoqTijg/versions/yIBA2SnN/sophisticatedcore-1.20.1-1.5.6.2378.jar"
+      ],
+      "fileSize": 1758791
+    },
+    {
+      "path": "mods/tombstone-1.20.1-9.1.5.jar",
+      "hashes": {
+        "sha1": "0d9cb76b6162c672a7aca40771e5749a97ebb451",
+        "sha512": "57283c5dce944a4eaec4240a0d2bb33d5c6f009a5b6a7a7334f48c286aa17ecd794e7025ff87e61b5555ce29667eb2ad336d92e4235d1384e0172b485e23338a"
+      },
+      "envs": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/YT5K34AB/versions/nTAliy2r/tombstone-1.20.1-9.1.5.jar"
+      ],
+      "fileSize": 2560746
+    },
+    {
+      "path": "mods/xaerominimap-forge-1.20.1-26.5.0.jar",
+      "hashes": {
+        "sha1": "718a4339f6dad3a56b6e7243e62febfb643b7151",
+        "sha512": "913b1c428b049b9b0376e75edc7ab49bc3df605cf81a4c326b91241314d64c81420df0fc946cd6bd8a9a13f7a45b842d7b86008f32a0cf27d0d3cb278a5e5204"
+      },
+      "envs": {
+        "client": "required",
+        "server": "optional"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1bokaNcj/versions/Juh6inLY/xaerominimap-forge-1.20.1-26.5.0.jar"
+      ],
+      "fileSize": 2195399
+    }
+  ],
+  "curseforge_manifest": {
+    "minecraft": {
+      "version": "1.20.1",
+      "modLoaders": [
+        {
+          "id": "forge-47.4.10",
+          "primary": true
+        }
+      ]
+    },
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "name": "Saltglass",
+    "version": "1.0.0",
+    "author": "Arena modpack studio",
+    "overrides": "overrides",
+    "files": [
+      {
+        "projectID": 289412,
+        "fileID": 8078538
+      },
+      {
+        "projectID": 404465,
+        "fileID": 8226927
+      },
+      {
+        "projectID": 404468,
+        "fileID": 7499810
+      }
+    ]
+  },
+  "server_slugs": [
+    "alexs-mobs",
+    "architectury",
+    "ars-nouveau",
+    "citadel",
+    "corail-tombstone",
+    "create",
+    "farmers-delight",
+    "ftb-library",
+    "ftb-quests",
+    "ftb-teams",
+    "modernfix",
+    "paragliders",
+    "paxi",
+    "sophisticated-backpacks",
+    "sophisticated-core",
+    "yungs-api",
+    "yungs-extras"
+  ]
+}

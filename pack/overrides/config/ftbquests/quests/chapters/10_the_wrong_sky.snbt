@@ -1,0 +1,118 @@
+{
+	version: 13,
+	id: 565069342571816379L,
+	group: "",
+	order_index: 1,
+	title: "Act I → II — The Wrong Sky",
+	quests: [
+		{
+			id: 7814475081024368695L,
+			title: "Tinted Glass, Laid Flat",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"A mirror is a hole that has not been opened yet.",
+				"Lay an area of tinted glass somewhere on the flat. Stand on it. Crouch. Do it at night, when the sky is in the glass and the glass is in the sky."
+			],
+			tasks: [
+				{
+					id: 5876636516960865274L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:tinted_glass",
+						Count: 4b
+					},
+					count: 4,
+					consume_items: 1b,
+					title: "Four tinted glass"
+				}
+			]
+		},
+		{
+			id: 5516002125226093698L,
+			title: "The Wrong Sky",
+			x: 2.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Crouch on your mirror at night and the reflection takes you through.",
+				"Below the surface of the world there is a second sea, upside down, with a ceiling of glass and something far off that has spires.",
+				"The deep will not let you drown. It remembers what you are."
+			],
+			tasks: [
+				{
+					id: 3856894058302229370L,
+					type: "ftbquests:dimension",
+					dimension: "saltglass:reflected_deep",
+					title: "Enter the Reflected Deep"
+				}
+			],
+			subtitle: "Act I ends here",
+			rewards: [
+				{
+					id: 2942270817939385179L,
+					type: "ftbquests:command",
+					command: "/advancement grant @s only saltglass:the_dive",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "The sea notices you"
+				}
+			],
+			dependencies: [7814475081024368695L]
+		},
+		{
+			id: 5879567202529930368L,
+			title: "Wings of Salt and Sail",
+			x: 2.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Not flight. Never flight. A sheet of sailcloth and a good high place.",
+				"The paraglider costs stamina and gives you back the horizon."
+			],
+			tasks: [
+				{
+					id: 6990946176752961353L,
+					type: "ftbquests:item",
+					item: {
+						id: "paragliders:paraglider",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A paraglider"
+				}
+			],
+			dependencies: [5516002125226093698L]
+		},
+		{
+			id: 6519225510243775438L,
+			title: "Salvage, Carried",
+			x: 4.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"One backpack with upgrades instead of six chests and a trail of hopeless return trips across the salt."
+			],
+			tasks: [
+				{
+					id: 7292377082853760189L,
+					type: "ftbquests:item",
+					item: {
+						id: "sophisticatedbackpacks:backpack",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A backpack"
+				}
+			],
+			dependencies: [5516002125226093698L]
+		}
+	]
+}

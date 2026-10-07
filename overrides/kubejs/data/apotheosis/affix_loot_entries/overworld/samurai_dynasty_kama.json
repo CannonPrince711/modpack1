@@ -1,0 +1,13 @@
+{
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:rare",
+  "weight": 10,
+  "quality": 2.0,
+  "stack": {
+    "item": "samurai_dynasty:kama",
+    "count": 1
+  }
+}

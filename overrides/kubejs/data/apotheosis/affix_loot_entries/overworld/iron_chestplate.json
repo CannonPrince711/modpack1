@@ -1,0 +1,8 @@
+{
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:rare",
+  "weight": 80,
+  "quality": 2.0,
+  "stack": {"item": "minecraft:iron_chestplate", "count": 1}
+}

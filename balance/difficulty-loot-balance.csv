@@ -1,0 +1,13 @@
+record_type,tier,class,boss,boss_health,class_sustained_dps,effective_health,boss_incoming_dps,solo_ttk_seconds,solo_survival_seconds,party_4_ttk_seconds,target_top_rarity_probability,notes
+combat,overworld,Warrior,Ancient Remnant,900,36,150,2.8,25.0,53.6,42.0,,Heavy armor and broad recovery window; solo design envelope
+combat,overworld,Mage,Ancient Remnant,900,40,125,2.3,22.5,54.3,37.8,,Spell burst offsets lower armor; healing budget included
+combat,overworld,Ranger,Ancient Remnant,900,42,135,2.4,21.4,56.3,36.0,,Mobility and ranged uptime; healing budget included
+combat,nether,Warrior,Netherite Monstrosity,1500,40,175,3.0,37.5,58.3,63.0,,Tank profile; solo design envelope
+combat,nether,Mage,Netherite Monstrosity,1500,46,150,2.7,32.6,55.6,54.8,,Spell pressure and mana recovery; healing budget included
+combat,nether,Ranger,Netherite Monstrosity,1500,48,160,2.8,31.3,57.1,52.5,,Mobile ranged pressure; healing budget included
+combat,end,Warrior,Ender Guardian,2100,44,205,3.2,47.7,64.1,80.2,,Endgame defense; solo design envelope
+combat,end,Mage,Ender Guardian,2100,54,180,2.9,38.9,62.1,65.3,,High spell damage with dodge/healing budget
+combat,end,Ranger,Ender Guardian,2100,56,190,3.0,37.5,63.3,63.0,,High ranged uptime with dodge/healing budget
+loot,overworld,,,,,,,,,,0.12,Iron / chain equipment; common to rare affixes
+loot,nether,,,,,,,,,,0.035,Diamond equipment; rare to epic affixes
+loot,end,,,,,,,,,,0.01,Netherite equipment; epic to mythic affixes

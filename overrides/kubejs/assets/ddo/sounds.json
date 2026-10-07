@@ -1,0 +1,122 @@
+{
+  "voice.king_seized_1": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_seized_1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_seized_2": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_seized_2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_seized_3": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_seized_3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_seized_4": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_seized_4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_seized_5": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_seized_5",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_seized_6": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_seized_6",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_freed_1": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_freed_1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_freed_2": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_freed_2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_freed_3": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_freed_3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.king_freed_4": {
+    "sounds": [
+      {
+        "name": "ddo:voice/king_freed_4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.guard_1": {
+    "sounds": [
+      {
+        "name": "ddo:voice/guard_1",
+        "stream": true
+      }
+    ]
+  },
+  "voice.guard_2": {
+    "sounds": [
+      {
+        "name": "ddo:voice/guard_2",
+        "stream": true
+      }
+    ]
+  },
+  "voice.guard_3": {
+    "sounds": [
+      {
+        "name": "ddo:voice/guard_3",
+        "stream": true
+      }
+    ]
+  },
+  "voice.guard_4": {
+    "sounds": [
+      {
+        "name": "ddo:voice/guard_4",
+        "stream": true
+      }
+    ]
+  },
+  "voice.guard_5": {
+    "sounds": [
+      {
+        "name": "ddo:voice/guard_5",
+        "stream": true
+      }
+    ]
+  }
+}

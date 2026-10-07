@@ -1,0 +1,30 @@
+{
+  id: "D001000000000001"
+  title: "I. The Sunken Ruins"
+  icon: "minecraft:compass"
+  quests: [
+    {
+      id: "D101000000000001"
+      title: "The Pharaoh Below"
+      description: ["Explore the ancient ruins and defeat the Ancient Remnant."]
+      icon: "minecraft:sandstone"
+      x: 0.0d
+      y: 0.0d
+      tasks: [
+        {
+          id: "D102000000000001"
+          type: "kill"
+          entity: "cataclysm:ancient_remnant"
+        }
+      ]
+      rewards: [
+        {
+          id: "D103000000000001"
+          type: "item"
+          item: "minecraft:golden_apple"
+          count: 2
+        }
+      ]
+    }
+  ]
+}

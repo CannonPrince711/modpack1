@@ -1,0 +1,8 @@
+{
+  "dimensions": ["minecraft:the_end"],
+  "min_rarity": "apotheosis:epic",
+  "max_rarity": "apotheosis:mythic",
+  "weight": 12,
+  "quality": 18.0,
+  "stack": {"item": "minecraft:netherite_sword", "count": 1}
+}

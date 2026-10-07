@@ -1,0 +1,31 @@
+{
+  id: "D002000000000001"
+  title: "II. The Nether Catacombs"
+  icon: "minecraft:obsidian"
+  quests: [
+    {
+      id: "D201000000000001"
+      title: "An Ember Unbound"
+      description: ["Descend into the Nether catacombs and slay the Netherite Monstrosity."]
+      icon: "minecraft:netherite_ingot"
+      x: 0.0d
+      y: 0.0d
+      dependencies: ["D101000000000001"]
+      tasks: [
+        {
+          id: "D202000000000001"
+          type: "kill"
+          entity: "cataclysm:netherite_monstrosity"
+        }
+      ]
+      rewards: [
+        {
+          id: "D203000000000001"
+          type: "item"
+          item: "minecraft:enchanted_golden_apple"
+          count: 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "dimensions": ["minecraft:the_nether"],
+  "min_rarity": "apotheosis:rare",
+  "max_rarity": "apotheosis:epic",
+  "weight": 35,
+  "quality": 8.0,
+  "stack": {"item": "minecraft:diamond_chestplate", "count": 1}
+}

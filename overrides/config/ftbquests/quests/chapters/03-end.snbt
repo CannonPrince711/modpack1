@@ -1,0 +1,31 @@
+{
+  id: "D003000000000001"
+  title: "III. The End Citadel"
+  icon: "minecraft:ender_eye"
+  quests: [
+    {
+      id: "D301000000000001"
+      title: "The Citadel's Last Warden"
+      description: ["Reach the End citadel and defeat the Ender Guardian."]
+      icon: "minecraft:dragon_head"
+      x: 0.0d
+      y: 0.0d
+      dependencies: ["D201000000000001"]
+      tasks: [
+        {
+          id: "D302000000000001"
+          type: "kill"
+          entity: "cataclysm:ender_guardian"
+        }
+      ]
+      rewards: [
+        {
+          id: "D303000000000001"
+          type: "item"
+          item: "minecraft:nether_star"
+          count: 1
+        }
+      ]
+    }
+  ]
+}

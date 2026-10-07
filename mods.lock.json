@@ -1,0 +1,2279 @@
+{
+  "pack": {
+    "name": "Dungeon Delver's Odyssey",
+    "version": "1.0.0",
+    "summary": "A class-based Forge 1.20.1 action-RPG dungeon campaign.",
+    "minecraft": "1.20.1",
+    "forge": "47.4.0"
+  },
+  "modrinth_release_filter": {
+    "game_version": "1.20.1",
+    "loader": "forge",
+    "version_type": "release"
+  },
+  "mods": [
+    {
+      "name": "Epic Fight",
+      "slug": "epic-fight",
+      "project_id": "vu3NZ5Ma",
+      "version": "20.14.17-mc1.20.1-forge",
+      "version_id": "KEBfkBat",
+      "filename": "epic-fight-20.14.17-mc1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/KEBfkBat/epic-fight-20.14.17-mc1.20.1-forge.jar",
+      "sha1": "faa8eddad9d80adb9c4ba81fd0a8a21c81989d3d",
+      "sha512": "cfb8ab5c6f2014ce10dae59947f9f4e35e7bbe88c2ffbb66da9bfe78876d7a0a65de843a62e324971d5a923ec6e96d9b7e5c72248a262a6e220a071c6d05a8cf",
+      "size": 8071119,
+      "published": "2026-05-06T21:02:13.293854Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "L_Ender's Cataclysm",
+      "slug": "l_enders-cataclysm",
+      "project_id": "46KJle7n",
+      "version": "3.31",
+      "version_id": "C3H0azzB",
+      "filename": "L_Enders_Cataclysm-3.31.jar",
+      "url": "https://cdn.modrinth.com/data/46KJle7n/versions/C3H0azzB/L_Enders_Cataclysm-3.31.jar",
+      "sha1": "4f1165cb39521292e826b471b4808bb89f0f4f3f",
+      "sha512": "0dccedd79e3e555f5a38075612d91aec23e1f6ca674e7637ea88c669095b44554385abb75826dfa5a0170585c6b3c3b6d9465bed049c0186d80f75d88f45c5e8",
+      "size": 73916104,
+      "published": "2026-06-14T07:44:06.024911Z",
+      "required_dependencies": [
+        "FoVacERa",
+        "vvuO3ImH"
+      ]
+    },
+    {
+      "name": "YUNG's Better Dungeons",
+      "slug": "yungs-better-dungeons",
+      "project_id": "o1C1Dkj5",
+      "version": "1.20-Forge-4.0.4",
+      "version_id": "kPiQ6v4q",
+      "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/o1C1Dkj5/versions/kPiQ6v4q/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "sha1": "67a9e1c2ff126ab54cea8e0709d178915243039e",
+      "sha512": "56bd11a7aca3bacb908381a668af8f5b574c5557c21370ace783d637c949802187110a4f5dc26afae4d9af74cdf64cee81d59fac3513a9bec3f921193fc938b8",
+      "size": 792381,
+      "published": "2024-04-18T05:10:19.907545Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "YUNG's Better Strongholds",
+      "slug": "yungs-better-strongholds",
+      "project_id": "kidLKymU",
+      "version": "1.20-Forge-4.0.3",
+      "version_id": "rwiShgsc",
+      "filename": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/kidLKymU/versions/rwiShgsc/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+      "sha1": "3730238c56edca4bb5b2238e1314aec572ced385",
+      "sha512": "7fbb51f761ca1a514ce95e9967bcc93c09766a8929f19029390d46b18d7e876c4354d11350a5f8410dc28e485680f4eaf1019e4bd074cff34e8cfc5b232480d4",
+      "size": 473564,
+      "published": "2023-09-25T20:59:29.408825Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "YUNG's Better Caves",
+      "slug": "yungs-better-caves",
+      "project_id": "Dfu00ggU",
+      "version": "1.20.1-Forge-2.0.7",
+      "version_id": "BO1vVvun",
+      "filename": "YungsBetterCaves-1.20.1-Forge-2.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/Dfu00ggU/versions/BO1vVvun/YungsBetterCaves-1.20.1-Forge-2.0.7.jar",
+      "sha1": "1bd1beb5f0dac5e6257055051ba37d13245e63f9",
+      "sha512": "9d03641683c1690eb5c5ff26a37a56202289f1ef9388f68267422467523ff3297fda9212facea9806ee6f6e586a8c6c48501730d535b7d893e1500a2fc3755f5",
+      "size": 407680,
+      "published": "2026-09-04T10:46:26.080424Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "Apotheosis",
+      "slug": "apotheosis",
+      "project_id": "rqFWfVlz",
+      "version": "7.4.8",
+      "version_id": "tT3CLYvK",
+      "filename": "Apotheosis-1.20.1-7.4.8.jar",
+      "url": "https://cdn.modrinth.com/data/rqFWfVlz/versions/tT3CLYvK/Apotheosis-1.20.1-7.4.8.jar",
+      "sha1": "e508c4724a24f0c80836818fcdd3df6424b1fc40",
+      "sha512": "40709a506f96e407d0d34f07e38916bd7238b2b56d54e806063fcc99ccc9fd97d8913afa57c5edfe58f71e2ea5f67c07510a8b5130cb8d9e16e7142b18e4a96c",
+      "size": 2803994,
+      "published": "2026-06-19T01:40:39.699511Z",
+      "required_dependencies": [
+        "DGaH8Rh0",
+        "nU0bVIaL",
+        "tCkE8p2N"
+      ]
+    },
+    {
+      "name": "Curios API",
+      "slug": "curios",
+      "project_id": "vvuO3ImH",
+      "version": "5.14.1+1.20.1",
+      "version_id": "IPQlZkz1",
+      "filename": "curios-forge-5.14.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87",
+      "size": 398066,
+      "published": "2025-04-13T13:09:28.168539Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Simply Swords",
+      "slug": "simply-swords",
+      "project_id": "bK3Ubu9p",
+      "version": "1.70.2-1.20.1",
+      "version_id": "Na6e94J1",
+      "filename": "simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bK3Ubu9p/versions/Na6e94J1/simplyswords-forge-neoforge-1.70.2-1.20.1.jar",
+      "sha1": "7e8b9cc255f57df9ed00b507435308d600aebc24",
+      "sha512": "f4ba377dc5a3cfa99859933c45746f2c730e5fa2b7a0af40fc3b93a396fa3f671799231af0286e9766e5629a334105f1ede63668a3aa9fff72fbf5f97a76ac61",
+      "size": 15765792,
+      "published": "2026-08-27T11:57:05.309708Z",
+      "required_dependencies": [
+        "6avVoBVB",
+        "lhGA9TYQ",
+        "hYykXjDp"
+      ]
+    },
+    {
+      "name": "When Dungeons Arise",
+      "slug": "when-dungeons-arise",
+      "project_id": "8DfbfASn",
+      "version": "2.1.58-1.20.x",
+      "version_id": "6hQpx5Tc",
+      "filename": "DungeonsArise-1.20.x-2.1.58-release.jar",
+      "url": "https://cdn.modrinth.com/data/8DfbfASn/versions/6hQpx5Tc/DungeonsArise-1.20.x-2.1.58-release.jar",
+      "sha1": "30b4520e4fab40a6bb6153a2c72e34bcb721f0a5",
+      "sha512": "021bc9558af43492c45c05874fa9f2e87f1e90298b70681f8d3b845716d29b4a5eae57d06c3c4308fd7d7cd45194dea513e78c891d1f546a8f5474acc204153d",
+      "size": 8762342,
+      "published": "2025-06-07T21:01:56.772313Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "KubeJS",
+      "slug": "kubejs",
+      "project_id": "umyGl7zF",
+      "version": "2001.6.5-build.26+forge",
+      "version_id": "hVR2xUSr",
+      "filename": "kubejs-forge-2001.6.5-build.26.jar",
+      "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar",
+      "sha1": "8b0cc9797d4ed00fd2d1002d58960af8b32012ae",
+      "sha512": "71ef9e5eb5f3bead86b635b42ad305d075c6487e631217b281d938193dcdc5fe0ff6bae8c86dd4e069726223a66e8690c0610f736c5a62910f60fd80edd575c1",
+      "size": 1658792,
+      "published": "2026-05-01T10:43:18.671562Z",
+      "required_dependencies": [
+        "lhGA9TYQ",
+        "sk9knFPE"
+      ]
+    },
+    {
+      "name": "Iron's Spells 'n Spellbooks",
+      "slug": "irons-spells-n-spellbooks",
+      "project_id": "s4OWxYQQ",
+      "version": "1.20.1-3.16.3",
+      "version_id": "hZaEegS9",
+      "filename": "irons_spellbooks-1.20.1-3.16.3.jar",
+      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/hZaEegS9/irons_spellbooks-1.20.1-3.16.3.jar",
+      "sha1": "726345aa215756bd30b7cf8c338c9ae6bbc59799",
+      "sha512": "a699631fa56568d39a30773b8fe96d7a49f1cd7f8e243340ce7ad91b09ccf49c9a6802a944f4bd04b2d88d9fc796a70add1d18d8f326bb2be238b02a8c8076da",
+      "size": 15570397,
+      "published": "2026-08-18T20:34:56.404558Z",
+      "required_dependencies": [
+        "9nfaJPtX",
+        "gedNE4y2"
+      ]
+    },
+    {
+      "name": "Iron's Lib",
+      "slug": "irons-lib",
+      "project_id": "9nfaJPtX",
+      "version": "1.20.1-2.2.0",
+      "version_id": "6HqXQkgC",
+      "filename": "irons_lib-1.20.1-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/6HqXQkgC/irons_lib-1.20.1-2.2.0.jar",
+      "sha1": "8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa",
+      "sha512": "5d3ce588f692233672f5059e527fa093a3a3d40f2121a90101aa5c815c1677dc9d5eeca0528a010c0ad6d417b244943fc935bc093e66af72c9a6e1b0b674eeab",
+      "size": 490088,
+      "published": "2026-09-28T20:16:00.249478Z",
+      "required_dependencies": [
+        "8BmcQJ2H"
+      ]
+    },
+    {
+      "name": "Player Animator",
+      "slug": "playeranimator",
+      "project_id": "gedNE4y2",
+      "version": "1.0.2-rc1+1.20-forge",
+      "version_id": "xe2EVE6q",
+      "filename": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar",
+      "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
+      "sha512": "cb9f6a3aaa943823a85fdd716ddb3c7623af2b3520926c3a98d170c52d31908894808fb61c52bea39bae622dbab59d50b4bad56f7ca0533a9c3350d412c33729",
+      "size": 181437,
+      "published": "2023-06-14T20:01:58.026800Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Rebalanced Enchanting",
+      "slug": "rebalanced-enchanting",
+      "project_id": "BWIx20fh",
+      "version": "3.2.0",
+      "version_id": "CCVH1OMI",
+      "filename": "rebalancedenchanting-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/BWIx20fh/versions/CCVH1OMI/rebalancedenchanting-3.2.0.jar",
+      "sha1": "ded943b6a5256d08a0e16d0d1502912e7a6c36c2",
+      "sha512": "dede243d8834e257449ca2a0f880599cb5937c56c2d621bf37cc2b94667965c05741320dfddfd177fb234f9d8ae3e56c0612d0018de4f7851eb7e2fc257ec35e",
+      "size": 12698,
+      "published": "2025-05-27T23:38:15.080684Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Geckolib",
+      "slug": "geckolib",
+      "project_id": "8BmcQJ2H",
+      "version": "4.8.4",
+      "version_id": "aC5KMoNg",
+      "filename": "geckolib-forge-1.20.1-4.8.4.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar",
+      "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+      "sha512": "443a321a293e3cb92fbbc3c97a38b179a45d1db703cd7bdb123270a9e04e7b7d67d5b06cd8e77a6d4d9139e033e901b9660cccf53ad5f9beaae6d06eae68febf",
+      "size": 1038209,
+      "published": "2026-06-20T11:07:31.386330Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Lionfish-API",
+      "slug": "lionfish-api",
+      "project_id": "FoVacERa",
+      "version": "3.0",
+      "version_id": "CPftDBcY",
+      "filename": "lionfishapi-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "sha512": "a7cf6c9bf27a77b45efe434a166f9c99efdb6db14e5d88ce8417c6364aea9d250a9f43627e9e0ac162e106517fccf51cebb5035852c8449fb7fb299a083770c4",
+      "size": 101931,
+      "published": "2026-06-11T08:09:56.313734Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "YUNG's API",
+      "slug": "yungs-api",
+      "project_id": "Ua7DFN59",
+      "version": "1.20-Forge-4.0.6",
+      "version_id": "PJOYAmAs",
+      "filename": "YungsApi-1.20-Forge-4.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar",
+      "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+      "sha512": "7d83d94a90e55a712f6508485c044ff202916e9b9b9166b75177cb8f2eb919543bbbe1547d11c41cfd4763820f934235f47c0b26dd9e89bc1030954afa9fb889",
+      "size": 370524,
+      "published": "2024-09-30T06:13:58.953111Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Apothic Attributes",
+      "slug": "apothic-attributes",
+      "project_id": "DGaH8Rh0",
+      "version": "1.3.7",
+      "version_id": "fwL9CWGd",
+      "filename": "ApothicAttributes-1.20.1-1.3.7.jar",
+      "url": "https://cdn.modrinth.com/data/DGaH8Rh0/versions/fwL9CWGd/ApothicAttributes-1.20.1-1.3.7.jar",
+      "sha1": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
+      "sha512": "d0b7a9dac9e0d34cdec49afd9a3c9f5382dcfac69b18a7c7a600d4537cf2653368a00333389c8e7c9fdacf952e0e4f921464309e257a3dd992f1ba26f4ce6836",
+      "size": 227511,
+      "published": "2026-06-19T01:41:34.129141Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Patchouli",
+      "slug": "patchouli",
+      "project_id": "nU0bVIaL",
+      "version": "1.20.1-85-forge",
+      "version_id": "94dtOLgZ",
+      "filename": "Patchouli-1.20.1-85-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar",
+      "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef",
+      "sha512": "15aedda4efcc553d5e3c83aa867b62554bc2fab298b43f55ed324e10507a3605f0ec2c59c01476e6d80b2a49275ef080142e43a6e663f9463b62f520960fc203",
+      "size": 642732,
+      "published": "2026-03-08T21:08:41.512166Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Placebo",
+      "slug": "placebo",
+      "project_id": "tCkE8p2N",
+      "version": "8.6.3",
+      "version_id": "6SkuAGoz",
+      "filename": "Placebo-1.20.1-8.6.3.jar",
+      "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/6SkuAGoz/Placebo-1.20.1-8.6.3.jar",
+      "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+      "sha512": "c23990465e26336f476c3b05a897bcf0c8660ae7338756b325f6bf81d0dee34b609474c62293f394acac818637ab03f92c776d104c8b8e86f3786395f5c4d623",
+      "size": 282474,
+      "published": "2026-06-14T08:31:50.827163Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Simply Tooltips",
+      "slug": "simply-tooltips",
+      "project_id": "6avVoBVB",
+      "version": "0.1.5-1.20.1",
+      "version_id": "s87jNabF",
+      "filename": "SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar",
+      "sha1": "6f437b9269a171bf88eb6215f0dfab6e614f9f00",
+      "sha512": "802790a630344de51c74f30e02ac1a2454b6dbc8450e7ea0101495a9196a7d320ad746b4a4628fa43f6e615b6bf15acd9574791c69c4ce5caea756e71dfc5895",
+      "size": 5418741,
+      "published": "2026-08-23T14:07:20.026104Z",
+      "required_dependencies": [
+        "hYykXjDp",
+        "lhGA9TYQ"
+      ]
+    },
+    {
+      "name": "Architectury API",
+      "slug": "architectury-api",
+      "project_id": "lhGA9TYQ",
+      "version": "9.2.14+forge",
+      "version_id": "1MKTLiiG",
+      "filename": "architectury-9.2.14-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
+      "size": 580602,
+      "published": "2024-02-26T13:19:00.816154Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Fzzy Config",
+      "slug": "fzzy-config",
+      "project_id": "hYykXjDp",
+      "version": "0.7.7+1.20.1+forge",
+      "version_id": "53kg5uoF",
+      "filename": "fzzy_config-0.7.7+1.20.1+forge.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/53kg5uoF/fzzy_config-0.7.7%2B1.20.1%2Bforge.jar",
+      "sha1": "1a4f550dea4fb6316a96591dc46a463ee1f6602b",
+      "sha512": "d082b2fcdd2411312f0ce096c35e6167c453f85c979c4273cc92cf246cd0855d825865d79d47933a1bf3f1caaaf17b5a9415d4cb58ace26582434843380e3c1d",
+      "size": 2397175,
+      "published": "2026-09-15T15:39:11.614625Z",
+      "required_dependencies": [
+        "ordsPcFz"
+      ]
+    },
+    {
+      "name": "Rhino",
+      "slug": "rhino",
+      "project_id": "sk9knFPE",
+      "version": "2001.2.3-build.10+forge",
+      "version_id": "uNALdylI",
+      "filename": "rhino-forge-2001.2.3-build.10.jar",
+      "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar",
+      "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+      "sha512": "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58",
+      "size": 1798244,
+      "published": "2025-02-12T21:26:49.669723Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Kotlin for Forge",
+      "slug": "kotlin-for-forge",
+      "project_id": "ordsPcFz",
+      "version": "4.12.0",
+      "version_id": "Zsh14XeQ",
+      "filename": "kotlinforforge-4.12.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+      "sha512": "767f40030ed4b370a3838fa65ae1b79974f31979342fff7cc834a0d5f39eb28612642519352ff2a1dd5226ce1f745f8b3156ee3625ffde01219137d064c1ee40",
+      "size": 7442998,
+      "published": "2025-12-03T19:48:01.561702Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "ChoiceTheorem's Overhauled Village",
+      "slug": "ct-overhaul-village",
+      "project_id": "fgmhI8kH",
+      "version": "3.4.14",
+      "version_id": "o7mg6MeV",
+      "filename": "[forge]ctov-3.4.14.jar",
+      "url": "https://cdn.modrinth.com/data/fgmhI8kH/versions/o7mg6MeV/%5Bforge%5Dctov-3.4.14.jar",
+      "sha1": "8fa73fd4c5ae58636e159e54321651adf555ac44",
+      "sha512": "66c5846c0065afb1bad3001bccaa32f58cb8e608c3914d6611a20e30fd145dd0487a6255ee410b72cfee6f28f06c19dda4216459b230ded693c2772b2576b28e",
+      "size": 6772753,
+      "published": "2025-04-24T15:43:36.783039Z",
+      "required_dependencies": [
+        "XaDC71GB"
+      ]
+    },
+    {
+      "name": "Lithostitched",
+      "slug": "lithostitched",
+      "project_id": "XaDC71GB",
+      "version": "1.4.11-forge-1.20",
+      "version_id": "srPoHKt8",
+      "filename": "lithostitched-forge-1.20.1-1.4.11.jar",
+      "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/srPoHKt8/lithostitched-forge-1.20.1-1.4.11.jar",
+      "sha1": "d1a755de84ee5d8910ff1e65e815473056e93ece",
+      "sha512": "4e50a0fb4f054b429803cb20fc0820011b12098ebca1f17b1b0634cab832369e08446901d5e97fd35b01e99cf6066d20a16cc673c5b7bc8196568b3db67128c2",
+      "size": 476347,
+      "published": "2025-07-07T23:21:46.041450Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Guard Villagers",
+      "slug": "guard-villagers",
+      "project_id": "H1sntfo8",
+      "version": "1.6.19",
+      "version_id": "zCzBkn3R",
+      "filename": "guardvillagers-1.20.1-1.6.19.jar",
+      "url": "https://cdn.modrinth.com/data/H1sntfo8/versions/zCzBkn3R/guardvillagers-1.20.1-1.6.19.jar",
+      "sha1": "7e86fe325d27700385080d9ca4a1e4c8d38ec425",
+      "sha512": "8c4aa8a0b9ea3611ebe479b42bf642fd664d34d30574d9dfe86f9d498a81ca07b889f6618f77def94625a3fca78a6d992066e3cf519587c2c09d3f599d8c3ef7",
+      "size": 204767,
+      "published": "2026-08-23T21:25:56.890688Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "YUNG's Better Mineshafts",
+      "slug": "yungs-better-mineshafts",
+      "project_id": "HjmxVlSr",
+      "version": "1.20-Forge-4.0.4",
+      "version_id": "kVO57zxB",
+      "filename": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/kVO57zxB/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+      "sha1": "e2cbc574807a994bb9610184eb4bbfe29a6c0774",
+      "sha512": "1e8237e0fc4dd7e00a3ad30c5c02a82eeed63aed4544310cfdee863ac95b626874773f599779b985e6e460869804c036e1336c2720fbb34a3b09445434c063c8",
+      "size": 492998,
+      "published": "2023-09-25T20:44:28.198026Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "YUNG's Better Ocean Monuments",
+      "slug": "yungs-better-ocean-monuments",
+      "project_id": "3dT9sgt4",
+      "version": "1.20-Forge-3.0.4",
+      "version_id": "SN4iZ7wf",
+      "filename": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/3dT9sgt4/versions/SN4iZ7wf/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+      "sha1": "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f",
+      "sha512": "2c67db8caf355f2e3b4a6f2b99c64abfa3b084163b38e18aba7f8ad0fb297fab3bfa7a61cd6bff5391fdaad185ed8233f22080a2cd35f1428d2d04dbfdf10a1d",
+      "size": 1033262,
+      "published": "2023-11-20T02:56:09.758630Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "YUNG's Better Nether Fortresses",
+      "slug": "yungs-better-nether-fortresses",
+      "project_id": "Z2mXHnxP",
+      "version": "1.20-Forge-2.0.6",
+      "version_id": "2nUEz0zq",
+      "filename": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/Z2mXHnxP/versions/2nUEz0zq/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+      "sha1": "889cd16a93764d1d6af2e2dda5bbc286a2683e7a",
+      "sha512": "bceefeaf84dffd7386a61118d6b1c6c2107e17e7a8f4340eff2c1f0234dba0e6d8f43903521d5a70334362ab6e4069788e5b29cf42d8ee9cd4f2a98feb64112b",
+      "size": 619255,
+      "published": "2024-03-18T23:17:12.110689Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "YUNG's Better Jungle Temples",
+      "slug": "yungs-better-jungle-temples",
+      "project_id": "z9Ve58Ih",
+      "version": "1.20-Forge-2.0.5",
+      "version_id": "CXQc6EnZ",
+      "filename": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/z9Ve58Ih/versions/CXQc6EnZ/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+      "sha1": "0b3c8556983895fea980247bb4d437ca535e7259",
+      "sha512": "433d84ca6a8f223376bc8e30c7ca2407294876c2fe8ef51fec9f12358b5b4f84c76031abba74a256eec12146817690224b141668890ebba99decd411d6b37b9c",
+      "size": 806652,
+      "published": "2024-05-10T03:09:07.984818Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "YUNG's Better Desert Temples",
+      "slug": "yungs-better-desert-temples",
+      "project_id": "XNlO7sBv",
+      "version": "1.20-Forge-3.0.3",
+      "version_id": "lRK2ZA9U",
+      "filename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/XNlO7sBv/versions/lRK2ZA9U/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+      "sha1": "31b386b2dbaa4933e0a10ccdfb25f56da16931a6",
+      "sha512": "30ce20533c9a2cc11608120dd7d5fb0f9b48e11873eb1a653d2d88022d351f2c25b316b63df0dbc693de598e0f1c768a36865e0759dbab23e2f2e36a3918470a",
+      "size": 918012,
+      "published": "2023-09-26T03:48:24.740048Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "YUNG's Better Witch Huts",
+      "slug": "yungs-better-witch-huts",
+      "project_id": "t5FRdP87",
+      "version": "1.20-Forge-3.0.3",
+      "version_id": "mwlYB7rq",
+      "filename": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/t5FRdP87/versions/mwlYB7rq/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+      "sha1": "71fee574f920c6b05004f100ba07e9b8d5844169",
+      "sha512": "c17d5b07ecf44aa4539bd7af37882a63ab73ec10dd2c9675ed715e7c1f0ee73ee9d9c32bfddfb67f8f3c6f8b753cb965119e31e64926ea6d50ef33f881fc61f1",
+      "size": 179190,
+      "published": "2023-09-26T04:52:32.551824Z",
+      "required_dependencies": [
+        "Ua7DFN59"
+      ]
+    },
+    {
+      "name": "Lootr",
+      "slug": "lootr",
+      "project_id": "EltpO5cN",
+      "version": "0.7.35.94",
+      "version_id": "mWTXC1ZX",
+      "filename": "lootr-forge-1.20-0.7.35.94.jar",
+      "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/mWTXC1ZX/lootr-forge-1.20-0.7.35.94.jar",
+      "sha1": "1ec77a7df8adbf3290a296bf25b8f99f37a60020",
+      "sha512": "a04c6371376bfdac2b10cbb2bb9af7ded10ac26faaeb252b59aab2f02c2b2064c2c4ab665fb6ea218243e89d6f237d878c6951638bb948edead2c0a604dd023a",
+      "size": 463485,
+      "published": "2025-11-26T03:16:17.725541Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "slug": "jei",
+      "project_id": "u6dRKJwZ",
+      "version": "15.56.0.205",
+      "version_id": "9jqubC9n",
+      "filename": "jei-1.20.1-forge-15.56.0.205.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/9jqubC9n/jei-1.20.1-forge-15.56.0.205.jar",
+      "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
+      "sha512": "1306fe15c81d54aa9ff8f3d9f04812c0d61ffaaae433c29621f926db8f8e2c898669ccdd99e025849859d38b7a2eac170c466390b467f4dfa77542b5dbdd1678",
+      "size": 1778129,
+      "published": "2026-08-31T13:57:20.356805Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Jade 🔍",
+      "slug": "jade",
+      "project_id": "nvQzSEkH",
+      "version": "11.13.3+forge",
+      "version_id": "xJQHCmWJ",
+      "filename": "Jade-1.20.1-Forge-11.13.3.jar",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar",
+      "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+      "sha512": "72025c4ad6d26522bafe3d5d6ac9d4702c006a868312cb34df8a7a2398a4618205839607b129c167fd176e58cb7655f08e3afbf1993925c80d4fcc559c45a037",
+      "size": 553487,
+      "published": "2026-07-21T11:08:31.396433Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "ModernFix",
+      "slug": "modernfix",
+      "project_id": "nmDcB62a",
+      "version": "5.27.85+mc1.20.1",
+      "version_id": "hHwYTQwa",
+      "filename": "modernfix-forge-5.27.85+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/hHwYTQwa/modernfix-forge-5.27.85%2Bmc1.20.1.jar",
+      "sha1": "ba76615cdaff6de931c2e33c71f0b05deb1dad41",
+      "sha512": "b4e1ff4cb01c38f6f4a0093fabe56b36d9fcdebccda708379deca0dea33af3e250dc8fddbb98bb6fb0b30ee6fec40ae1679ab91e2bdfcf6971fe16504ce03ad2",
+      "size": 1003271,
+      "published": "2026-10-02T00:10:49.903192Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "FerriteCore",
+      "slug": "ferrite-core",
+      "project_id": "uXXizFIs",
+      "version": "6.0.1",
+      "version_id": "DG5Fn9Sz",
+      "filename": "ferritecore-6.0.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar",
+      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+      "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c",
+      "size": 123034,
+      "published": "2023-10-22T13:40:26.306516Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "AppleSkin",
+      "slug": "appleskin",
+      "project_id": "EsAfCjCV",
+      "version": "2.5.1+mc1.20.1",
+      "version_id": "XdXDExVF",
+      "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+      "sha512": "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9",
+      "size": 47428,
+      "published": "2023-09-27T05:07:37.394825Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Waystones",
+      "slug": "waystones",
+      "project_id": "LOpKHB2A",
+      "version": "14.1.21+forge-1.20.1",
+      "version_id": "Y0IgdaoP",
+      "filename": "waystones-forge-1.20.1-14.1.21.jar",
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/Y0IgdaoP/waystones-forge-1.20.1-14.1.21.jar",
+      "sha1": "61952fb248a9689fe46d5ffb223fcc41e31fef1a",
+      "sha512": "3798eef2f81c2f6066d9dc2dc22bbe9d1c4b62d5aa494c592ffe67ee7f4fb8021361505b3c0b1358d4f9af27e50b1f12d29afb3b4b0b362b5ab227e8be171047",
+      "size": 536782,
+      "published": "2026-09-08T12:21:29.593014Z",
+      "required_dependencies": [
+        "MBAkmtvl"
+      ]
+    },
+    {
+      "name": "Balm",
+      "slug": "balm",
+      "project_id": "MBAkmtvl",
+      "version": "7.3.44+forge-1.20.1",
+      "version_id": "dDN38ae7",
+      "filename": "balm-forge-1.20.1-7.3.44.jar",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
+      "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
+      "sha512": "bdabc656c7f60d6476a7d8c3d1f7a3d174854c9c4a466a9ff9b220737b717bc8069229471f7cf7eac574ba15e1263b76da8fef2ed1a5273d53e1c9cbf041ad9b",
+      "size": 561741,
+      "published": "2026-09-25T05:55:37.282932Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Corail Tombstone",
+      "slug": "corail-tombstone",
+      "project_id": "YT5K34AB",
+      "version": "forge-1.20.1-9.1.5",
+      "version_id": "nTAliy2r",
+      "filename": "tombstone-1.20.1-9.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/YT5K34AB/versions/nTAliy2r/tombstone-1.20.1-9.1.5.jar",
+      "sha1": "0d9cb76b6162c672a7aca40771e5749a97ebb451",
+      "sha512": "57283c5dce944a4eaec4240a0d2bb33d5c6f009a5b6a7a7334f48c286aa17ecd794e7025ff87e61b5555ce29667eb2ad336d92e4235d1384e0172b485e23338a",
+      "size": 2560746,
+      "published": "2026-10-05T14:37:26.936057Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Farmer's Delight",
+      "slug": "farmers-delight",
+      "project_id": "R2OftAxM",
+      "version": "1.20.1-1.3.4",
+      "version_id": "SiIpcZzM",
+      "filename": "FarmersDelight-1.20.1-1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar",
+      "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+      "sha512": "932ae0ab95fa0755bb5a79fbf1d1e31d0e86f3c0f5186796ed06973a3019a618ee8c66a4eae5b901909aed6232abb2bd3b1ff0e1905f74fc70644fada94a80b5",
+      "size": 3311051,
+      "published": "2026-08-29T23:19:47.678159Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Explorer's Compass",
+      "slug": "explorers-compass",
+      "project_id": "RV1qfVQ8",
+      "version": "1.20.1-1.4.0-forge",
+      "version_id": "7ZdJbCOx",
+      "filename": "ExplorersCompass-1.20.1-1.4.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/RV1qfVQ8/versions/7ZdJbCOx/ExplorersCompass-1.20.1-1.4.0-forge.jar",
+      "sha1": "23b7544ab3ebd1ab9c88255434ff9dc7f217766b",
+      "sha512": "cc95056c371c4588d7e5f26509f58118f2335faa6985832cb9df0814877ac8b0aee7910dc5d30953b8b3571d7b6a99d76871a22f55f8f415266185ce6ec2285e",
+      "size": 174387,
+      "published": "2026-04-08T01:42:04.683773Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Terralith",
+      "slug": "terralith",
+      "project_id": "8oi3bsk5",
+      "version": "2.5.4",
+      "version_id": "WeYhEb5d",
+      "filename": "Terralith_1.20.x_v2.5.4.jar",
+      "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/WeYhEb5d/Terralith_1.20.x_v2.5.4.jar",
+      "sha1": "79e1409b8db4ce86df9d6d6730f09c4bd8860a30",
+      "sha512": "885e171d8b34aae7e142f082d0364285ec5a8e8342f11c60d341f7a94083d5a42c4e30612fe4f9f64d57b484396a3dff3a224e2a2497d4ced8d22f2ad6cd561d",
+      "size": 3156901,
+      "published": "2024-07-07T22:15:51.167522Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Structory",
+      "slug": "structory",
+      "project_id": "aKCwCJlY",
+      "version": "1.3.5",
+      "version_id": "FkaSuQb0",
+      "filename": "Structory_1.20.x_v1.3.5.jar",
+      "url": "https://cdn.modrinth.com/data/aKCwCJlY/versions/FkaSuQb0/Structory_1.20.x_v1.3.5.jar",
+      "sha1": "4196a2fa68f755b46616f4071e84c72ec4d6dacc",
+      "sha512": "2239b6232b32b1358f56c8095b855b7ad3032cc872e2089359682b31dc16b7cad316ba601bfcfe314ab32a51f26cb5a4eb12d27d62a8c879eeda45a251d5839a",
+      "size": 1286462,
+      "published": "2024-09-16T10:34:00.739293Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Structory: Towers",
+      "slug": "structory-towers",
+      "project_id": "j3FONRYr",
+      "version": "1.0.7",
+      "version_id": "fTl6NfPL",
+      "filename": "Structory_Towers_1.20.x_v1.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/j3FONRYr/versions/fTl6NfPL/Structory_Towers_1.20.x_v1.0.7.jar",
+      "sha1": "fa147459b82e1c0a774c19b598a55a9ca0d7b0ef",
+      "sha512": "b3a04babcdac8c66f974d10b9ec0beee2d9ba33c34144adfe9dbf80ee7cdb64e1e598168160aa10778975f6e5c3dc4bba396a2520ee609793714f22bb320ebc6",
+      "size": 526234,
+      "published": "2024-09-16T09:58:39.175630Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Mowzie's Mobs",
+      "slug": "mowzies-mobs",
+      "project_id": "BFbX9xcm",
+      "version": "1.8.2",
+      "version_id": "acYEfsJa",
+      "filename": "mowziesmobs-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/BFbX9xcm/versions/acYEfsJa/mowziesmobs-1.8.2.jar",
+      "sha1": "25ffcd175cc03650e38e60d3cb7b3e038d9d3345",
+      "sha512": "c1c5f7b8cba4dbbe57f8eb7150bea94a72076ef4ae923adf7fe1147eef703e4fedc7914a12d51fb4152faccaad94c4053ce3ff21cca8905bf2da17de61db43b0",
+      "size": 36033850,
+      "published": "2026-04-02T23:26:57.380986Z",
+      "required_dependencies": [
+        "8BmcQJ2H"
+      ]
+    },
+    {
+      "name": "Bosses of Mass Destruction Forge",
+      "slug": "bosses-of-mass-destruction-forge",
+      "project_id": "hFUzfDsn",
+      "version": "1.1.2",
+      "version_id": "2Kw4xPhp",
+      "filename": "BOMD-Forge-1.20.1-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/hFUzfDsn/versions/2Kw4xPhp/BOMD-Forge-1.20.1-1.1.2.jar",
+      "sha1": "232eb28172423cde46e8e1f038c670a01471fa92",
+      "sha512": "f67acaec9e34ec8b580aaf69f98c05067feff996156c7ee9c2d8372f8544dad73d9fe942a5c43db687caf47c1f0c8f3d3d318e5fb0c87bfcf702242218cf81ab",
+      "size": 1753623,
+      "published": "2024-01-29T15:47:21.338900Z",
+      "required_dependencies": [
+        "9s6osm5g",
+        "8BmcQJ2H",
+        "GkIc6rRo"
+      ]
+    },
+    {
+      "name": "Cloth Config API",
+      "slug": "cloth-config",
+      "project_id": "9s6osm5g",
+      "version": "11.1.136+forge",
+      "version_id": "t8TXrZvZ",
+      "filename": "cloth-config-11.1.136-forge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
+      "size": 1181413,
+      "published": "2024-09-16T17:13:50.725690Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "CERBON's API",
+      "slug": "cerbons-api",
+      "project_id": "GkIc6rRo",
+      "version": "1.1.0",
+      "version_id": "XWZQbKsr",
+      "filename": "CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/GkIc6rRo/versions/XWZQbKsr/CerbonsAPI-Forge-1.20.1-1.1.0.jar",
+      "sha1": "83cccb66e679d72345a5194e4ca520f647bc97e6",
+      "sha512": "757e11d6bda175025b88688becd0e70fec8f00d50ee0861537968a79f1053853c4c8845ba62bb689b8734ec7f0c8c2f1029fb1daf897152337662bbc5b47c438",
+      "size": 241148,
+      "published": "2024-01-21T15:48:32.086075Z",
+      "required_dependencies": [
+        "GkIc6rRo"
+      ]
+    },
+    {
+      "name": "Born in Chaos",
+      "slug": "borninchaos",
+      "project_id": "1kcHy4de",
+      "version": "1.7.5",
+      "version_id": "8wmEhUSt",
+      "filename": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+      "url": "https://cdn.modrinth.com/data/1kcHy4de/versions/8wmEhUSt/born_in_chaos_%5BForge%5D1.20.1_1.7.5.jar",
+      "sha1": "4d616e1ccef4c55e14b04ca63228d826f4fdda5e",
+      "sha512": "8b889b43dcbdb4882a4144d41b49f7e14f567abe24041cc9577082fa6f653795796966d203bb2870c55419ee24aaa15a743ae17dc515a33d24e60f3619f5a27f",
+      "size": 11839865,
+      "published": "2026-04-12T21:21:43.162788Z",
+      "required_dependencies": [
+        "8BmcQJ2H"
+      ]
+    },
+    {
+      "name": "Illager Invasion",
+      "slug": "illager-invasion",
+      "project_id": "jSV9w0J5",
+      "version": "v8.0.7-1.20.1-Forge",
+      "version_id": "h3xEIiW8",
+      "filename": "IllagerInvasion-v8.0.7-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/jSV9w0J5/versions/h3xEIiW8/IllagerInvasion-v8.0.7-1.20.1-Forge.jar",
+      "sha1": "103953f4bf3d5a4a344ec5317d510ac90a25badc",
+      "sha512": "add2894b0a5247db10ed9e1fbfd94abd9d54309e91418d4d56da855d6b088ef41f35534d324f7172f66327a1cf111bcec4b3560c31c887f799b559e6190a74e2",
+      "size": 2341695,
+      "published": "2025-02-14T15:17:18.157202Z",
+      "required_dependencies": [
+        "QAGBst4M"
+      ]
+    },
+    {
+      "name": "Puzzles Lib",
+      "slug": "puzzles-lib",
+      "project_id": "QAGBst4M",
+      "version": "v8.1.33-1.20.1-Forge",
+      "version_id": "mIyVGf3d",
+      "filename": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
+      "sha512": "4e0a6243f70a7f99bb631940bfeca49f31b13ec34f338d994fe129f0445e738ffd925e5c440f4e6bf822f9013bb8c2156de6dfcd62741d85c3ca3e8221d86a19",
+      "size": 1342987,
+      "published": "2025-08-23T12:27:37.945208Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Epic Fight & Other Mods Weapons Compabilities",
+      "slug": "efmcompat",
+      "project_id": "upBx6tuB",
+      "version": "2.0",
+      "version_id": "AfuFakPO",
+      "filename": "EFMCompat 2.0.jar",
+      "url": "https://cdn.modrinth.com/data/upBx6tuB/versions/AfuFakPO/EFMCompat%202.0.jar",
+      "sha1": "7ad9bd7aee63f2cea9e5d8fdc132d9d029cd5e63",
+      "sha512": "eccac214a5ef2243f685c5fd027da67c42913c68be76958073892856bdd1b62597b50b4805fe4535828606cd9367935b8bceb2f8d0129f88f1e5ee5fbcccde56",
+      "size": 6694088,
+      "published": "2024-03-27T07:47:28.528337Z",
+      "required_dependencies": [
+        "vu3NZ5Ma",
+        "oWx9p4ug"
+      ],
+      "dependency_note": "Modrinth lists Battle Arts as required, but Battle Arts 20.14.16.10 crashes against Epic Fight 20.14.17 (NoClassDefFoundError ExCapBuilderCreationEvent), so it is omitted."
+    },
+    {
+      "name": "Weapons of miracles",
+      "slug": "weapons-of-miracles",
+      "project_id": "oWx9p4ug",
+      "version": "2.0.171-mc1.20.1-forge",
+      "version_id": "nf0AyjKh",
+      "filename": "WeaponsOfMiracles-2.0.171-mc1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/oWx9p4ug/versions/nf0AyjKh/WeaponsOfMiracles-2.0.171-mc1.20.1-forge.jar",
+      "sha1": "25eaf24b3062a4491565936a5588cb22223a9ffe",
+      "sha512": "60e2590e521d01338b3f1ae0b7e614c88311e6e4e3f5735f733d49c40b043a16a3832e1f25c75f94bc5702a3f4a2ee299d517fd517c19622371524bf4e42f4da",
+      "size": 20945819,
+      "published": "2026-08-12T13:30:12.179793Z",
+      "required_dependencies": [
+        "vu3NZ5Ma"
+      ]
+    },
+    {
+      "name": "Epic Knights: Shields Armor and Weapons",
+      "slug": "epic-knights-shields-armor-and-weapons",
+      "project_id": "L6jvzao4",
+      "version": "10.15",
+      "version_id": "gJ59URg4",
+      "filename": "epic-knights-1.20.1-forge-10.15.jar",
+      "url": "https://cdn.modrinth.com/data/L6jvzao4/versions/gJ59URg4/epic-knights-1.20.1-forge-10.15.jar",
+      "sha1": "8f6019735436fb5a0056916e25f62b363baddafa",
+      "sha512": "7ee5bb4a9ec80a2dd443846ed330b3c38b251e2a43c090900ac25aee3103672d0e11dd488b058d4b68e4177fec25e91373bf62b48c24648659b3fcd48c78fe5e",
+      "size": 2904252,
+      "published": "2026-09-20T14:47:39.168149Z",
+      "required_dependencies": [
+        "lhGA9TYQ",
+        "9s6osm5g"
+      ]
+    },
+    {
+      "name": "Marium's Soulslike Weaponry",
+      "slug": "mariums-soulslike-weaponry",
+      "project_id": "oX6SohLj",
+      "version": "1.4.10-1.20.1-forge",
+      "version_id": "smKwvZlP",
+      "filename": "soulslike-weaponry-1.4.10-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/oX6SohLj/versions/smKwvZlP/soulslike-weaponry-1.4.10-1.20.1-forge.jar",
+      "sha1": "504c3e778a15ce902c4ba2e7b4db8700e872b25f",
+      "sha512": "198f0dcd36b40bfa3954ef5df456d077449863d7761e2e43ac6cd756999ba636a1fdc69ddfde865a02902f5bfd2bf2ad410cd93300fdaed30c35b7cd94db0bfc",
+      "size": 54758074,
+      "published": "2026-09-22T11:39:08.853106Z",
+      "required_dependencies": [
+        "lOOpEntO",
+        "AqaIIO6D",
+        "8BmcQJ2H"
+      ]
+    },
+    {
+      "name": "AttributeFix",
+      "slug": "attributefix",
+      "project_id": "lOOpEntO",
+      "version": "21.0.5",
+      "version_id": "ihWybkI9",
+      "filename": "AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/ihWybkI9/AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "sha1": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa",
+      "sha512": "0d631c06820257e70a9a0dafbd74fc6412c337deb0631af0e084dfdcce4405d7980e6b4d4c3cf8840cff51d32ad9fc8d9a2a69bf0a6cd9b492cdc6efc23cf9ee",
+      "size": 19499,
+      "published": "2026-02-12T01:13:50.526585Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Ranged Weapon API",
+      "slug": "ranged-weapon-api",
+      "project_id": "AqaIIO6D",
+      "version": "2.3.4+1.20.1-forge",
+      "version_id": "2Md2M2d5",
+      "filename": "ranged_weapon_api-forge-2.3.4+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AqaIIO6D/versions/2Md2M2d5/ranged_weapon_api-forge-2.3.4%2B1.20.1.jar",
+      "sha1": "57f94d1fb5ec020439b5f814d7f21ceb37953941",
+      "sha512": "3e68d88e50c83244234cc8e8e70a34be094147305aaee866ee26796c3154bba2452be7ba7f21a07847965719cd07929b91e00ea54a78237a932c07b748ad4ecb",
+      "size": 794579,
+      "published": "2026-09-15T22:24:24.909126Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Samurai Dynasty",
+      "slug": "epic-samurais",
+      "project_id": "lMWJDrbO",
+      "version": "0.0.51-1.20.1-forge",
+      "version_id": "KzZfg6EC",
+      "filename": "samurai_dynasty-0.0.51-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/lMWJDrbO/versions/KzZfg6EC/samurai_dynasty-0.0.51-1.20.1-forge.jar",
+      "sha1": "437c10bb9ada8575fef4f4da83f5a67b53c35047",
+      "sha512": "848aa78e8494b7a93a550f1548699a87dd11599498e818709f8d8be8cc35459f81ba4b0825edd5bbd7f523475b109be9ad494823cddee932322282c1c5a3bb48",
+      "size": 2267792,
+      "published": "2025-12-29T22:37:22.010857Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Artifacts",
+      "slug": "artifacts",
+      "project_id": "P0Mu4wcQ",
+      "version": "9.5.19",
+      "version_id": "lrLPBSzq",
+      "filename": "artifacts-forge-9.5.19.jar",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lrLPBSzq/artifacts-forge-9.5.19.jar",
+      "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
+      "sha512": "bea709250d367fa7957d523e51771b4fe3183678625dd20824722d9702523b076b0b9787331a954f7fd4184c00e450186c8756b710686eacf5f81ed66726a6a3",
+      "size": 850974,
+      "published": "2026-04-10T09:23:04.410935Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Relics",
+      "slug": "relics-mod",
+      "project_id": "OCJRPujW",
+      "version": "0.8.0.13",
+      "version_id": "C7tM1LJR",
+      "filename": "relics-1.20.1-0.8.0.13.jar",
+      "url": "https://cdn.modrinth.com/data/OCJRPujW/versions/C7tM1LJR/relics-1.20.1-0.8.0.13.jar",
+      "sha1": "940358d190780a9a59a69dd7e75a5e7cf07e4209",
+      "sha512": "b3fae37b4677c9b3488b9c3059abe428c0e0b066e395120ed7936dc70fe7dd5a828c0c663d17c3a8c59fb5d5316b07427a6afe2fac39de98a12430101d25a37a",
+      "size": 1521089,
+      "published": "2026-03-04T07:13:25.378028Z",
+      "required_dependencies": [
+        "RH2KUdKJ",
+        "vvuO3ImH"
+      ]
+    },
+    {
+      "name": "ShatterLib | OctoLib",
+      "slug": "shatterbyte-lib",
+      "project_id": "RH2KUdKJ",
+      "version": "0.5.0.1",
+      "version_id": "HZ7KmyXp",
+      "filename": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RH2KUdKJ/versions/HZ7KmyXp/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar",
+      "sha1": "9eab28baff36942e1c924489e34753df10f40208",
+      "sha512": "e0bbe3a999f3a8c32b7dc0fd5bae61f62915dc5be40ac97a777f0784cdfaaed74b74f48cd407b9a8abb081ff331fbd272c9d4e08125f48f091435c926468d5c6",
+      "size": 424035,
+      "published": "2025-03-07T11:56:23.366463Z",
+      "required_dependencies": [
+        "lhGA9TYQ"
+      ]
+    },
+    {
+      "name": "Quark",
+      "slug": "quark",
+      "project_id": "qnQsVE2z",
+      "version": "1.20.1-4.0-462",
+      "version_id": "DijQLauD",
+      "filename": "Quark-4.0-462.jar",
+      "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar",
+      "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
+      "sha512": "585b182ccd51066e841141c9bc74fe8b820df86119828b7542b56771c3fcaf8bcc92f9d67f4e87736e82a45bb9166f71c015b95e230f964215290707b6475eed",
+      "size": 14935230,
+      "published": "2025-04-16T02:35:08.960948Z",
+      "required_dependencies": [
+        "MVARlG2f"
+      ]
+    },
+    {
+      "name": "Zeta",
+      "slug": "zeta",
+      "project_id": "MVARlG2f",
+      "version": "1.20.1-1.0-31",
+      "version_id": "mSER3jBI",
+      "filename": "Zeta-1.0-31.jar",
+      "url": "https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar",
+      "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
+      "sha512": "0b14233864d8fdad148c33971731d8e9638d2cdceab8977162448598d78b74beb838913d445e065f6e0bf0d5cf36b8b843fc576ce47ab9899b3f2d7c713eefef",
+      "size": 1006518,
+      "published": "2025-12-15T04:09:48.662326Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Supplementaries",
+      "slug": "supplementaries",
+      "project_id": "fFEIiSDQ",
+      "version": "1.20-3.1.43-forge",
+      "version_id": "S0TIJ1hU",
+      "filename": "supplementaries-1.20-3.1.43-forge.jar",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
+      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
+      "sha512": "70faa19266ffd70787f6484aa1ab5cbea69c9f39af36faebb6534eeb2123e333c5b39df06a151b52d78d701a037a36adc53eb5aa51a6710096e6ee216b45d59c",
+      "size": 13667742,
+      "published": "2026-04-06T12:12:16.092272Z",
+      "required_dependencies": [
+        "twkfQtEc"
+      ]
+    },
+    {
+      "name": "Moonlight Lib",
+      "slug": "moonlight",
+      "project_id": "twkfQtEc",
+      "version": "1.20-2.16.36-forge",
+      "version_id": "hzhhCbQ3",
+      "filename": "moonlight-1.20-2.16.36-forge.jar",
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/hzhhCbQ3/moonlight-1.20-2.16.36-forge.jar",
+      "sha1": "848d3a839e1d96cfb43016c3b140f586fe057cde",
+      "sha512": "93f4c8d5f952eda10e82fa6b8ac221cc51b0ca79d421c7d48858a17f57b260539e47e9034bbac189d727a5d092bd737ebe53de9f0185964b4ce127ba46203af7",
+      "size": 1425230,
+      "published": "2026-10-06T16:54:30.189468Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Create",
+      "slug": "create",
+      "project_id": "LNytGWDc",
+      "version": "mc1.20.1-6.0.8",
+      "version_id": "8amzvn9x",
+      "filename": "create-1.20.1-6.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar",
+      "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+      "sha512": "5b51f5d31437d9bfbf221b67459abd87260d284874e1e23b7ed1d522b23a48059a3b1d2c1c541428da35dc6be15561b4f3c7f36aac6df3a0e8db6a278f6b0316",
+      "size": 19170905,
+      "published": "2025-11-02T16:10:25.364809Z",
+      "required_dependencies": []
+    },
+    {
+      "name": " Integrated Dungeons and Structures",
+      "slug": "idas",
+      "project_id": "Z8OZShAU",
+      "version": "1.13.0+1.20.1",
+      "version_id": "mgwwWo3b",
+      "filename": "idas_forge-1.13.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Z8OZShAU/versions/mgwwWo3b/idas_forge-1.13.0%2B1.20.1.jar",
+      "sha1": "84386b55c1729e8fb62f91211d046fb6d7ef23d2",
+      "sha512": "4f287d627adc6b8818b249f6b4ea252d0baf55b012c626e5a453380ccd8e53cd55a5eb22303b21ff9d50cbfb67cd9b8a96eeb24d494adc35174a0a7403569366",
+      "size": 14420114,
+      "published": "2026-03-25T01:54:02.796641Z",
+      "required_dependencies": [
+        "V6fKbpBN",
+        "fFEIiSDQ",
+        "LNytGWDc",
+        "qnQsVE2z"
+      ]
+    },
+    {
+      "name": "Integrated API",
+      "slug": "integrated-api",
+      "project_id": "V6fKbpBN",
+      "version": "1.8.2",
+      "version_id": "ylLcyfpZ",
+      "filename": "integrated_api-forge-1.20.1-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/V6fKbpBN/versions/ylLcyfpZ/integrated_api-forge-1.20.1-1.8.2.jar",
+      "sha1": "a5a23fb8550720edd345b1f443741723c7508b6b",
+      "sha512": "82c8a51b7d479414201418b9f9773458770e23d749aae8feb2df5205340436674cfe4f77ff2892c6385a8ac292e27208306a360817add2d78a74f665c2b58fa0",
+      "size": 712428,
+      "published": "2026-09-12T21:34:13.825279Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "AzureLib",
+      "slug": "azurelib",
+      "project_id": "7zlUOZvb",
+      "version": "3.1.17",
+      "version_id": "xLZ34avd",
+      "filename": "azurelib-neo-1.20.1-3.1.17.jar",
+      "url": "https://cdn.modrinth.com/data/7zlUOZvb/versions/xLZ34avd/azurelib-neo-1.20.1-3.1.17.jar",
+      "sha1": "f43023b86f3c02bf2f45ea797a88676da2126795",
+      "sha512": "856ad582469108ded1bdd5f7495641937535b211e7e79fde9e522b9aed4b04a5b7d6ad59a79d9b4774b71062542a8a954513ce66e0963605633e04630aabb1a8",
+      "size": 1139069,
+      "published": "2026-10-06T05:46:42.842036Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Tom's Simple Storage Mod",
+      "slug": "toms-storage",
+      "project_id": "XZNI4Cpy",
+      "version": "1.20-1.7.1",
+      "version_id": "XELeoPjZ",
+      "filename": "toms_storage-1.20-1.7.1.jar",
+      "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/XELeoPjZ/toms_storage-1.20-1.7.1.jar",
+      "sha1": "8b70aed9e35ad78fdc2f9fcb94a29dc64ba8d757",
+      "sha512": "ac5a057a9fdafa851fca05be77ba68548082119e0b7ac19f2197e418da703bf60f341e65ec76ddc73003682b89159850f6b9dff65147df3c0c9b8e6f58460ce0",
+      "size": 520148,
+      "published": "2025-04-13T11:20:33.290674Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Dungeons and Taverns",
+      "slug": "dungeons-and-taverns",
+      "project_id": "tpehi7ww",
+      "version": "3.0.3.f+mod",
+      "version_id": "ojHpWOrz",
+      "filename": "dungeons-and-taverns-3.0.3.f.jar",
+      "url": "https://cdn.modrinth.com/data/tpehi7ww/versions/ojHpWOrz/dungeons-and-taverns-3.0.3.f.jar",
+      "sha1": "3f324242f3daf4785a8b9338f228679418f4870a",
+      "sha512": "66008a7439fde95270350433adbff7b74944ad97e216ad165d11b3a023647a8cd18c17aa12ded2a58fa793ff29433e9bcbbd55e6ffd5a3af44f72c1ea12c1089",
+      "size": 13161907,
+      "published": "2024-03-23T22:52:04.593200Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Dungeons and Taverns Ancient City Overhaul",
+      "slug": "dungeons-and-taverns-ancient-city-overhaul",
+      "project_id": "DNuNq5bb",
+      "version": "1+mod",
+      "version_id": "E9Fv5kp6",
+      "filename": "dungeons-and-taverns-ancient-city-overhaul-1.jar",
+      "url": "https://cdn.modrinth.com/data/DNuNq5bb/versions/E9Fv5kp6/dungeons-and-taverns-ancient-city-overhaul-1.jar",
+      "sha1": "c5b4170f6f40dde1c5c7d161f606bccbe3dd2871",
+      "sha512": "750ac05375ecf0d00feeffc5ac25c77d0829cbc825ff07ccb686fdb22ba8a4d30842a99da9069dd0a8877ce4fd0cd42d541cb9a5bc034cc2d6737385882c5505",
+      "size": 691038,
+      "published": "2023-10-07T11:18:10.687843Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Dungeons and Taverns Pillager Outpost Overhaul",
+      "slug": "dungeons-and-taverns-pillager-outpost-overhaul",
+      "project_id": "QIt10I7z",
+      "version": "1.1+mod",
+      "version_id": "kAjXYon3",
+      "filename": "dungeons-and-taverns-pillager-outpost-rework-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/QIt10I7z/versions/kAjXYon3/dungeons-and-taverns-pillager-outpost-rework-1.1.jar",
+      "sha1": "e2c23959ded20b3cc908bf26c1ac621564f2b8c3",
+      "sha512": "bb6ff9ab1a033edb33b1112566858b12f6fcc06f1ceff181d70e7c1679924f1aaa53c70d61c038f0e967f03dec8944d951009cce937fde32599e37fec7ed2cee",
+      "size": 483330,
+      "published": "2023-10-08T18:18:19.934321Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Dungeons and Taverns Stronghold Overhaul",
+      "slug": "dungeons-and-taverns-stronghold-overhaul",
+      "project_id": "rYocd2LE",
+      "version": "1+mod",
+      "version_id": "XcN77mjg",
+      "filename": "dungeons-and-taverns-stronghold-rework-1.jar",
+      "url": "https://cdn.modrinth.com/data/rYocd2LE/versions/XcN77mjg/dungeons-and-taverns-stronghold-rework-1.jar",
+      "sha1": "177e6e6a872bafa93e2ea1e60c7512cc5249c373",
+      "sha512": "36609101925384bc339483680fa260a7f25424b1cd6e3e9477199797a41687415d9bab1c7b2192c1b9a3216b24d98519f6ad6c5fea9f57312971546847796443",
+      "size": 3461111,
+      "published": "2023-10-07T11:14:45.928041Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Dungeons and Taverns Swamp Hut Overhaul",
+      "slug": "dungeons-and-taverns-swamp-hut-overhaul",
+      "project_id": "nWSeFpQt",
+      "version": "1+mod",
+      "version_id": "vXDpyYWK",
+      "filename": "dungeons-and-taverns-swamp-hut-rework-1.jar",
+      "url": "https://cdn.modrinth.com/data/nWSeFpQt/versions/vXDpyYWK/dungeons-and-taverns-swamp-hut-rework-1.jar",
+      "sha1": "2577adcc670427c31eda4b10cf36213323ca4d85",
+      "sha512": "aa2ca06288dd2e3182839f7830b593e79553ba294bb7c18ae7df2a5fd2a360aeff5fced72401111069047285d764da63984ddd79333377cc337e4eb51b3b84cc",
+      "size": 191077,
+      "published": "2023-10-07T11:14:02.064774Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Sophisticated Storage",
+      "slug": "sophisticated-storage",
+      "project_id": "hMlaZH8f",
+      "version": "1.20.1-1.5.1.2158",
+      "version_id": "DIbBd7i5",
+      "filename": "sophisticatedstorage-1.20.1-1.5.1.2158.jar",
+      "url": "https://cdn.modrinth.com/data/hMlaZH8f/versions/DIbBd7i5/sophisticatedstorage-1.20.1-1.5.1.2158.jar",
+      "sha1": "b967e59c35a1d6a6644adebea29f9e3ee1d6d121",
+      "sha512": "72c47ee48389243ef99112d6d8f447ae840b4cd2b317225df315883eb31b2067ff76dfe5e80a2f454c1c43acd9c8f5a08abf661635f3ae9df00df5235f8aa33f",
+      "size": 1919182,
+      "published": "2026-10-06T21:33:14.008029Z",
+      "required_dependencies": [
+        "nmoqTijg"
+      ]
+    },
+    {
+      "name": "Sophisticated Core",
+      "slug": "sophisticated-core",
+      "project_id": "nmoqTijg",
+      "version": "1.20.1-1.5.6.2378",
+      "version_id": "yIBA2SnN",
+      "filename": "sophisticatedcore-1.20.1-1.5.6.2378.jar",
+      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/yIBA2SnN/sophisticatedcore-1.20.1-1.5.6.2378.jar",
+      "sha1": "6b43a36241c8f9ad777efd83a7ea2268af23230a",
+      "sha512": "6a2246e61f0180368bb93ce0992209bef887f37b640a0ddec771b00b0dcdbc299ae0399675163a8f75297f7e6205d8bed8bb12e76ed5bbbd9c5c0eda3805bf1a",
+      "size": 1758791,
+      "published": "2026-10-06T20:51:35.073039Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Sophisticated Backpacks",
+      "slug": "sophisticated-backpacks",
+      "project_id": "TyCTlI4b",
+      "version": "1.20.1-3.26.9.2194",
+      "version_id": "nSVHlIzZ",
+      "filename": "sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/nSVHlIzZ/sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+      "sha1": "315a8151c0e89c71ae165e33bcfcfccc762a1766",
+      "sha512": "6d78f290fd4acb5e856da8e7f105d626fbb8d416439b2676f89f4239b56f3c146c1bd9df2a2119a07df24904bc4a598eeb8c17389424f75d18845564f01b9c98",
+      "size": 1215727,
+      "published": "2026-10-06T20:59:47.874004Z",
+      "required_dependencies": [
+        "nmoqTijg"
+      ]
+    },
+    {
+      "name": "Paladins & Priests (RPG Series)",
+      "slug": "paladins-and-priests",
+      "project_id": "FxXkHaLe",
+      "version": "3.1.3+1.20.1-forge",
+      "version_id": "yfIyqewm",
+      "filename": "paladins-forge-3.1.3+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/FxXkHaLe/versions/yfIyqewm/paladins-forge-3.1.3%2B1.20.1.jar",
+      "sha1": "75a36f6ecc29163b5b6335465d9353bd68e7293a",
+      "sha512": "aa4e2cf4e556af0647df14ccfc9d7874b0866319aeea0f29d531e07d706a29e819837a4185a2ec4a78fc1d763675ad03c87fb2d5d0d430b77fb1d1facf1563c4",
+      "size": 3119695,
+      "published": "2026-09-28T22:26:27.927614Z",
+      "required_dependencies": [
+        "XvoWJaA2",
+        "LrYZi08Q",
+        "onz2NN2n"
+      ]
+    },
+    {
+      "name": "Spell Engine",
+      "slug": "spell-engine",
+      "project_id": "XvoWJaA2",
+      "version": "1.10.10+1.20.1-forge",
+      "version_id": "jZqwFTXe",
+      "filename": "spell_engine-forge-1.10.10+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/XvoWJaA2/versions/jZqwFTXe/spell_engine-forge-1.10.10%2B1.20.1.jar",
+      "sha1": "091f75239af7503c1960e3fa197021b5c5694d4b",
+      "sha512": "7756bf1ae0a610aabc29cb35a87f46090d897ee89cc3ce77907ed404b90598911b65398fc9f9f3afd3eaa150b7f102e78049a56e17bb80a446a69860f70b1c1d",
+      "size": 5317252,
+      "published": "2026-10-03T10:49:23.839633Z",
+      "required_dependencies": [
+        "9s6osm5g",
+        "vvuO3ImH",
+        "8ooWzSQP",
+        "gedNE4y2"
+      ]
+    },
+    {
+      "name": "Spell Power Attributes",
+      "slug": "spell-power",
+      "project_id": "8ooWzSQP",
+      "version": "1.6.1+1.20.1-forge",
+      "version_id": "ko7p47uf",
+      "filename": "spell_power-forge-1.6.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/8ooWzSQP/versions/ko7p47uf/spell_power-forge-1.6.1%2B1.20.1.jar",
+      "sha1": "11073d202f70e543d46ceda95e264652ebafd558",
+      "sha512": "d86a6e016706321ed9ba0709f4064d494919fef4342caef4876b90217c99d25343e2cc0099c5fe1b6ebf2b8045a67ed3731d0757ac7a0be6b59bca359bb83785",
+      "size": 233501,
+      "published": "2026-09-26T14:39:12.121354Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Structure Pool API",
+      "slug": "structure-pool-api",
+      "project_id": "LrYZi08Q",
+      "version": "1.2.1+1.20.1-forge",
+      "version_id": "NJgGaMco",
+      "filename": "structure_pool_api-forge-1.2.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LrYZi08Q/versions/NJgGaMco/structure_pool_api-forge-1.2.1%2B1.20.1.jar",
+      "sha1": "4a90478fd7c3cd0f4321ca3e9a2f4baec11d84c1",
+      "sha512": "7aca3f69e905afe829792523f97aa726bc98bd03ee30432f656386c2dc6d00a714d8a306bc7009cdf874a4773346278104a5648ecfffc887d7753b39ac6cac15",
+      "size": 761800,
+      "published": "2026-09-10T23:11:19.874956Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Armor Model API",
+      "slug": "armor-model-api",
+      "project_id": "onz2NN2n",
+      "version": "1.0.0+1.20.1-forge",
+      "version_id": "HzpM9IVR",
+      "filename": "armor_model_api-forge-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/onz2NN2n/versions/HzpM9IVR/armor_model_api-forge-1.0.0%2B1.20.1.jar",
+      "sha1": "c5c6613cc3d982fba0e4a378ecbb3ea09d78df23",
+      "sha512": "d8ae7bf65e4673e3412521ad5b8e7fd1e39857c59eab8529b796ec62f8196cb706ffcf6e7a0dd7d936dfc66cd89c0ba9fa8abf2dd3130c3bbb5914e40824a1ff",
+      "size": 86757,
+      "published": "2026-09-10T22:23:59.911975Z",
+      "required_dependencies": []
+    },
+    {
+      "name": "Rogues & Warriors (RPG Series)",
+      "slug": "rogues-and-warriors",
+      "project_id": "3MKqoGuP",
+      "version": "3.1.3+1.20.1-forge",
+      "version_id": "lxNUs0rP",
+      "filename": "rogues-forge-3.1.3+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3MKqoGuP/versions/lxNUs0rP/rogues-forge-3.1.3%2B1.20.1.jar",
+      "sha1": "c97ab6f673162359d53d3a71e154cbb9f4592c38",
+      "sha512": "a212f8d1f0c9883cd986e923e597bd026c1f8ce49de6d91719839592ae5809ba4f24056a0d306fda7f45428a0995490470d0cb320e21abcd7504201912b132c4",
+      "size": 1761703,
+      "published": "2026-09-28T22:26:45.126593Z",
+      "required_dependencies": [
+        "onz2NN2n",
+        "XvoWJaA2",
+        "LrYZi08Q"
+      ]
+    },
+    {
+      "name": "Wizards (RPG Series)",
+      "slug": "wizards",
+      "project_id": "NkGaQMDA",
+      "version": "3.1.3+1.20.1-forge",
+      "version_id": "fJVyOLhX",
+      "filename": "wizards-forge-3.1.3+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/NkGaQMDA/versions/fJVyOLhX/wizards-forge-3.1.3%2B1.20.1.jar",
+      "sha1": "c1b9046ae11d10d4ed2ef28daeaf5b5a26d60649",
+      "sha512": "4873f3c021cbe32a8e734195b5f8c890327ad4b5e5127a2bb659847602e6c37361a8a269aee38175c05a1850c65f722ba0b66b71c15c3506b8ae2eacf0545e02",
+      "size": 4525440,
+      "published": "2026-09-28T22:25:55.528968Z",
+      "required_dependencies": [
+        "LrYZi08Q",
+        "XvoWJaA2",
+        "onz2NN2n"
+      ]
+    },
+    {
+      "name": "Archers (RPG Series)",
+      "slug": "archers",
+      "project_id": "QgooUXAJ",
+      "version": "3.1.4+1.20.1-forge",
+      "version_id": "soTw31yz",
+      "filename": "archers-forge-3.1.4+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/QgooUXAJ/versions/soTw31yz/archers-forge-3.1.4%2B1.20.1.jar",
+      "sha1": "118b023fe1b89b7fd5a8e00f36388f72db36aab1",
+      "sha512": "083da3d2c5367fdf1475f75008e8635e759fccefdb2545bbb1cce89394f2a75b70f7f4fe391946d7870d0407286d73613dd630f3dffc23fa6df71727c897e5cd",
+      "size": 993040,
+      "published": "2026-09-28T23:01:51.227281Z",
+      "required_dependencies": [
+        "AqaIIO6D",
+        "onz2NN2n",
+        "XvoWJaA2",
+        "LrYZi08Q"
+      ]
+    },
+    {
+      "name": "Create: Structures",
+      "slug": "create-structures",
+      "project_id": "IAnP4np7",
+      "version": "0.1.1",
+      "version_id": "XALEBs0a",
+      "filename": "create-structures-0.1.1-1.20.1-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/IAnP4np7/versions/XALEBs0a/create-structures-0.1.1-1.20.1-FORGE.jar",
+      "sha1": "6bd0a029f7ae4e400b55f8355f73e69dc31bd1a8",
+      "sha512": "3a6ea50b29c8209bb51d2742b94e3b6d6e43deba0ef4b1509cbeccbc1bcfb953105627ff0188c8176928140b05cb1fe6c4de5d4dfcd530f6c36c952f2db43743",
+      "size": 484781,
+      "published": "2023-07-08T23:26:40.901469Z",
+      "required_dependencies": [],
+      "release_filter_exception": "beta pinned deliberately: the only 1.20.1 Forge build of Create: Structures (0.1.1, 2023) and CTOV - Create: Structures requires it. Built against an older Create than the pinned 6.0.8; verify it loads."
+    },
+    {
+      "name": "CTOV - Create: Structures",
+      "slug": "ctov-create-structures",
+      "project_id": "l9fldtN4",
+      "version": "1.0+mod",
+      "version_id": "hwClzDIs",
+      "filename": "ctov-create-structures-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/l9fldtN4/versions/hwClzDIs/ctov-create-structures-1.0.jar",
+      "sha1": "0df9a99982e36f86dc1b6fd5b4c753af3c84e5ae",
+      "sha512": "105e53ae17a14f918c88f47a0465ad836f3000073813b5538bf9b5f72204050106d8d0813561c466306d16a76b6030c1394543968588d8dba8c19b972e9c3895",
+      "size": 106910,
+      "published": "2023-10-29T13:00:59.864042Z",
+      "required_dependencies": [
+        "fgmhI8kH",
+        "IAnP4np7"
+      ]
+    },
+    {
+      "name": "Embeddium",
+      "slug": "embeddium",
+      "project_id": "sk9rgfiA",
+      "version": "0.3.31+mc1.20.1",
+      "version_id": "UTbfe5d1",
+      "filename": "embeddium-0.3.31+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar",
+      "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+      "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9",
+      "size": 1320675,
+      "published": "2024-08-31T23:11:49.184634Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Entity Culling",
+      "slug": "entityculling",
+      "project_id": "NNAgCjsB",
+      "version": "1.11.2",
+      "version_id": "HPDH6g5B",
+      "filename": "entityculling-forge-1.11.2-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/HPDH6g5B/entityculling-forge-1.11.2-mc1.20.1.jar",
+      "sha1": "856ef2e3c5bbde87fa5f06515c42fbca8af24a74",
+      "sha512": "4c5e6f02a426218ecaf1625d9bf5db1306858c810402ba9269271e0df064e8975c0fdfa3b09bf44152593d216c7f0c1b079cde40e05fa998e8cb5d0cf50ae66b",
+      "size": 1515048,
+      "published": "2026-09-21T19:46:39.163952Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "ImmediatelyFast",
+      "slug": "immediatelyfast",
+      "project_id": "5ZwdcRci",
+      "version": "1.5.5+1.20.4-forge",
+      "version_id": "rvsLEEZU",
+      "filename": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/rvsLEEZU/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
+      "sha1": "9eacd407b7dea636d375dc47335d92f616484ea2",
+      "sha512": "8fab0605880f6b3875dc6d9d7bc8d69612a3e61a0bfc5adeac3240248715042f04885a09bc4d29383ab809cfc536dff84c6150af56ebd8f08128a1c42909c323",
+      "size": 532063,
+      "published": "2026-06-30T21:36:34.225717Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Dynamic FPS",
+      "slug": "dynamic-fps",
+      "project_id": "LQ3K71Q1",
+      "version": "3.11.4",
+      "version_id": "EjdIWWqG",
+      "filename": "dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/EjdIWWqG/dynamic-fps-3.11.4%2Bminecraft-1.20.0-forge.jar",
+      "sha1": "43b3e0766a9e7a30651cc01756476657b865b7a2",
+      "sha512": "a8234d0c1b4c7a75c7b05b280a5a120dc090be2c252bf4235e34f53751aa74ea2c23614913f1fd7b43d4a841e96e178c8fd935a7630634316821139a056b3237",
+      "size": 402345,
+      "published": "2026-01-29T18:21:07.575954Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Clumps",
+      "slug": "clumps",
+      "project_id": "Wnxd13zP",
+      "version": "12.0.0.4",
+      "version_id": "nAHGB5ls",
+      "filename": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "sha1": "8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c",
+      "sha512": "ffd8ff2438e9f9d260d3926ccdd0cccc4772c6f99f29715690aed4f6e97a76035f3aeaa78168e2a458bc4cccf521e97ebdb6e0b61c819facb04af9ebb3638383",
+      "size": 20300,
+      "published": "2024-04-21T05:04:09.708311Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "optional"
+      }
+    },
+    {
+      "name": "Memory Leak Fix",
+      "slug": "memoryleakfix",
+      "project_id": "NRjRiSSD",
+      "version": "v1.1.5",
+      "version_id": "3w0IxNtk",
+      "filename": "memoryleakfix-forge-1.17+-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5.jar",
+      "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
+      "sha512": "f4d7b0eb70a605ffb81bebd24fd125d8c0bc7917c3e00f27bee64988836323de5a3d205e89a4a5f8ae75741ca874f62996e7c8e5ed489dc3c1824337e93d263f",
+      "size": 227925,
+      "published": "2024-01-06T15:23:23.935326Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "optional"
+      }
+    },
+    {
+      "name": "Async Locator",
+      "slug": "async-locator",
+      "project_id": "rkN8aqci",
+      "version": "1.20-1.3.0",
+      "version_id": "Eip0qUwF",
+      "filename": "async-locator-forge-1.20-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/rkN8aqci/versions/Eip0qUwF/async-locator-forge-1.20-1.3.0.jar",
+      "sha1": "fa8e3d65644e5bf1ea62f1ba3c94b0982dfb7357",
+      "sha512": "84cfbd80bf0a5a53ffa42f1c154e8f5991f27e5924df011849693e00310a2654962f9d9e1aaa237931d8fcc2fe13bd2908f1cd92261b1fed8d5fa2b685d83194",
+      "size": 264951,
+      "published": "2023-06-22T18:23:11.502437Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Noisium",
+      "slug": "noisium",
+      "project_id": "KuNKN7d2",
+      "version": "2.3.0+mc1.20-1.20.1",
+      "version_id": "gbYUKrDP",
+      "filename": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/gbYUKrDP/noisium-forge-2.3.0%2Bmc1.20-1.20.1.jar",
+      "sha1": "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808",
+      "sha512": "5bc43bc1b748edcd63d074a8bb14d393d986c51e1933e1f38cd7a2dd2fd70dba5a46a6415f46d4a52c68e7e1e9ce101e54376ad04273df958608e2fdb43db502",
+      "size": 218152,
+      "published": "2024-08-21T17:24:14.967570Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "required"
+      }
+    },
+    {
+      "name": "spark",
+      "slug": "spark",
+      "project_id": "l6YH9Als",
+      "version": "1.10.53-forge",
+      "version_id": "4FXHDE9F",
+      "filename": "spark-1.10.53-forge.jar",
+      "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/4FXHDE9F/spark-1.10.53-forge.jar",
+      "sha1": "231fb325368c0660954f47bfb03493f5246fa4d1",
+      "sha512": "15c6a3753dcba380624643a1e19c856240e8f6bed280f908e1be12c6154a86284ac86405c806273842975e0b7270af93ea9b1db5cf575a3853e54e1088cf7343",
+      "size": 3114590,
+      "published": "2023-09-05T08:02:29.569207Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "optional"
+      }
+    },
+    {
+      "name": "AmbientSounds",
+      "slug": "ambientsounds",
+      "project_id": "fM515JnW",
+      "version": "6.3.9",
+      "version_id": "EPxVyOnf",
+      "filename": "AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/EPxVyOnf/AmbientSounds_FORGE_v6.3.9_mc1.20.1.jar",
+      "sha1": "28441539a998b5e0822176d8db7b8594042bacbf",
+      "sha512": "7d77e7e6658d7952124d3fd5707baceda6a2bfc14fe394841e6230b42deb859adfa017b82cedefd2bce3d70bc2ec3060f7d525e55ab8ce7fa2887a2ad81adcf4",
+      "size": 53431801,
+      "published": "2026-10-02T12:11:00.069051Z",
+      "required_dependencies": [
+        "OsZiaDHq"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "CreativeCore",
+      "slug": "creativecore",
+      "project_id": "OsZiaDHq",
+      "version": "2.12.40",
+      "version_id": "ChKayKur",
+      "filename": "CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/ChKayKur/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+      "sha1": "f8b65310e0183630dd00c1ade12f9b6ecd243287",
+      "sha512": "c883749ebe3825694c9d7aad6f406ca6c30de70ca7621cbafb7ebbfaa54766db065b5abd66f42827abca19b25983b2884c425934f6d04d629dc9fa731fe9aa0c",
+      "size": 1144290,
+      "published": "2026-09-22T14:13:33.301564Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "optional"
+      }
+    },
+    {
+      "name": "Immersive Weathering",
+      "slug": "immersive-weathering",
+      "project_id": "jkskOO9i",
+      "version": "1.20.1-2.0.5",
+      "version_id": "Fl2lADP9",
+      "filename": "immersive_weathering-1.20.1-2.0.5-forge.jar",
+      "url": "https://cdn.modrinth.com/data/jkskOO9i/versions/Fl2lADP9/immersive_weathering-1.20.1-2.0.5-forge.jar",
+      "sha1": "d89ad3793ffb97df27f415ac6cc07c61460dd9f3",
+      "sha512": "4715d06078855f65d585530453deed62ca55e66ed9455e56dff77294a17c5106ab7aa9d117f34629d4d7b420b1b6e379b8d60e231d6327a9cb0a847aabab0e33",
+      "size": 2269048,
+      "published": "2025-01-23T16:19:48.875682Z",
+      "required_dependencies": [
+        "twkfQtEc"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Sodium Dynamic Lights",
+      "slug": "sodium-dynamic-lights",
+      "project_id": "PxQSWIcD",
+      "version": "forge-1.20.1-1.0.10",
+      "version_id": "I156ee3A",
+      "filename": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9",
+      "sha512": "b8527199be5a8b4bc758a4f320586b5886e6ff657718f52d464386b1e3c695d7bfe644e2ef9487a869c93c0866818995ecd47b9e1a19054929242682e37f58b7",
+      "size": 511601,
+      "published": "2025-01-02T01:22:44.551718Z",
+      "required_dependencies": [
+        "Es5v4eyq"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Sodium Options API",
+      "slug": "sodium-options-api",
+      "project_id": "Es5v4eyq",
+      "version": "forge-1.20.1-1.0.10",
+      "version_id": "d0EFLitO",
+      "filename": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
+      "sha512": "20b11f1582df3df3d351e0cffcfc8b97453e2d73164fbad46d3f4eb960cab57d8f708d84b818782ef019d5cd9494ce001161f753623680516a191d6f510ebb79",
+      "size": 443978,
+      "published": "2025-01-18T20:48:20.566320Z",
+      "required_dependencies": [
+        "sk9rgfiA"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Visual Workbench",
+      "slug": "visual-workbench",
+      "project_id": "kfqD1JRw",
+      "version": "v8.0.1-1.20.1-Forge",
+      "version_id": "qaWEHDC3",
+      "filename": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/qaWEHDC3/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+      "sha1": "563804910a7ebb1082c1eedca363b16e2c572459",
+      "sha512": "f6167cf80d9163d1beae3dce898949a0b08afe9da099b030d95144a9a8de69021f7d1eaf0a93ce10ef12f5117d18d3fe124ff35b2ae76328da1c307ca96016c8",
+      "size": 82557,
+      "published": "2025-07-22T10:03:27.035744Z",
+      "required_dependencies": [
+        "QAGBst4M"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "JourneyMap",
+      "slug": "journeymap",
+      "project_id": "lfHFW1mp",
+      "version": "1.20.1-6.0.7+forge",
+      "version_id": "HWDC99DO",
+      "filename": "journeymap-forge-1.20.1-6.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/HWDC99DO/journeymap-forge-1.20.1-6.0.7.jar",
+      "sha1": "fb9411d6d516f604a8fa63ba505205d813d7caa1",
+      "sha512": "93f8514bb8bb24f31b67991940a2075ef9889e3eff2e57a6c1bc98828e3315c37d96c025e73318a2209602bfea71a0b3d2fd415bb347076b0c8a1daafae11746",
+      "size": 4353808,
+      "published": "2026-10-03T17:50:22.573855Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "optional"
+      }
+    },
+    {
+      "name": "Oculus",
+      "slug": "oculus",
+      "project_id": "GchcoXML",
+      "version": "1.20.1-1.8.0",
+      "version_id": "iQ1SwGc3",
+      "filename": "oculus-mc1.20.1-1.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
+      "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+      "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5",
+      "size": 2851119,
+      "published": "2024-12-24T23:33:42.216148Z",
+      "required_dependencies": [
+        "sk9rgfiA"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Mouse Tweaks",
+      "slug": "mouse-tweaks",
+      "project_id": "aC3cM3Vq",
+      "version": "1.20.1-2.25.1-forge",
+      "version_id": "7JVXOe3K",
+      "filename": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+      "sha512": "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb",
+      "size": 76237,
+      "published": "2024-05-12T16:27:50.280746Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Controlling",
+      "slug": "controlling",
+      "project_id": "xv94TkTM",
+      "version": "12.0.2",
+      "version_id": "LH6Bi6Am",
+      "filename": "Controlling-forge-1.20.1-12.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar",
+      "sha1": "6195a3d1464f8fb641d7e165163aea1a857ce08e",
+      "sha512": "3945bf3f6d843957f13584dfc70bede253d1e48f0dcb96f647fbcc6fcd3d1748a0dd9c6ca5c882e07a41f98eb84057934f51e43ab6023ed0a19695de2e6fe9f5",
+      "size": 115280,
+      "published": "2023-07-16T04:39:30.644589Z",
+      "required_dependencies": [
+        "fuuu3xnx"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Searchables",
+      "slug": "searchables",
+      "project_id": "fuuu3xnx",
+      "version": "1.0.3",
+      "version_id": "PM9yAW1G",
+      "filename": "Searchables-forge-1.20.1-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar",
+      "sha1": "5b976f6e76ec74cdef21865e31f56bcb11558db7",
+      "sha512": "185617d6d446f3d4ef6c7d5c6ee4e2fb731a89f7495157313b21292ec6b8e3dbcc10c0379ab49ecb2d0c64d0a78df74750d7f7336d5e6c43516a7c92f278c0a2",
+      "size": 77732,
+      "published": "2024-04-23T06:56:56.381361Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Better Third Person",
+      "slug": "better-third-person",
+      "project_id": "G1s2WpNo",
+      "version": "1.9.0",
+      "version_id": "XkYduFuv",
+      "filename": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/XkYduFuv/BetterThirdPerson-Forge-1.20-1.9.0.jar",
+      "sha1": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
+      "sha512": "ae854893f17c3e42825e88119f4bd6be8948612494780194cb1c1cd5d65d571c91e7222c286cb734b3af363f927a6be8ad05347cd2c3fec6e1874b4aaac14c7b",
+      "size": 61525,
+      "published": "2023-09-25T17:49:19.507911Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Villager Recruits",
+      "slug": "villager-recruits",
+      "project_id": "WOg9lm4u",
+      "version": "1.15.2",
+      "version_id": "2zXpVxK4",
+      "filename": "recruits-1.20.1-1.15.2.jar",
+      "url": "https://cdn.modrinth.com/data/WOg9lm4u/versions/2zXpVxK4/recruits-1.20.1-1.15.2.jar",
+      "sha1": "8d2ed3f0ab18c67a1d9394526bcae47b3ec162ab",
+      "sha512": "4e96966eca175cc362d5b675c3c08a70ad8ae15b058b445d93b1db95ff87e2cac8ffa37e7e9218d46df52ad704389642d7bda1d4cfa9581ac2d62553d708f61f",
+      "size": 2811101,
+      "published": "2026-06-29T10:00:57.489977Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Ars Nouveau",
+      "slug": "ars-nouveau",
+      "project_id": "TKB6INcv",
+      "version": "4.12.7",
+      "version_id": "Hw2aD01e",
+      "filename": "ars_nouveau-1.20.1-4.12.7-all.jar",
+      "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/Hw2aD01e/ars_nouveau-1.20.1-4.12.7-all.jar",
+      "sha1": "6c23a97d771ea7ad43bee9bd71d2f2a1f2084170",
+      "sha512": "f3e3abf260fb3ef4c5b6b7324c055802135f82f4c550986f4e93b1a186c9b495cd8b6396ed89ab088b95e6176c0b9e290ccc69a528c521cd1bff19935ac36836",
+      "size": 12430237,
+      "published": "2025-06-23T21:54:13.991992Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Lightman's Currency",
+      "slug": "lightmans-currency",
+      "project_id": "wvMc8AJt",
+      "version": "1.20.1-2.3.0.6",
+      "version_id": "CmqiNDe3",
+      "filename": "lightmanscurrency-1.20.1-2.3.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/wvMc8AJt/versions/CmqiNDe3/lightmanscurrency-1.20.1-2.3.0.6.jar",
+      "sha1": "203a6c9fedc2606095ac80cd561c513c952a3a10",
+      "sha512": "3c32ccea9b7533ae72b4758c8d4655e72ae6282c39dd53d297a394da6b27861d7560ac2ffdc297ed14dcca11e902539601a7e34af44ddce3a2ebfbf4bf6e39df",
+      "size": 10445573,
+      "published": "2026-10-03T15:31:47.168621Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Falling Leaves (NeoForge/Forge)",
+      "slug": "fallingleavesforge",
+      "project_id": "2JAUNCL4",
+      "version": "1.20.1-2.1.2",
+      "version_id": "j5eND1ZA",
+      "filename": "fallingleaves-1.20.1-2.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/j5eND1ZA/fallingleaves-1.20.1-2.1.2.jar",
+      "sha1": "b890536f44a5c0a49f2b1f4af91c17d948b4ef4d",
+      "sha512": "462eda39b0ae6ec6c40f8c538e30a0acf343ccb0d45eb188c77ad1410cab09b607eb9e0f7b791411aca1e6224415485ee635d5b0f83647aecbf1642bdb7b29cd",
+      "size": 124212,
+      "published": "2025-02-26T21:13:12.002100Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "name": "Alex's Mobs",
+      "slug": "alexs-mobs",
+      "project_id": "2cMuAZAp",
+      "version": "1.22.9",
+      "version_id": "XoIASRVU",
+      "filename": "alexsmobs-1.22.9.jar",
+      "url": "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar",
+      "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+      "sha512": "b50280057926d750f9ffbf6a8df36deb37529356895f6bf59f25d272ecf69afccec65ec1a5c3a8bfad24f9475c15b93c5ec4666447b1fce26a90c41445bbfb04",
+      "size": 26350793,
+      "published": "2024-09-06T21:39:41.100913Z",
+      "required_dependencies": [
+        "jJfV67b1"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Citadel",
+      "slug": "citadel",
+      "project_id": "jJfV67b1",
+      "version": "2.6.3",
+      "version_id": "lTAAe4sZ",
+      "filename": "citadel-2.6.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar",
+      "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+      "sha512": "42e3fa0ddefb1ebdbba4242d81caede834cd0bbd96e4e90b12b2157a5b07c68b625f64046de1f9e1ad4d6056d3536e17207be5f4b24960582052d713b13f22c0",
+      "size": 3185275,
+      "published": "2026-01-17T18:17:35.005213Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Immersive Armors",
+      "slug": "immersive-armors",
+      "project_id": "eE2Db4YU",
+      "version": "1.7.2+1.20.1",
+      "version_id": "ZPdUJXFG",
+      "filename": "immersive_armors-1.7.2+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/eE2Db4YU/versions/ZPdUJXFG/immersive_armors-1.7.2%2B1.20.1-forge.jar",
+      "sha1": "9c4fb7f1287470353125a9c4b61047c7009e1949",
+      "sha512": "acee2a8381577a85626217a8f7ea9bd862984cdfc8b2c81ea096bd299ea6850491f6335a9774d6c83631db1b433a8b87042f1630250d10415fc37edd2f45428e",
+      "size": 1264260,
+      "published": "2026-05-12T07:36:42.313661Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Dungeon Crawl",
+      "slug": "dungeoncrawl",
+      "project_id": "q0rRg4lH",
+      "version": "2.3.15",
+      "version_id": "MJrfb4gi",
+      "filename": "Dungeon Crawl-1.20.1-2.3.15.jar",
+      "url": "https://cdn.modrinth.com/data/q0rRg4lH/versions/MJrfb4gi/Dungeon%20Crawl-1.20.1-2.3.15.jar",
+      "sha1": "e17ebc9be0b3f0646f2de10563b72827442cc866",
+      "sha512": "90a9d1fb91a90bd3cb65a392df6f2482e7f45c8fbb60adb8d15b2400ef3d5932a555a36a94ab37e32fd1fa9463ff9931251585021528f98d62e9df527b65e4d8",
+      "size": 758123,
+      "published": "2025-01-02T22:39:04.741924Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "required"
+      }
+    },
+    {
+      "name": "L2 Weaponry",
+      "slug": "l2weaponry",
+      "project_id": "7q7kOZix",
+      "version": "2.6.3",
+      "version_id": "lEskBqzd",
+      "filename": "l2weaponry-2.6.3.jar",
+      "url": "https://cdn.modrinth.com/data/7q7kOZix/versions/lEskBqzd/l2weaponry-2.6.3.jar",
+      "sha1": "b10cf5cf327ef6f197fb3611ff5ab1948e78ffe4",
+      "sha512": "ad169a3e9bc85fa93d0b51d6738ee73d30cbb70c67cf69956c96d354c3376d742793acf4d4a5f0108aaf54b8ee6fc48a3c512d6c9e2681b599b2ff28184037c1",
+      "size": 2635937,
+      "published": "2026-08-05T13:19:56.011878Z",
+      "required_dependencies": [
+        "4Vh3BQ3F",
+        "oPrh2Lz3"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "L2 Library",
+      "slug": "l2library",
+      "project_id": "4Vh3BQ3F",
+      "version": "2.5.3",
+      "version_id": "lg7mW3eS",
+      "filename": "l2library-2.5.3.jar",
+      "url": "https://cdn.modrinth.com/data/4Vh3BQ3F/versions/lg7mW3eS/l2library-2.5.3.jar",
+      "sha1": "c794e80a833fefd3607fc2620260c20bea8855aa",
+      "sha512": "0bb32aaadb06e6d107072da17a07816c79f9d62ee2cb4bfb40ca200090140a33de993f27deb6f5fffc1feb82766c1972bfdd9cb56c424a4ceb2ba0fceb7baa04",
+      "size": 915071,
+      "published": "2025-08-02T04:21:49.876060Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "L2 Complements",
+      "slug": "l2-complements",
+      "project_id": "oPrh2Lz3",
+      "version": "2.6.1",
+      "version_id": "TvdiYrC4",
+      "filename": "l2complements-2.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/oPrh2Lz3/versions/TvdiYrC4/l2complements-2.6.1.jar",
+      "sha1": "7f00690dcc850e65cae7fc6012cec37fee8664b0",
+      "sha512": "fcb5967064ce902e6bffc1cef705cc59dafc1a941a0774d68289e2933c6bdbb5db399ab59543f663234a2061e6ade1d1f071704483aec6bd6c7f0d540ffe41b0",
+      "size": 1211184,
+      "published": "2026-02-10T23:05:43.324727Z",
+      "required_dependencies": [
+        "4Vh3BQ3F"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Jaden's Nether Expansion",
+      "slug": "jadens-nether-expansion",
+      "project_id": "v3UlehfS",
+      "version": "2.3.5",
+      "version_id": "mWogGDsB",
+      "filename": "Jadens-Nether-Expansion-2.3.5.jar",
+      "url": "https://cdn.modrinth.com/data/v3UlehfS/versions/mWogGDsB/Jadens-Nether-Expansion-2.3.5.jar",
+      "sha1": "bfb10b56cb5dcc34f3643472aa09bc4120808d31",
+      "sha512": "eb33d925442a0dcd93b8955b00abca2911fd7871e255d6f76951ef4e39211de2fa3b2666a81b19e2355cbd0c965bc6b03bbb17c70546e719f0010798a497d625",
+      "size": 23488061,
+      "published": "2025-07-04T10:14:23.619336Z",
+      "required_dependencies": [
+        "6YTvv3aI"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Elysium API",
+      "slug": "elysium-api",
+      "project_id": "6YTvv3aI",
+      "version": "1.20.1-1.1.3",
+      "version_id": "SqTYKsC6",
+      "filename": "ElysiumAPI-1.20.1-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/6YTvv3aI/versions/SqTYKsC6/ElysiumAPI-1.20.1-1.1.3.jar",
+      "sha1": "2ef237d14ea228118daf2e20827bb45abb92b02a",
+      "sha512": "60da824cd2e6d599aee882a7cb2bbdf5974471abd72486d2f70b3150df1cd5ffa69af3d5d52266f78463ad28f44dc22aad6b502b0b6b1d06181a6692e0b88a1f",
+      "size": 107624,
+      "published": "2025-05-29T09:08:33.715136Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "optional"
+      }
+    },
+    {
+      "name": "Incendium Legacy",
+      "slug": "incendium",
+      "project_id": "ZVzW5oNS",
+      "version": "5.3.5",
+      "version_id": "uUqarp2H",
+      "filename": "Incendium_1.20.x_v5.3.5.jar",
+      "url": "https://cdn.modrinth.com/data/ZVzW5oNS/versions/uUqarp2H/Incendium_1.20.x_v5.3.5.jar",
+      "sha1": "484556937b1b2dde2682144e7953e79bff717104",
+      "sha512": "04944dcbf3aa7ee8ea8785549e00f74a417ca17aa5760593e39090733ab0a9e38ebce078e4f5af544030759a5459c371003601ff5a7feebbc09765f8c712bb25",
+      "size": 4638945,
+      "published": "2024-05-17T19:39:09.602406Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Nullscape",
+      "slug": "nullscape",
+      "project_id": "LPjGiSO4",
+      "version": "1.2.8",
+      "version_id": "QsRKydVt",
+      "filename": "Nullscape_1.20.x_v1.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/LPjGiSO4/versions/QsRKydVt/Nullscape_1.20.x_v1.2.8.jar",
+      "sha1": "e4afd980e788f1861d8a8263bc700312667df977",
+      "sha512": "fcd11f20ab1b374a219e915156c8439f2d6fcabb060406f4d0a11392f945228e1c6e375f8e9e3048ac01c3a351c88bde4327e1f958bfd5ef4ab81c178f9e35da",
+      "size": 399214,
+      "published": "2024-09-26T16:58:03.670196Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "required"
+      }
+    },
+    {
+      "name": "MES - Moog's End Structures",
+      "slug": "mes-moogs-end-structures",
+      "project_id": "r4PuRGfV",
+      "version": "2.1.0",
+      "version_id": "ROvChtQg",
+      "filename": "MoogsEndStructures-universal-1.20-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/r4PuRGfV/versions/ROvChtQg/MoogsEndStructures-universal-1.20-2.1.0.jar",
+      "sha1": "a581935313f819fe67bbe810e03fb8a44b356089",
+      "sha512": "2638eb5697278f63dc06095702f0cfc1258cf59526be23ac19d5866f33c3f04c5079218eea656dd3ecbd9dc2fdbc5492037625cf9c7a2e9deaa2ece8943e38f1",
+      "size": 2546120,
+      "published": "2026-09-07T19:29:12.931658Z",
+      "required_dependencies": [
+        "1oUDhxuy"
+      ],
+      "env": {
+        "client": "optional",
+        "server": "required"
+      }
+    },
+    {
+      "name": "Moog's Structure Lib (moogs_structures)",
+      "slug": "moogs-structure-lib",
+      "project_id": "1oUDhxuy",
+      "version": "3.4.2-forge-1.20",
+      "version_id": "zuKYMmUt",
+      "filename": "MoogsStructureLib-forge-1.20-3.4.2.jar",
+      "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/zuKYMmUt/MoogsStructureLib-forge-1.20-3.4.2.jar",
+      "sha1": "f91a62466de6e9b3a1166a1e88a837668cbb6eae",
+      "sha512": "650dde1ff953fc8fa2c45e53a2ea47fbadc246caa16d1054acec964283fa191eab3c8044c6e074edfb2986ab3045607f541f2a62ba50791ab8f41a8a88f46ab8",
+      "size": 1089534,
+      "published": "2026-10-03T13:20:25.563952Z",
+      "required_dependencies": [],
+      "env": {
+        "client": "optional",
+        "server": "required"
+      }
+    }
+  ],
+  "curseforge_mods": [
+    {
+      "name": "FTB Library",
+      "slug": "ftb-library-forge",
+      "project_id": 404465,
+      "file_id": 8226927,
+      "version": "2001.2.13",
+      "filename": "ftb-library-forge-2001.2.13.jar",
+      "url": "https://edge.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar",
+      "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e",
+      "sha512": "433c890fc64b31f140cdb92c6f03f78400bcc105229d1026dbbecb027ff75a8e2f94af5b1eef083d7cf3d37a9afa176731bc59cfeb771d01738353f9f1c113bf",
+      "size": 780558,
+      "required_dependencies": [
+        "architectury"
+      ],
+      "forge_requirement": ">=47.3.0"
+    },
+    {
+      "name": "FTB Teams",
+      "slug": "ftb-teams-forge",
+      "project_id": 404468,
+      "file_id": 7499810,
+      "version": "2001.3.2",
+      "filename": "ftb-teams-forge-2001.3.2.jar",
+      "url": "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+      "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e",
+      "sha512": "45f8980fa1cfcb7cd772f6a03abb0ac680f7c502dc569839e325553dcaa9105148a2c27a214cd1f1131f6b06bca957f8dd01dfb4a1ccb8e13d49502513480cae",
+      "size": 252579,
+      "required_dependencies": [
+        "ftb_library",
+        "architectury"
+      ],
+      "forge_requirement": ">=47.1.47"
+    },
+    {
+      "name": "FTB Quests",
+      "slug": "ftb-quests-forge",
+      "project_id": 289412,
+      "file_id": 8078538,
+      "version": "2001.4.22",
+      "filename": "ftb-quests-forge-2001.4.22.jar",
+      "url": "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+      "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa",
+      "sha512": "7ffec667d4bb73e33e1815655361c93a7564d9040af937b26035bfa3cc26f6125962f173c623eb71cf949b0b0a49181a0459648007b3054e97150bd72fcc0bf8",
+      "size": 1255469,
+      "required_dependencies": [
+        "ftb_teams",
+        "ftb_library",
+        "architectury"
+      ],
+      "optional_dependencies": [
+        "itemfilters"
+      ],
+      "forge_requirement": ">=47"
+    },
+    {
+      "name": "Item Filters",
+      "slug": "item-filters",
+      "project_id": 309674,
+      "file_id": 4838266,
+      "version": "2001.1.0-build.59",
+      "filename": "item-filters-forge-2001.1.0-build.59.jar",
+      "url": "https://edge.forgecdn.net/files/4838/266/item-filters-forge-2001.1.0-build.59.jar",
+      "sha1": "55a7f032c59489eca96069a7841601de2ff97590",
+      "sha512": "b11730067f1ed58347966cbaf1373bb3b0f762754517192e5f57577cf3d0c5ddc8107d20b69020c5e0fddeab0bc21138935181b102686675672302c6529ba61c",
+      "size": 110191,
+      "required_dependencies": [
+        "architectury"
+      ],
+      "forge_requirement": ">=47"
+    },
+    {
+      "name": "BlockUI",
+      "slug": "blockui",
+      "project_id": 522992,
+      "file_id": 7541343,
+      "version": "blockui-1.20.1-1.0.193",
+      "filename": "blockui-1.20.1-1.0.193.jar",
+      "url": "https://edge.forgecdn.net/files/7541/343/blockui-1.20.1-1.0.193.jar",
+      "sha1": "ed432bb0f706358481157553aa4dd5037c780819",
+      "sha512": "a2f2cbedda37dfa9f4a5848acf01fac220b4b5f764d4343ad6967a1c9d66ab51a2ed4e34b487ebf66106a52387cf8288d1d0b2c0f813dccb042b8c24fd219b73",
+      "size": 391010,
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "forge_requirement": ">=47"
+    },
+    {
+      "name": "Structurize",
+      "slug": "structurize",
+      "project_id": 298744,
+      "file_id": 8610456,
+      "version": "structurize-1.20.1-1.0.818",
+      "filename": "structurize-1.20.1-1.0.818.jar",
+      "url": "https://edge.forgecdn.net/files/8610/456/structurize-1.20.1-1.0.818.jar",
+      "sha1": "432c949c9023aedc84f8c40b8b629e2357e506de",
+      "sha512": "f265e5b6a3934ad35f330c8dd3190fb30f3feda8f5561b32902f83b90614497d3f085e3604b4b154be2bcab2d459ad081e959d83daaaf04f9319b07334ff871c",
+      "size": 1129459,
+      "required_dependencies": [
+        "blockui",
+        "domum_ornamentum"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "forge_requirement": ">=47"
+    },
+    {
+      "name": "Domum Ornamentum",
+      "slug": "domum_ornamentum",
+      "project_id": 527361,
+      "file_id": 7585567,
+      "version": "domum_ornamentum-1.20.1-1.0.296-universal",
+      "filename": "domum_ornamentum-1.20.1-1.0.296-universal.jar",
+      "url": "https://edge.forgecdn.net/files/7585/567/domum_ornamentum-1.20.1-1.0.296-universal.jar",
+      "sha1": "f0052adb170e5f73f0f5b625c411bc5b99183c00",
+      "sha512": "1f86a7d864f685598d3d5e9b79f194fa9fa07fb17657302f7e17f27f40017cb1ea043e6bc43793283a17489e20021c05562e32c438578e8645f54eebb5b77db8",
+      "size": 1141555,
+      "required_dependencies": [],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "forge_requirement": ">=47"
+    },
+    {
+      "name": "MineColonies",
+      "slug": "minecolonies",
+      "project_id": 245506,
+      "file_id": 9058213,
+      "version": "minecolonies-1.20.1-1.1.1301",
+      "filename": "minecolonies-1.20.1-1.1.1301.jar",
+      "url": "https://edge.forgecdn.net/files/9058/213/minecolonies-1.20.1-1.1.1301.jar",
+      "sha1": "33c10d6a9a6cb5d1f515a366e2286366eb68069d",
+      "sha512": "cda0532820545a1c33814bfba1fe064ed1bb82f067aa78ea2f547581d92b62c59f19410bec1128d2a54e2385af682d09887a2bd698335b7d7a6987bbd23b28a6",
+      "size": 78186865,
+      "required_dependencies": [
+        "blockui",
+        "domum_ornamentum",
+        "structurize"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "forge_requirement": ">=47"
+    }
+  ]
+}

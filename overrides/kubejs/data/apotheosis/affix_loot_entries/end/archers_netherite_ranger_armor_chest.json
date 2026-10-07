@@ -1,0 +1,13 @@
+{
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "min_rarity": "apotheosis:epic",
+  "max_rarity": "apotheosis:mythic",
+  "weight": 3,
+  "quality": 18.0,
+  "stack": {
+    "item": "archers:netherite_ranger_armor_chest",
+    "count": 1
+  }
+}

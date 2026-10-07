@@ -1,0 +1,31 @@
+{
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.4.10",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Saltglass",
+  "version": "1.0.0",
+  "author": "Arena modpack studio",
+  "overrides": "overrides",
+  "files": [
+    {
+      "projectID": 289412,
+      "fileID": 8078538
+    },
+    {
+      "projectID": 404465,
+      "fileID": 8226927
+    },
+    {
+      "projectID": 404468,
+      "fileID": 7499810
+    }
+  ]
+}

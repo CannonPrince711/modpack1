@@ -1,0 +1,25 @@
+{
+  "display": {
+    "title": {
+      "text": "The Dive Through the Face",
+      "color": "#E0A32E"
+    },
+    "description": {
+      "text": "Stand on your own mirror at night, crouch, and go under the reflection.",
+      "color": "#E8E3D6",
+      "italic": true
+    },
+    "icon": {
+      "item": "minecraft:tinted_glass"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

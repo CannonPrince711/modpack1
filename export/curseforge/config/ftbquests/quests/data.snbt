@@ -1,0 +1,19 @@
+{
+	version: 13,
+	title: "The Salvage-Priests' Log",
+	default_reward_team: 0b,
+	default_consume_items: 1b,
+	default_autoclaim_rewards: "disabled",
+	default_quest_shape: "circle",
+	default_quest_disable_jei: 0b,
+	drop_loot_crates: 0b,
+	disable_gui: 0b,
+	grid_scale: 0.5d,
+	pause_game: 0b,
+	lock_message: "",
+	progression_mode: "linear",
+	show_lock_icons: 1b,
+	hide_excluded_quests: 0b,
+	emergency_items_cooldown: 300,
+	detection_delay: 20
+}

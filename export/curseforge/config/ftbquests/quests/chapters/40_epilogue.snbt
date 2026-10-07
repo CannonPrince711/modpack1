@@ -1,0 +1,103 @@
+{
+	version: 13,
+	id: 8392257925090241191L,
+	group: "",
+	order_index: 4,
+	title: "Epilogue — After the Water",
+	quests: [
+		{
+			id: 4276749482760195780L,
+			title: "The First New Thing",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Nine hundred years of nothing, and then a coast with lights on it.",
+				"Mark a site and build something that has no purpose except that it is new."
+			],
+			tasks: [
+				{
+					id: 8261891564537051808L,
+					type: "ftbquests:checkmark",
+					title: "Mark a site"
+				}
+			],
+			rewards: [
+				{
+					id: 9037155808108552311L,
+					type: "ftbquests:command",
+					command: "/function saltglass:epilogue/survey",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "The coast is yours now"
+				}
+			]
+		},
+		{
+			id: 693567309978928626L,
+			title: "A Museum for the Fleet",
+			x: 2.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Every hull on the flat is a ship that never launched.",
+				"Raise one, dry it out, and put the nautilus shells in a case."
+			],
+			tasks: [
+				{
+					id: 5464210176232932474L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:nautilus_shell",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight shells"
+				}
+			],
+			dependencies: [4276749482760195780L]
+		},
+		{
+			id: 1258564787268621912L,
+			title: "A Salt-Rose Garden",
+			x: 4.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Nothing grew here. Make something grow here anyway; half the point of the flat is that it is a terrible place to be a plant."
+			],
+			tasks: [
+				{
+					id: 2101304536702702753L,
+					type: "ftbquests:checkmark",
+					title: "Plant a garden on the salt"
+				}
+			],
+			dependencies: [4276749482760195780L]
+		},
+		{
+			id: 5751661742186790986L,
+			title: "The Drowned Lighthouse",
+			x: 6.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"There is a lighthouse in the shallows with its lamp under water and its door bricked from the inside.",
+				"Restore it, and it will guide boats that did not exist until an hour ago."
+			],
+			tasks: [
+				{
+					id: 6961277298568175489L,
+					type: "ftbquests:checkmark",
+					title: "Restore the lighthouse"
+				}
+			],
+			dependencies: [4276749482760195780L]
+		}
+	]
+}

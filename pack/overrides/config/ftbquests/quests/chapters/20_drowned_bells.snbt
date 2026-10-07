@@ -1,0 +1,324 @@
+{
+	version: 13,
+	id: 2929023777672926540L,
+	group: "",
+	order_index: 2,
+	title: "Act II — The Drowned Bells",
+	quests: [
+		{
+			id: 1273926108274598161L,
+			title: "The Bells' Tone-Map",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Three harbour bells were tuned to hold the sea off the basin. Their tone-map is still stamped into the walls of the drowned offices.",
+				"Read it and you will know how many harbours you have to raise.",
+				"Three. It is always three."
+			],
+			tasks: [
+				{
+					id: 3276836691369696849L,
+					type: "ftbquests:checkmark",
+					title: "Read the tone-map"
+				},
+				{
+					id: 4939800882569911573L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:clock",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A clock, to time the tides"
+				}
+			]
+		},
+		{
+			id: 5318797360587221489L,
+			title: "Raise the First Bell",
+			x: 0.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Stand where the First harbour's bell-house used to be and raise the tower.",
+				"Everything you need is in the Act I machinery you already built. The tower will come up around you."
+			],
+			tasks: [
+				{
+					id: 4209011233520672070L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:andesite_casing",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight casings"
+				},
+				{
+					id: 812818559468719173L,
+					type: "ftbquests:checkmark",
+					title: "Place the tower"
+				}
+			],
+			subtitle: "one harbour, end to end",
+			rewards: [
+				{
+					id: 6382608801994193272L,
+					type: "ftbquests:command",
+					command: "/function saltglass:harbour/one",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "The First bell rings"
+				}
+			],
+			dependencies: [1273926108274598161L]
+		},
+		{
+			id: 7146551056737321877L,
+			title: "Light the First Beacon",
+			x: 0.0d,
+			y: 4.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"The tower is up. The lantern room is empty and the coast is still dark.",
+				"Wind it, pump it, and give it a lens. It will burn for nine hundred more years if you let it."
+			],
+			tasks: [
+				{
+					id: 7622025007574434718L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:lantern",
+						Count: 4b
+					},
+					count: 4,
+					consume_items: 1b,
+					title: "Four lanterns"
+				},
+				{
+					id: 6759793343357108891L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:prismarine_bricks",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight prismarine bricks"
+				},
+				{
+					id: 1763245609256269416L,
+					type: "ftbquests:checkmark",
+					title: "Light the beacon"
+				}
+			],
+			dependencies: [5318797360587221489L]
+		},
+		{
+			id: 3170945069873321046L,
+			title: "Raise the Second Bell",
+			x: 2.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Stand where the Second harbour's bell-house used to be and raise the tower.",
+				"Everything you need is in the Act I machinery you already built. The tower will come up around you."
+			],
+			tasks: [
+				{
+					id: 1894235225995177977L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:andesite_casing",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight casings"
+				},
+				{
+					id: 4990870952005283756L,
+					type: "ftbquests:checkmark",
+					title: "Place the tower"
+				}
+			],
+			subtitle: "one harbour, end to end",
+			rewards: [
+				{
+					id: 579846684811691738L,
+					type: "ftbquests:command",
+					command: "/function saltglass:harbour/two",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "The Second bell rings"
+				}
+			],
+			dependencies: [1273926108274598161L]
+		},
+		{
+			id: 2756028149871648959L,
+			title: "Light the Second Beacon",
+			x: 2.0d,
+			y: 4.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"The tower is up. The lantern room is empty and the coast is still dark.",
+				"Wind it, pump it, and give it a lens. It will burn for nine hundred more years if you let it."
+			],
+			tasks: [
+				{
+					id: 6575610438171338827L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:lantern",
+						Count: 4b
+					},
+					count: 4,
+					consume_items: 1b,
+					title: "Four lanterns"
+				},
+				{
+					id: 4879831750724994084L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:prismarine_bricks",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight prismarine bricks"
+				},
+				{
+					id: 7741145845958746498L,
+					type: "ftbquests:checkmark",
+					title: "Light the beacon"
+				}
+			],
+			dependencies: [3170945069873321046L]
+		},
+		{
+			id: 3750393988936005216L,
+			title: "Raise the Third Bell",
+			x: 4.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Stand where the Third harbour's bell-house used to be and raise the tower.",
+				"Everything you need is in the Act I machinery you already built. The tower will come up around you."
+			],
+			tasks: [
+				{
+					id: 3942698788210606013L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:andesite_casing",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight casings"
+				},
+				{
+					id: 4468715855393098597L,
+					type: "ftbquests:checkmark",
+					title: "Place the tower"
+				}
+			],
+			subtitle: "one harbour, end to end",
+			rewards: [
+				{
+					id: 1809662561113677678L,
+					type: "ftbquests:command",
+					command: "/function saltglass:harbour/three",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "The Third bell rings"
+				}
+			],
+			dependencies: [1273926108274598161L]
+		},
+		{
+			id: 2436662048897799845L,
+			title: "Light the Third Beacon",
+			x: 4.0d,
+			y: 4.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"The tower is up. The lantern room is empty and the coast is still dark.",
+				"Wind it, pump it, and give it a lens. It will burn for nine hundred more years if you let it."
+			],
+			tasks: [
+				{
+					id: 2500520605872850183L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:lantern",
+						Count: 4b
+					},
+					count: 4,
+					consume_items: 1b,
+					title: "Four lanterns"
+				},
+				{
+					id: 6561334837000077716L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:prismarine_bricks",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight prismarine bricks"
+				},
+				{
+					id: 3359672328964905090L,
+					type: "ftbquests:checkmark",
+					title: "Light the beacon"
+				}
+			],
+			dependencies: [3750393988936005216L]
+		},
+		{
+			id: 1118783445256029476L,
+			title: "Three Beacons at Dusk",
+			x: 2.0d,
+			y: 6.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Three bells, three beacons, and the reflection stops glaring.",
+				"The deepest mirror you have been diving through has been showing you a reflection with its doors shut. Now look again."
+			],
+			tasks: [
+				{
+					id: 6714732412689830470L,
+					type: "ftbquests:dimension",
+					dimension: "saltglass:reflected_deep",
+					title: "Return to the reflected sea"
+				}
+			],
+			subtitle: "Act II ends here",
+			rewards: [
+				{
+					id: 2346283197622287401L,
+					type: "ftbquests:command",
+					command: "/function saltglass:cathedral/open",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "The cathedral opens"
+				}
+			],
+			dependencies: [7146551056737321877L, 2756028149871648959L, 2436662048897799845L]
+		}
+	]
+}

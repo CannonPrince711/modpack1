@@ -1,0 +1,132 @@
+{
+	version: 13,
+	id: 6999535103240600688L,
+	group: "",
+	order_index: 3,
+	title: "Act III — The Turning",
+	quests: [
+		{
+			id: 3383645659751229054L,
+			title: "Walk the Nave",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Nine bays, nine doors, and an altar where somebody lit candles and left them burning for a sea that had already gone.",
+				"It is not a ruin. It is finished. There is a difference, and you will feel it in here."
+			],
+			tasks: [
+				{
+					id: 5394383370340550345L,
+					type: "ftbquests:checkmark",
+					title: "Stand at the altar"
+				}
+			]
+		},
+		{
+			id: 463994437965193497L,
+			title: "The Nine Doors",
+			x: 2.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Behind each door is one of the priests' tuning-forks, still tuned.",
+				"You do not need to take them. You need to know they are still tuned. That is what the Tide Heart listens for."
+			],
+			tasks: [
+				{
+					id: 47570903778355249L,
+					type: "ftbquests:checkmark",
+					title: "Open the nine doors"
+				}
+			],
+			dependencies: [3383645659751229054L]
+		},
+		{
+			id: 7175883478702652786L,
+			title: "Light the Ceiling",
+			x: 2.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"The glass above the reflection has not been lit from below in nine hundred years. Give it lamps.",
+				"Do it properly. Somebody is going to screenshot this."
+			],
+			tasks: [
+				{
+					id: 43937042433560721L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:sea_lantern",
+						Count: 16b
+					},
+					count: 16,
+					consume_items: 1b,
+					title: "Sixteen sea lanterns"
+				}
+			],
+			dependencies: [3383645659751229054L]
+		},
+		{
+			id: 5623672343292566256L,
+			title: "The Tide Heart",
+			x: 4.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"A heart of the sea is not a treasure. It is a piece of the old waterline, kept alive in a shell.",
+				"There is one in a chest at the bottom of the basin, in a place that was a harbour office when it still had a harbour."
+			],
+			tasks: [
+				{
+					id: 5880450594083597977L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:heart_of_the_sea",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 0b,
+					title: "A Heart of the Sea"
+				}
+			],
+			dependencies: [463994437965193497L]
+		},
+		{
+			id: 2104965496644168350L,
+			title: "Set the Heart in the Last Dry Trench",
+			x: 6.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"One trench on the whole basin is still dry, and it has been dry since the night the sea went sideways. That is not an accident. That is a socket.",
+				"Set the Tide Heart in it and step back.",
+				"The water comes back in waves. It does not ask you whether you wanted it back. It only asks whether you were standing somewhere that used to be a harbour."
+			],
+			tasks: [
+				{
+					id: 5916432780054952168L,
+					type: "ftbquests:checkmark",
+					title: "Set the Tide Heart in the trench"
+				}
+			],
+			subtitle: "Act III ends here",
+			rewards: [
+				{
+					id: 1692738070429345858L,
+					type: "ftbquests:command",
+					command: "/function saltglass:turning/set",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "The Turning"
+				}
+			],
+			dependencies: [5623672343292566256L, 7175883478702652786L]
+		}
+	]
+}

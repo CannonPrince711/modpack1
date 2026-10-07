@@ -1,0 +1,29 @@
+{
+  "_comment": "Human-readable summary of the pack's calm defaults. The enforcing files are the individual mod configs beside this one.",
+  "video": {
+    "graphics": "fancy",
+    "render_distance": 10,
+    "simulation_distance": 8,
+    "clouds": "fast",
+    "entity_shadows": true,
+    "vsync": "on"
+  },
+  "shaders": {
+    "enabled_by_default": false,
+    "note": "Oculus + Embeddium are installed; ship no shaderpack, require none."
+  },
+  "ui": {
+    "minimap": "disabled (waypoints only)",
+    "coordinates": "hidden until a clock is crafted",
+    "quest_book": "opens on first join, once"
+  },
+  "difficulty": {
+    "server_difficulty": "normal",
+    "keep_inventory": false,
+    "graves": "Corail Tombstone (items kept in a grave, not in your hands)"
+  },
+  "flight": {
+    "allowed_before_act_iii": false,
+    "note": "Paraglider only: stamina-limited gliding, no creative flight, no elytra, no thrusters."
+  }
+}

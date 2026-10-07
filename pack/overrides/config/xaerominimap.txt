@@ -1,0 +1,5 @@
+# Saltglass — the minimap is off by default; waypoints stay on so three harbours
+# across an empty basin are findable without making the landscape trivial.
+minimap:0
+waypoints:1
+coordinates:0

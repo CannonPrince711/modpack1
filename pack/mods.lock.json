@@ -1,0 +1,812 @@
+{
+  "_comment": [
+    "SALTGLASS — authoritative mod lock. Everything else (mrpack, CurseForge manifest,",
+    "MODLIST.md, server manifest) is GENERATED from this file by tools/build_pack.py.",
+    "Never edit generated files by hand; edit this and rebuild.",
+    "",
+    "verification.status values:",
+    "  official-page-verified : loader, Minecraft version, environment and filename were read",
+    "                           from the project's own page on Modrinth or CurseForge on",
+    "                           2026-10-07 (see sources[]). This is the standard for every entry.",
+    "  filename-inferred      : the project page confirmed version + loaders + environment, but",
+    "                           the exact .jar filename was not visible in the fetched content;",
+    "                           tools/fetch_mods.py replaces it from the API at build time.",
+    "                           Flagged so nobody mistakes it for a checked string.",
+    "",
+    "source.kind values:",
+    "  modrinth    : resolved with GET /v2/project/{mr_project}/version  filtered by",
+    "                version_number (works without a pre-known version id).",
+    "  curseforge  : FTB-team libraries, which are not distributed on Modrinth. These carry a",
+    "                pinned edge.forgecdn.net URL. That is CurseForge's own CDN, so this is the",
+    "                canonical file, not a mirror; the official files page is listed as source.",
+    "",
+    "No 'latest' anywhere. No beta channels unless justification is written down. No OptiFine."
+  ],
+  "pack": {
+    "id": "saltglass",
+    "name": "Saltglass — The Sea That Went Sideways",
+    "version": "1.0.0",
+    "minecraft": "1.20.1",
+    "java": "17 (64-bit)",
+    "min_ram_client_gb": 6,
+    "min_ram_server_gb": 4,
+    "forge": {
+      "version": "1.20.1-47.4.10",
+      "recommended": true,
+      "uninstaller_version": "1.20.1-47.4.10",
+      "universal_sha1": "9d27acaf82445da3419c21d5f2f87e86ff0f8abe",
+      "universal_md5": "414f479b3b65df41f56fe043a073972d",
+      "installer_sha1": "27b38c97615d138101caa13c01e6bfda6176dea3",
+      "installer_md5": "433765d31ead6260ef46503ff41e4069",
+      "installer_url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
+      "universal_url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html"
+        ],
+        "note": "47.4.10 is the build the Forge download page marks Recommended for 1.20.1; 47.4.26 is 'Latest' and was rejected because a pack of 23 mods should sit on the build the ecosystem has soaked. Checksums read from the same page's table."
+      }
+    }
+  },
+  "mods": [
+    {
+      "slug": "create",
+      "name": "Create",
+      "version": "mc1.20.1-6.0.8",
+      "filename": "create-1.20.1-6.0.8.jar",
+      "source": {
+        "kind": "modrinth",
+        "project": "LNytGWDc",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/create/version/8amzvn9x"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "The engineering half of the premise: pumps, fluid transport and wind-bearing machinery rebuild the harbours, and 6.0.x bundles Flywheel and Ponder so the pack gains a written guide system (the Create Manual) without another mod.",
+      "license": "MIT (Create's own licence text; verify on project page)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/create/versions",
+          "https://www.curseforge.com/minecraft/mc-mods/create/files/6641603",
+          "https://api.modrinth.com/v2/project/LNytGWDc/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Release channel 'R', 6.99M downloads on the 1.20.1 line, and 6.0.8 is the last file for 1.20.1. 6.0.8 supersedes the 6.0.6 file quoted in community guides. Flywheel and Ponder are bundled inside the jar, so they are NOT separate downloads — installing a standalone Flywheel is the classic Create 6 startup failure and is called out in the README. Registry-verified 2026-10-07: GET /v2/project/LNytGWDc/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 b13d912b9247a38d66d11598c121442585a1c1e9. The Modrinth version_number is 'mc1.20.1-6.0.8' while the jar is 'create-1.20.1-6.0.8.jar'. Both are recorded, because a resolver that matches on version_number needs the former and a mods/ folder needs the latter."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar",
+        "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+        "sha512": "5b51f5d31437d9bfbf221b67459abd87260d284874e1e23b7ed1d522b23a48059a3b1d2c1c541428da35dc6be15561b4f3c7f36aac6df3a0e8db6a278f6b0316",
+        "size": 19170905
+      }
+    },
+    {
+      "slug": "farmers-delight",
+      "name": "Farmer's Delight",
+      "version": "1.20.1-1.3.4",
+      "filename": "FarmersDelight-1.20.1-1.3.4.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/farmers-delight/version/SiIpcZzM",
+        "project": "R2OftAxM"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Food and hearth: cooking on a salt-flat where nothing grows is the Act I problem, and the cutting board is the one crafting surface that reads as salvage work rather than machinery.",
+      "license": "MIT",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/farmers-delight/version/1.20.1-1.2.11a",
+          "https://api.modrinth.com/v2/project/R2OftAxM/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "1.2.11a (Apr 2026) chosen over the far more downloaded 1.2.4 because its changelog fixes 'block entities not clearing properly on contraption mods' — a direct Create interaction, which is exactly the risk in this pack. Registry-verified 2026-10-07: GET /v2/project/R2OftAxM/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 26f615fd35f652021f5b0f1cba68afa7d578fe15. RE-PINNED 1.2.11a -> 1.3.4 after querying the registry. 1.3.4 is the current 1.20.1 release (Aug 2026) and the 1.3.0 line added a native EMI plugin, which is this pack's recipe viewer. The original justification for 1.2.11a (a Create-contraption block-entity fix) is subsumed by the newer line."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar",
+        "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+        "sha512": "932ae0ab95fa0755bb5a79fbf1d1e31d0e86f3c0f5186796ed06973a3019a618ee8c66a4eae5b901909aed6232abb2bd3b1ff0e1905f74fc70644fada94a80b5",
+        "size": 3311051
+      }
+    },
+    {
+      "slug": "alexs-mobs",
+      "name": "Alex's Mobs",
+      "version": "1.22.9",
+      "filename": "alexsmobs-1.22.9.jar",
+      "source": {
+        "kind": "modrinth",
+        "project": "2cMuAZAp",
+        "id": "SbzmMuAa",
+        "page": "https://modrinth.com/mod/alexs-mobs/version/XoIASRVU"
+      },
+      "environment": "both",
+      "deps": [
+        "citadel"
+      ],
+      "purpose": "The only fauna in the pack: 85+ hand-animated creatures give the empty basin and the reflected sea something alive to share them with, and their aquatic set finally has a home in the Reflected Deep.",
+      "license": "GPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/alexs-mobs/version/1.22.9",
+          "https://api.modrinth.com/v2/project/2cMuAZAp/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Loaders Forge+NeoForge, game version 1.20.1, 12.18M downloads on this file — it is the final 1.20.1 release. Version number is prefixed '1.20.1-1.22.9' on the project; jar basename confirmed by the resolver. Registry-verified 2026-10-07: GET /v2/project/2cMuAZAp/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f. Project id corrected to 2cMuAZAp (the id first written down was not this project). Declared required dependency is Citadel (jJfV67b1), NOT GeckoLib: GeckoLib was removed from the pack as a result."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/2cMuAZAp/versions/XoIASRVU/alexsmobs-1.22.9.jar",
+        "sha1": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f",
+        "sha512": "b50280057926d750f9ffbf6a8df36deb37529356895f6bf59f25d272ecf69afccec65ec1a5c3a8bfad24f9475c15b93c5ec4666447b1fce26a90c41445bbfb04",
+        "size": 26350793
+      }
+    },
+    {
+      "slug": "citadel",
+      "name": "Citadel",
+      "version": "2.6.3",
+      "filename": "citadel-2.6.3-1.20.1.jar",
+      "source": {
+        "kind": "modrinth",
+        "project": "jJfV67b1",
+        "page": "https://modrinth.com/mod/citadel/version/lTAAe4sZ"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Required library for Alex's Mobs; its 2026 release fixes a server-side memory leak in world-data loading, which is exactly the kind of leak a pack with its own dimension should not ship.",
+      "license": "GPL-3.0-only (project page; verify)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://api.modrinth.com/v2/project/citadel/version (forge, 1.20.1, release)",
+          "https://api.modrinth.com/v2/project/jJfV67b1/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Registry-verified 2026-10-07: GET /v2/project/jJfV67b1/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316. ADDED. Required by Alex's Mobs. Changelog headline: server-side memory leak in world data loading — relevant to a pack with a custom dimension."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/jJfV67b1/versions/lTAAe4sZ/citadel-2.6.3-1.20.1.jar",
+        "sha1": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316",
+        "sha512": "42e3fa0ddefb1ebdbba4242d81caede834cd0bbd96e4e90b12b2157a5b07c68b625f64046de1f9e1ad4d6056d3536e17207be5f4b24960582052d713b13f22c0",
+        "size": 3185275
+      }
+    },
+    {
+      "slug": "ars-nouveau",
+      "name": "Ars Nouveau",
+      "version": "4.12.7",
+      "filename": "ars_nouveau-1.20.1-4.12.7-all.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/ars-nouveau/version/Hw2aD01e",
+        "project": "TKB6INcv"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "The magic pillar is light and conjuration rather than damage: glyphs for illumination, conjured water, and warp portals give the pack its depth system and its only late-game travel, all themed on the salvage-priests' craft.",
+      "license": "LGPL-3.0-only (Modrinth lists GPL-3.0-only; project states LGPLv3 — the project's own text governs)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/ars-nouveau/version/4.12.7",
+          "https://www.curseforge.com/minecraft/mc-mods/ars-nouveau/files/5827674",
+          "https://api.modrinth.com/v2/project/TKB6INcv/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "4.12.7 (Jun 2025, 2.29M downloads, 'R') is the FINAL Forge build for 1.20.1 — Forge support stopped there, which makes it a stable endpoint rather than an abandoned mid-point. A '-all.jar' variant exists on CurseForge; the plain jar is pinned. Registry-verified 2026-10-07: GET /v2/project/TKB6INcv/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 6c23a97d771ea7ad43bee9bd71d2f2a1f2084170. The published Forge file is the '-all' jar (ars_nouveau-1.20.1-4.12.7-all.jar). The plain-jar filename written in the first draft is not the Forge download."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/Hw2aD01e/ars_nouveau-1.20.1-4.12.7-all.jar",
+        "sha1": "6c23a97d771ea7ad43bee9bd71d2f2a1f2084170",
+        "sha512": "f3e3abf260fb3ef4c5b6b7324c055802135f82f4c550986f4e93b1a186c9b495cd8b6396ed89ab088b95e6176c0b9e290ccc69a528c521cd1bff19935ac36836",
+        "size": 12430237
+      }
+    },
+    {
+      "slug": "corail-tombstone",
+      "name": "Corail Tombstone",
+      "version": "forge-1.20.1-9.1.5",
+      "filename": "tombstone-1.20.1-9.1.5.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/corail-tombstone/version/nTAliy2r",
+        "project": "YT5K34AB"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Death in an empty landscape must not cost an hour of walking: graves keep the salvage, and the mod's souls/prayer loop is the only place the pack lets the dead civilisation speak — respectfully, not as a threat.",
+      "license": "MIT (verify on project page)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone/files/all",
+          "https://api.modrinth.com/v2/project/YT5K34AB/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Minecraft 1.20.1, Forge 47+, Java 17. 9.1.5 (5 Oct 2026) is newer but has 5.7K downloads against 9.1.4's 492K after two months; for a pack that must not break on first launch the soaked build wins. Deliberate, recorded in INTEGRATION_LOG.md. Registry-verified 2026-10-07: GET /v2/project/YT5K34AB/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 0d9cb76b6162c672a7aca40771e5749a97ebb451. RE-PINNED 9.1.4 -> 9.1.5. The author's own file banner reads 'Latest: 9.1.5 - Recommended: 9.1.5' in both entries, and an author recommendation outranks a download-count heuristic. The earlier 9.1.4 justification cited a CurseForge download figure that does not hold on Modrinth."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/YT5K34AB/versions/nTAliy2r/tombstone-1.20.1-9.1.5.jar",
+        "sha1": "0d9cb76b6162c672a7aca40771e5749a97ebb451",
+        "sha512": "57283c5dce944a4eaec4240a0d2bb33d5c6f009a5b6a7a7334f48c286aa17ecd794e7025ff87e61b5555ce29667eb2ad336d92e4235d1384e0172b485e23338a",
+        "size": 2560746
+      }
+    },
+    {
+      "slug": "yungs-extras",
+      "name": "YUNG's Extras",
+      "version": "1.20-Forge-4.0.3",
+      "filename": "YungsExtras-1.20-Forge-4.0.3.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/yungs-extras/version/h4m8J7w8",
+        "project": "ZYgyPyfq"
+      },
+      "environment": "server",
+      "deps": [
+        "yungs-api"
+      ],
+      "purpose": "Desert and ocean ruins, wells and obelisks: the stranded-harbour silhouette the premise needs, out of vanilla blocks, at 196 KB.",
+      "license": "LGPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/yungs-extras/version/1.20-Forge-4.0.3",
+          "https://api.modrinth.com/v2/project/ZYgyPyfq/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Minecraft 1.20.1, Forge, 1.41M downloads on this file; the newest 1.20.1 build. 1.41M downloads; environment 'Server-side only, works in singleplayer too', so the server export ships it and it is optional for the client (its structure icons do render client-side, so it is kept on both). Registry-verified 2026-10-07: GET /v2/project/ZYgyPyfq/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 4b2e632353a95c16a080c2e64c426480a139fbd6."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/ZYgyPyfq/versions/h4m8J7w8/YungsExtras-1.20-Forge-4.0.3.jar",
+        "sha1": "4b2e632353a95c16a080c2e64c426480a139fbd6",
+        "sha512": "2c70e8e2c8e6161139bd19d302e225f7c12dc44f9cbdd63f4a548645fe923eb16de930abe2d2f8a89bee99f31d77798b7352bbd33f3642560cad18d86d372d4f",
+        "size": 200341
+      }
+    },
+    {
+      "slug": "yungs-api",
+      "name": "YUNG's API",
+      "version": "1.20-Forge-4.0.6",
+      "filename": "YungsApi-1.20-Forge-4.0.6.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/yungs-api/version/PJOYAmAs",
+        "project": "Ua7DFN59"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Required library for YUNG's Extras; 8.7M downloads makes it the best-soaked 1.20.1 Forge build.",
+      "license": "LGPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/yungs-api/version/1.20-Forge-4.0.6",
+          "https://api.modrinth.com/v2/project/Ua7DFN59/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Registry-verified 2026-10-07: GET /v2/project/Ua7DFN59/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 af584b690f5646c6032002b58abc4591beed3833."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar",
+        "sha1": "af584b690f5646c6032002b58abc4591beed3833",
+        "sha512": "7d83d94a90e55a712f6508485c044ff202916e9b9b9166b75177cb8f2eb919543bbbe1547d11c41cfd4763820f934235f47c0b26dd9e89bc1030954afa9fb889",
+        "size": 370524
+      }
+    },
+    {
+      "slug": "sophisticated-backpacks",
+      "name": "Sophisticated Backpacks",
+      "version": "1.20.1-3.26.9.2194",
+      "filename": "sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/sophisticated-backpacks/version/nSVHlIzZ",
+        "project": "TyCTlI4b"
+      },
+      "environment": "both",
+      "deps": [
+        "sophisticated-core"
+      ],
+      "purpose": "Salvage is carried before it is stored: one backpack with upgrades replaces six storage mods, and its placeable-backpack mode doubles as base storage during Act I when there is no room for a workshop.",
+      "license": "MIT (verify on project page)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/sophisticated-backpacks/version/1.20.1-3.23.1.1184",
+          "https://api.modrinth.com/v2/project/TyCTlI4b/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "1.67M downloads. The 3.24.2.1341 build is 949 KB with 1.4K downloads — newer, not yet proven; rejected per the stable-release rule. Registry-verified 2026-10-07: GET /v2/project/TyCTlI4b/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 315a8151c0e89c71ae165e33bcfcfccc762a1766. RE-PINNED 3.23.1.1184 -> 3.26.9.2194: published 8 minutes before Sophisticated Core 1.5.6.2378 on the same day, i.e. a coordinated pair. The changelog also carries a Create-contraption fix ('backpacks not restoring correctly after Create contraption disassembly'), which matters for this pack."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/nSVHlIzZ/sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+        "sha1": "315a8151c0e89c71ae165e33bcfcfccc762a1766",
+        "sha512": "6d78f290fd4acb5e856da8e7f105d626fbb8d416439b2676f89f4239b56f3c146c1bd9df2a2119a07df24904bc4a598eeb8c17389424f75d18845564f01b9c98",
+        "size": 1215727
+      }
+    },
+    {
+      "slug": "sophisticated-core",
+      "name": "Sophisticated Core",
+      "version": "1.20.1-1.5.6.2378",
+      "filename": "sophisticatedcore-1.20.1-1.5.6.2378.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/sophisticated-core/version/yIBA2SnN",
+        "project": "nmoqTijg"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Required library for Sophisticated Backpacks, pinned to the build that shipped with the 3.23.1 backpack release rather than the newest one.",
+      "license": "MIT (verify on project page)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/sophisticated-core/version/1.20.1-1.2.39.938",
+          "https://api.modrinth.com/v2/project/nmoqTijg/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Two core builds verified: 1.2.39.938 (Apr 2025, ships with 3.23.x) and 1.2.84.1117 (Sep 2025, ships with 3.24.x). Pairs are kept matched deliberately. Registry-verified 2026-10-07: GET /v2/project/nmoqTijg/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 6b43a36241c8f9ad777efd83a7ea2268af23230a. RE-PINNED 1.2.39.938 -> 1.5.6.2378 as the matching half of the coordinated Backpacks release. A required library is safer matched to its dependent than chosen by download count."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/yIBA2SnN/sophisticatedcore-1.20.1-1.5.6.2378.jar",
+        "sha1": "6b43a36241c8f9ad777efd83a7ea2268af23230a",
+        "sha512": "6a2246e61f0180368bb93ce0992209bef887f37b640a0ddec771b00b0dcdbc299ae0399675163a8f75297f7e6205d8bed8bb12e76ed5bbbd9c5c0eda3805bf1a",
+        "size": 1758791
+      }
+    },
+    {
+      "slug": "paragliders",
+      "name": "Paragliders",
+      "version": "20.1.3",
+      "filename": "Paraglider-forge-20.1.3.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/paragliders/version/nudKlXXT",
+        "project": "esqWA0aQ"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "The pack's entire vertical answer: gliding costs stamina and needs height, so it is travel, not flight — the refusal in DESIGN.md §3 is honoured by mechanics, not by config.",
+      "license": "GPL-3.0-or-later",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/paragliders/version/20.1.3",
+          "https://api.modrinth.com/v2/project/esqWA0aQ/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Minecraft 1.20.1, Forge. 725K downloads. The project's own changelog calls this 'the last release of Paraglider for Forge mod loader' — a terminal stable build, not a stale mid-point. No Jump/Elytra/creative-flight mods are shipped alongside it. Registry-verified 2026-10-07: GET /v2/project/esqWA0aQ/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 51fdf94686fc847515e6de8a6c9fd4dab3466ea5."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/esqWA0aQ/versions/nudKlXXT/Paraglider-forge-20.1.3.jar",
+        "sha1": "51fdf94686fc847515e6de8a6c9fd4dab3466ea5",
+        "sha512": "81212fb4b3a0cf7af4ce8df2f9bab0c0f05527bd7c022ae65dbe97032e06083401d81bc03c3b41f04651140a0261196e2cb14a0431b9b8d096e18de8129340a1",
+        "size": 589055
+      }
+    },
+    {
+      "slug": "emi",
+      "name": "EMI",
+      "version": "1.1.24+1.20.1+forge",
+      "filename": "emi-1.1.24+1.20.1+forge.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/emi/version/Axuu9I9R",
+        "project": "fRiHVvU7"
+      },
+      "environment": "client-optional",
+      "deps": [],
+      "purpose": "The single recipe viewer. Chosen over JEI/REI because its recipe tree and book-fill are load-bearing for a Create+Ars pack, and 'keep in inventory' removes the need for an inventory-manager mod.",
+      "license": "LGPL-3.0-only (verify on project page)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/emi/version/1.1.22+1.20.1+forge",
+          "https://api.modrinth.com/v2/project/fRiHVvU7/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Minecraft 1.20.1, Forge, client-optional on the server. 4.25M downloads on the last 1.20.1 Forge file. Marked client-optional: EMI works without it being on the server, which is why the server export omits it. Registry-verified 2026-10-07: GET /v2/project/fRiHVvU7/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 ea320200878e4a49196760234a22da763671520a. RE-PINNED 1.1.22 -> 1.1.24. The newer release's headline fixes are crash fixes ('inconsistent crashes due to mixin order'); 1.65M downloads."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/Axuu9I9R/emi-1.1.24%2B1.20.1%2Bforge.jar",
+        "sha1": "ea320200878e4a49196760234a22da763671520a",
+        "sha512": "02743be3476b7dc5668cedbcc5a6d384e9806981833926a83fed76a2800c44da33576e86308c058250718c128d58076f1b62bc53d200464326ace70a43229c8b",
+        "size": 1121750
+      }
+    },
+    {
+      "slug": "xaeros-minimap",
+      "name": "Xaero's Minimap",
+      "version": "forge-1.20.1-26.5.0",
+      "filename": "xaerominimap-forge-1.20.1-26.5.0.jar",
+      "source": {
+        "kind": "modrinth",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/xaeros-minimap/version/Juh6inLY",
+        "project": "1bokaNcj"
+      },
+      "environment": "client-optional",
+      "deps": [],
+      "purpose": "Waypoints for three harbours across an empty 10k-block basin; shipped with the minimap disabled by default and only waypoints on, so it stays out of the way until asked for.",
+      "license": "All Rights Reserved (source-available; redistribution in packs permitted per project terms — see CREDITS_AND_LICENSES.md)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/xaeros-minimap/version/25.2.0_Forge_1.20",
+          "https://api.modrinth.com/v2/project/1bokaNcj/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "952.7K downloads on the 1.20.1 Forge line. No 'Open Parties and Claims' dependency shipped, matching the pack's no-claims decision. Registry-verified 2026-10-07: GET /v2/project/1bokaNcj/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 718a4339f6dad3a56b6e7243e62febfb643b7151. RE-PINNED 25.2.0_Forge_1.20 -> forge-1.20.1-26.5.0. The project changed its file naming scheme; 25.x names no longer match the author's current releases. 26.5.0 has 309,788 downloads."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Juh6inLY/xaerominimap-forge-1.20.1-26.5.0.jar",
+        "sha1": "718a4339f6dad3a56b6e7243e62febfb643b7151",
+        "sha512": "913b1c428b049b9b0376e75edc7ab49bc3df605cf81a4c326b91241314d64c81420df0fc946cd6bd8a9a13f7a45b842d7b86008f32a0cf27d0d3cb278a5e5204",
+        "size": 2195399
+      }
+    },
+    {
+      "slug": "embeddium",
+      "name": "Embeddium",
+      "version": "0.3.31+mc1.20.1",
+      "filename": "embeddium-0.3.31+mc1.20.1.jar",
+      "source": {
+        "kind": "modrinth",
+        "project": "sk9rgfiA",
+        "id": "UTbfe5d1",
+        "page": "https://modrinth.com/mod/embeddium/version/UTbfe5d1"
+      },
+      "environment": "client",
+      "deps": [],
+      "purpose": "Rendering performance on mid-range hardware, and the only lawful host for shaders in a Forge pack: OptiFine is excluded outright because it cannot be verified against this stack.",
+      "license": "LGPL-2.1 (Sodium-derived; see CREDITS_AND_LICENSES.md)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/embeddium/version/UTbfe5d1",
+          "https://www.curseforge.com/minecraft/mc-mods/embeddium/files/all",
+          "https://api.modrinth.com/v2/project/sk9rgfiA/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "14.36M downloads. 0.3.31+mc1.20.1 is both the newest and the last Forge build ever published for 1.20.1 — Forge support ended there, so no newer pin exists. Registry-verified 2026-10-07: GET /v2/project/sk9rgfiA/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 bb2fa8f3e493af16af9160d049f96c614a1faf2f."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar",
+        "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+        "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9",
+        "size": 1320675
+      }
+    },
+    {
+      "slug": "oculus",
+      "name": "Oculus",
+      "version": "1.20.1-1.8.0",
+      "filename": "oculus-mc1.20.1-1.8.0.jar",
+      "source": {
+        "kind": "modrinth",
+        "project": "GchcoXML",
+        "resolve_by": "version_number",
+        "page": "https://modrinth.com/mod/oculus/version/iQ1SwGc3"
+      },
+      "environment": "client",
+      "deps": [
+        "embeddium"
+      ],
+      "purpose": "Makes shaders possible without making them required: the option lives in the video settings and the pack ships none, so the default experience is unshaded and identical on every machine.",
+      "license": "MIT (verify on project page)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/oculus/version/1.20.1-1.8.0",
+          "https://www.curseforge.com/minecraft/mc-mods/oculus/files/all",
+          "https://api.modrinth.com/v2/project/GchcoXML/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "24.2M downloads, 'R', last 1.20.1 file (Dec 2024). Requires Embeddium; shipping it with any other renderer is the known crash source. Registry-verified 2026-10-07: GET /v2/project/GchcoXML/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 984f774e71790deaec674c7587bd24e0711871b2. Project id corrected to GchcoXML. The jar name is confirmed as oculus-mc1.20.1-1.8.0.jar, not the 'Oculus-...' form first inferred, and the file declares Embeddium (sk9rgfiA) as a required dependency — which is why shipping any other renderer crashes."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
+        "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+        "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5",
+        "size": 2851119
+      }
+    },
+    {
+      "slug": "modernfix",
+      "name": "ModernFix",
+      "version": "5.27.83+mc1.20.1",
+      "filename": "modernfix-forge-5.27.83+mc1.20.1.jar",
+      "source": {
+        "kind": "modrinth",
+        "project": "nmDcB62a",
+        "id": "5.26.1+mc1.20.1",
+        "page": "https://modrinth.com/mod/modernfix/version/jAZ7Ge3d"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Cuts load time and heap pressure for a 23-mod pack on 6 GB — the reason several QoL mods can be skipped rather than compensated for.",
+      "license": "LGPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/modernfix/version/5.26.1+mc1.20.1",
+          "https://www.curseforge.com/minecraft/mc-mods/modernfix/files/all",
+          "https://api.modrinth.com/v2/project/nmDcB62a/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Minecraft 1.20.1, Forge. 5.27.85+mc1.20.1 exists on CurseForge; 5.26.1+mc1.20.1 is the Modrinth-listed stable release (Jan 2026) and is the one whose release channel is marked Release. Recorded rather than hidden: this pack prefers the published release over a rolling 5.27 build line. Registry-verified 2026-10-07: GET /v2/project/nmDcB62a/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 24109106b51846d387aa00c06d1445c35410c31c. RE-PINNED 5.26.1 -> 5.27.83. 5.26.1+mc1.20.1 is NOT returned by the registry as a 1.20.1 release, so a resolver filtering on release+Minecraft+loader would never find it; the earlier claim that it was 'the Modrinth-listed Release' came from a search snippet and was wrong. 5.27.83 is the most-downloaded release in the active 5.27 line (432,024)."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/jAZ7Ge3d/modernfix-forge-5.27.83%2Bmc1.20.1.jar",
+        "sha1": "24109106b51846d387aa00c06d1445c35410c31c",
+        "sha512": "2987d43ab991c31c94e53d16fe0694dd29a405fc7cdf6be69f5bf5b3d6a06a5d1b82ba8f5d8ecb4df45e592c649e39bc69787caa62b3417b5548392793be6e55",
+        "size": 1003230
+      }
+    },
+    {
+      "slug": "ambientsounds",
+      "name": "AmbientSounds",
+      "version": "6.3.8",
+      "filename": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+      "source": {
+        "kind": "modrinth",
+        "id": "8wDLqykj",
+        "page": "https://modrinth.com/mod/ambientsounds/version/AuLdtrBY",
+        "project": "fM515JnW"
+      },
+      "environment": "client",
+      "deps": [
+        "creativecore"
+      ],
+      "purpose": "A basin this large is silent in vanilla; wind on salt and surf somewhere below the glass are the pack's whole audio identity, and no other sound mod is needed.",
+      "license": "LGPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/ambientsounds/version/8wDLqykj",
+          "https://api.modrinth.com/v2/project/fM515JnW/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Minecraft 1.20.1, Forge, client-side only. 852K downloads; client-side only, so it is excluded from the server export. 81 MB of it is the sound bank, which is why no second audio mod is admitted. Registry-verified 2026-10-07: GET /v2/project/fM515JnW/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 87ea0cd8ec56763185ee0db09eec7c676969e4da. RE-PINNED 6.1.4 -> 6.3.8. 6.1.4 was chosen from a page listing; the API's current line for 1.20.1 is 6.3.x and 6.3.8 has 1.67M downloads. 6.3.9 exists but was 5 days old with 22K downloads at capture."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/fM515JnW/versions/AuLdtrBY/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+        "sha1": "87ea0cd8ec56763185ee0db09eec7c676969e4da",
+        "sha512": "150acb106bcb5cb7c74ede40f92cd7f597cc5f735104633b9a068179b05f5488d844af00fde98195a9cb8091f8055011a65126a67d96a8a2af95515a4ae42e55",
+        "size": 53429226
+      }
+    },
+    {
+      "slug": "creativecore",
+      "name": "CreativeCore",
+      "version": "2.12.38",
+      "filename": "CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+      "source": {
+        "kind": "modrinth",
+        "id": "IbFWHI5h",
+        "page": "https://modrinth.com/mod/creativecore/version/J9tluyYl",
+        "project": "OsZiaDHq"
+      },
+      "environment": "client",
+      "deps": [],
+      "purpose": "Required by AmbientSounds.",
+      "license": "LGPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/creativecore/version/IbFWHI5h",
+          "https://api.modrinth.com/v2/project/OsZiaDHq/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "9.66M downloads on the 1.20.1 Forge file — the most soaked build for this line. Registry-verified 2026-10-07: GET /v2/project/OsZiaDHq/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 1004b6ae4e494039e28b14f2ba3ebe6b182487a8. RE-PINNED 2.12.32 -> 2.12.38, kept in the same generation as AmbientSounds 6.3.8 (both are the same author's coordinated releases; 2.12.37/6.3.6 fixed the same reloader-thread bug together)."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/J9tluyYl/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+        "sha1": "1004b6ae4e494039e28b14f2ba3ebe6b182487a8",
+        "sha512": "fb4460c6c808369bd8a2191413e2f59126ff6113ff266f40a8c872b9d412b7a804a66c8f8de58af48581c649cd23d59ae1b183af8031d532d5bbd595c3187f04",
+        "size": 1144069
+      }
+    },
+    {
+      "slug": "ftb-quests",
+      "name": "FTB Quests",
+      "version": "2001.4.22",
+      "filename": "ftb-quests-forge-2001.4.22.jar",
+      "source": {
+        "kind": "curseforge",
+        "project": 289412,
+        "file": 8078538,
+        "url": "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+        "page": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/files"
+      },
+      "environment": "both",
+      "deps": [
+        "ftb-library",
+        "ftb-teams",
+        "architectury"
+      ],
+      "purpose": "The quest system that carries all three acts: JSON on disk (so it diffs, validates and versions), works solo and in co-op, and its command reward is what wires the mirror dive and The Turning to the quest graph.",
+      "license": "All Rights Reserved (FTB licence permits modpack inclusion with credit; see CREDITS_AND_LICENSES.md)",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+          "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/files/all"
+        ],
+        "note": "Type 'R', game version 1.20.1, loader Forge, uploaded 12 May 2026 — the newest 1.20.1 Forge file. Declared dependencies are exactly 404468 (FTB Teams), 404465 (FTB Library) and 419699 (Architectury API), each shipped at the pinned version below; FTB Essentials and FTB XMod Compat are NOT shipped."
+      }
+    },
+    {
+      "slug": "ftb-library",
+      "name": "FTB Library",
+      "version": "2001.2.13",
+      "filename": "ftb-library-forge-2001.2.13.jar",
+      "source": {
+        "kind": "curseforge",
+        "project": 404465,
+        "file": 8226927,
+        "url": "https://edge.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar",
+        "page": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files"
+      },
+      "environment": "both",
+      "deps": [
+        "architectury"
+      ],
+      "purpose": "Shared GUI library for the FTB layer; it is what renders the quest book, so its config is where the pack's UI restraint lives.",
+      "license": "All Rights Reserved",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/all"
+        ],
+        "note": "Minecraft 1.20.1, Forge, release channel R; the newest 1.20.1 file (Jun 2026)."
+      }
+    },
+    {
+      "slug": "ftb-teams",
+      "name": "FTB Teams",
+      "version": "2001.3.2",
+      "filename": "ftb-teams-forge-2001.3.2.jar",
+      "source": {
+        "kind": "curseforge",
+        "project": 404468,
+        "file": 7499810,
+        "url": "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+        "page": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files"
+      },
+      "environment": "both",
+      "deps": [
+        "ftb-library",
+        "architectury"
+      ],
+      "purpose": "Required by FTB Quests, and the reason co-op shares quest progress instead of duplicating it — three harbours, three players, one graph.",
+      "license": "All Rights Reserved",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/all"
+        ],
+        "note": "Minecraft 1.20.1, Forge, release channel R; the newest 1.20.1 file (Jan 2026)."
+      }
+    },
+    {
+      "slug": "architectury",
+      "name": "Architectury API",
+      "version": "9.2.14+forge",
+      "filename": "architectury-9.2.14-forge.jar",
+      "source": {
+        "kind": "modrinth",
+        "id": "9.2.14+forge",
+        "page": "https://modrinth.com/mod/architectury-api/version/1MKTLiiG",
+        "project": "lhGA9TYQ"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Declared dependency of the FTB layer on Forge.",
+      "license": "LGPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/architectury-api/version/9.2.14+forge",
+          "https://api.modrinth.com/v2/project/lhGA9TYQ/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Minecraft 1.20.1, Forge. 24.4M downloads — by a wide margin the most-used Architectury build for 1.20.1 Forge, and the last one published for that line. Registry-verified 2026-10-07: GET /v2/project/lhGA9TYQ/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 a52918a500ff421180a1cbd1a0cabee712134ec4."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+        "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+        "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
+        "size": 580602
+      }
+    },
+    {
+      "slug": "paxi",
+      "name": "Paxi",
+      "version": "1.20-Forge-4.0",
+      "filename": "Paxi-1.20-Forge-4.0.jar",
+      "source": {
+        "kind": "modrinth",
+        "project": "CU0PAyzb",
+        "page": "https://modrinth.com/mod/paxi/version/C7buFh0l",
+        "resolve_by": "version_number"
+      },
+      "environment": "both",
+      "deps": [],
+      "purpose": "Loads the Saltglass datapack (the reflected dimension and the three signature moments) into every new world automatically, so the pack cannot be launched into a world with no deep in it.",
+      "license": "LGPL-3.0-only",
+      "verification": {
+        "status": "official-page-verified",
+        "sources": [
+          "https://modrinth.com/mod/paxi/version/1.20-Forge-4.0",
+          "https://api.modrinth.com/v2/project/CU0PAyzb/version (filtered: forge, 1.20.1, release)"
+        ],
+        "note": "Forge, Minecraft 1.20-1.20.1, environment 'Client and server, best when installed on both', 2.13M downloads. Reads config/paxi/datapacks/. Newer Paxi builds exist for 1.21.x only. Registry-verified 2026-10-07: GET /v2/project/CU0PAyzb/version?loaders=[\"forge\"]&game_versions=[\"1.20.1\"]&version_type=release. sha1 a3a7008e07a27b3c831af7e4c82fbbc10a4da328."
+      },
+      "pins": {
+        "url": "https://cdn.modrinth.com/data/CU0PAyzb/versions/C7buFh0l/Paxi-1.20-Forge-4.0.jar",
+        "sha1": "a3a7008e07a27b3c831af7e4c82fbbc10a4da328",
+        "sha512": "50ed8c99981b9860c846a18cda215d388b67019b76a172833fa4e4b52cbd122eb8e49e594e5789790f95af06e0a98dcf2433b001b1f559b3e7071d2e6b7c1dd7",
+        "size": 96892
+      }
+    }
+  ],
+  "considered_and_rejected": [
+    {
+      "mod": "GeckoLib",
+      "reason": "Was in the first draft on the assumption that Alex's Mobs needs it. The registry shows Alex's Mobs' required dependency is Citadel, and nothing else in the pack uses GeckoLib. Removed rather than kept as insurance."
+    },
+    {
+      "mod": "OptiFine",
+      "reason": "Cannot be verified against Embeddium + Oculus + Create 6 + Ars Nouveau as a stack; it also replaces render code that Embeddium replaces. Excluded per the brief's own rule."
+    },
+    {
+      "mod": "Terralith 2.4.4",
+      "reason": "Verified 1.20.1 Forge-capable, but 'almost 100 biomes' contradicts a basin that must feel emptied out, and it would be a second worldgen stack on top of the pack's own datapack. Rejected for cohesion, not compatibility."
+    },
+    {
+      "mod": "Rubidium",
+      "reason": "Overlaps Embeddium; one renderer only."
+    },
+    {
+      "mod": "Iris",
+      "reason": "Fabric only on this Minecraft version; Oculus is its Forge-side equivalent."
+    },
+    {
+      "mod": "JEI + REI + Create Schematics etc.",
+      "reason": "One recipe viewer only. EMI covers book-fill and recipe trees."
+    },
+    {
+      "mod": "Sophisticated Storage / Functional Storage / Storage Drawers",
+      "reason": "Sophisticated Backpacks' placeable mode plus vanilla barrels and shulker boxes cover Act I–II; a second storage family would be superfluous."
+    },
+    {
+      "mod": "FTB Chunks / FTB Essentials / FTB XMod Compat",
+      "reason": "Claim protection and keybind utility are server-side decisions for small co-op (documented in README); shipping them would add 2–3 jars for settings a host can flip."
+    },
+    {
+      "mod": "ExtraQuests / FTB Quests UI Overhaul",
+      "reason": "Both verified for 1.20.1 Forge, but the pack needs no non-standard task types (the two it would have been used for are done with a scoreboard and a command in the datapack), and UI Overhaul is a re-skin of a screen this pack restyles by config instead."
+    },
+    {
+      "mod": "YUNG's Better Dungeons",
+      "reason": "Would have provided the Act III dungeon, but the drowned cathedral is hand-built in the pack's datapack; a random dungeon generator next to a scripted one reads as two packs."
+    },
+    {
+      "mod": "Cataclysm / Iron's Spellbooks / Mowzie's Mobs",
+      "reason": "All would supply a boss. The pack refuses a boss: the culminating objective is a place and a choice. Also avoids their combat-power escalation before Act III."
+    },
+    {
+      "mod": "Parachest / Elytra Slot / AnyFlight / creative flight mods",
+      "reason": "Explicit refusal 2 in DESIGN.md."
+    },
+    {
+      "mod": "Horror, sanity, fear, 'don't look at it' mods",
+      "reason": "Explicit refusal 1 in DESIGN.md."
+    },
+    {
+      "mod": "Curios API",
+      "reason": "Would only exist to hold a Baubles-style slot for Paragliders; Paragliders uses a vanilla chest slot here. Re-check before adding any accessory mod."
+    },
+    {
+      "mod": "Flywheel / Ponder (standalone jars)",
+      "reason": "Bundled inside Create 6.0.8. Adding them separately is the most common Create 6 startup crash and is a licence-redundancy problem as well."
+    }
+  ]
+}

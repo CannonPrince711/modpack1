@@ -1,0 +1,104 @@
+[
+  {
+    "filename": "create-1.20.1-6.0.8.jar",
+    "slug": "create",
+    "version": "mc1.20.1-6.0.8",
+    "source": "modrinth"
+  },
+  {
+    "filename": "FarmersDelight-1.20.1-1.3.4.jar",
+    "slug": "farmers-delight",
+    "version": "1.20.1-1.3.4",
+    "source": "modrinth"
+  },
+  {
+    "filename": "alexsmobs-1.22.9.jar",
+    "slug": "alexs-mobs",
+    "version": "1.22.9",
+    "source": "modrinth"
+  },
+  {
+    "filename": "citadel-2.6.3-1.20.1.jar",
+    "slug": "citadel",
+    "version": "2.6.3",
+    "source": "modrinth"
+  },
+  {
+    "filename": "ars_nouveau-1.20.1-4.12.7-all.jar",
+    "slug": "ars-nouveau",
+    "version": "4.12.7",
+    "source": "modrinth"
+  },
+  {
+    "filename": "tombstone-1.20.1-9.1.5.jar",
+    "slug": "corail-tombstone",
+    "version": "forge-1.20.1-9.1.5",
+    "source": "modrinth"
+  },
+  {
+    "filename": "YungsExtras-1.20-Forge-4.0.3.jar",
+    "slug": "yungs-extras",
+    "version": "1.20-Forge-4.0.3",
+    "source": "modrinth"
+  },
+  {
+    "filename": "YungsApi-1.20-Forge-4.0.6.jar",
+    "slug": "yungs-api",
+    "version": "1.20-Forge-4.0.6",
+    "source": "modrinth"
+  },
+  {
+    "filename": "sophisticatedbackpacks-1.20.1-3.26.9.2194.jar",
+    "slug": "sophisticated-backpacks",
+    "version": "1.20.1-3.26.9.2194",
+    "source": "modrinth"
+  },
+  {
+    "filename": "sophisticatedcore-1.20.1-1.5.6.2378.jar",
+    "slug": "sophisticated-core",
+    "version": "1.20.1-1.5.6.2378",
+    "source": "modrinth"
+  },
+  {
+    "filename": "Paraglider-forge-20.1.3.jar",
+    "slug": "paragliders",
+    "version": "20.1.3",
+    "source": "modrinth"
+  },
+  {
+    "filename": "modernfix-forge-5.27.83+mc1.20.1.jar",
+    "slug": "modernfix",
+    "version": "5.27.83+mc1.20.1",
+    "source": "modrinth"
+  },
+  {
+    "filename": "ftb-quests-forge-2001.4.22.jar",
+    "slug": "ftb-quests",
+    "version": "2001.4.22",
+    "source": "curseforge"
+  },
+  {
+    "filename": "ftb-library-forge-2001.2.13.jar",
+    "slug": "ftb-library",
+    "version": "2001.2.13",
+    "source": "curseforge"
+  },
+  {
+    "filename": "ftb-teams-forge-2001.3.2.jar",
+    "slug": "ftb-teams",
+    "version": "2001.3.2",
+    "source": "curseforge"
+  },
+  {
+    "filename": "architectury-9.2.14-forge.jar",
+    "slug": "architectury",
+    "version": "9.2.14+forge",
+    "source": "modrinth"
+  },
+  {
+    "filename": "Paxi-1.20-Forge-4.0.jar",
+    "slug": "paxi",
+    "version": "1.20-Forge-4.0",
+    "source": "modrinth"
+  }
+]

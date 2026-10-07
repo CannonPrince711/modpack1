@@ -1,0 +1,330 @@
+{
+	version: 13,
+	id: 5721070859431837237L,
+	group: "",
+	order_index: 0,
+	title: "Act I — The Low Water",
+	quests: [
+		{
+			id: 4473668089595604277L,
+			title: "Wash Ashore",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"The tide went sideways nine hundred years ago. You have arrived anyway, with a tag on a string and nothing else.",
+				"Cut wood, knap stone, and put a roof over the ground you sleep on. The flat is enormous and it does not care about you yet."
+			],
+			tasks: [
+				{
+					id: 894468425478296206L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:chest",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "Any shelter with a chest in it"
+				}
+			],
+			subtitle: "salvage-tag, no ship",
+			rewards: [
+				{
+					id: 4444256918496374493L,
+					type: "ftbquests:command",
+					command: "/give @s minecraft:bread 4",
+					elevate_perms: 0b,
+					silent: 0b,
+					title: "Four days of bread"
+				}
+			]
+		},
+		{
+			id: 2805343838640961890L,
+			title: "Drink the Difference",
+			x: 2.0d,
+			y: 0.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Salt will kill you slowly and politely. Water will not.",
+				"A cauldron of rainwater is the whole trick. Learn it before you walk out onto the flats."
+			],
+			tasks: [
+				{
+					id: 1474492381600138799L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:cauldron",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "Place a cauldron"
+				}
+			],
+			dependencies: [4473668089595604277L]
+		},
+		{
+			id: 8798041289042426023L,
+			title: "Salvage Tools",
+			x: 0.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Nothing here was left for you. Take the wreck apart, keep the iron.",
+				"A full stone set and a bucket is the qualification for the flats."
+			],
+			tasks: [
+				{
+					id: 6738033653859272801L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:bucket",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A bucket"
+				},
+				{
+					id: 947411067800587613L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:compass",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A compass"
+				}
+			],
+			dependencies: [4473668089595604277L]
+		},
+		{
+			id: 241668285397374520L,
+			title: "A Cutting Board",
+			x: 0.0d,
+			y: 4.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Farmer's Delight. Cook properly or eat badly; the flat gives you salty wheat and stubborn hope.",
+				"The board and the pot are the two blocks that make a camp a home."
+			],
+			tasks: [
+				{
+					id: 3497411916330310906L,
+					type: "ftbquests:item",
+					item: {
+						id: "farmersdelight:cutting_board",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "Cutting board"
+				},
+				{
+					id: 4542464916747840742L,
+					type: "ftbquests:item",
+					item: {
+						id: "farmersdelight:cooking_pot",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "Cooking pot"
+				}
+			],
+			dependencies: [8798041289042426023L]
+		},
+		{
+			id: 7643856132532906465L,
+			title: "Cut Glass From the Flat",
+			x: 2.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"They say you can cut glass out of the salt crust, if you cut it while the dawn is still on it.",
+				"Glass is the first thing the Kettle Sea ever gave anyone. It is also how you will read the water."
+			],
+			tasks: [
+				{
+					id: 2048194869654026167L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:glass",
+						Count: 16b
+					},
+					count: 16,
+					consume_items: 1b,
+					title: "16 glass"
+				}
+			],
+			dependencies: [8798041289042426023L]
+		},
+		{
+			id: 900932517860530825L,
+			title: "A Sea Lantern",
+			x: 2.0d,
+			y: 4.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Before there were harbours there were lamps, and before there were lamps there were people who did not come home.",
+				"Push for a sea lantern. You will need light that keeps working underwater."
+			],
+			tasks: [
+				{
+					id: 2238521108248169890L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:sea_lantern",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "Sea lantern"
+				}
+			],
+			dependencies: [7643856132532906465L]
+		},
+		{
+			id: 3173767139962522032L,
+			title: "Strip a Hull End to End",
+			x: 4.0d,
+			y: 2.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"There is a fleet out there, hull-up on the dry, that has been waiting nine centuries for somebody with a pick.",
+				"Barrels, iron and a nautilus shell from the last of its cargo."
+			],
+			tasks: [
+				{
+					id: 8035085808906171117L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:barrel",
+						Count: 4b
+					},
+					count: 4,
+					consume_items: 1b,
+					title: "Four barrels of salvage"
+				},
+				{
+					id: 7414158892370133922L,
+					type: "ftbquests:item",
+					item: {
+						id: "minecraft:nautilus_shell",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A nautilus shell"
+				}
+			],
+			dependencies: [7643856132532906465L]
+		},
+		{
+			id: 6779834992738025594L,
+			title: "Andesite and a Cog",
+			x: 4.0d,
+			y: 4.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"Create. The harbours were rebuilt with wind, bearings and pumps, and you are about to do it again at a smaller scale.",
+				"Andesite alloy, a cogwheel, a shaft, and the goggles so you can see what you are building."
+			],
+			tasks: [
+				{
+					id: 6560451095384004640L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:andesite_alloy",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "8 andesite alloy"
+				},
+				{
+					id: 5811796229940077029L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:cogwheel",
+						Count: 2b
+					},
+					count: 2,
+					consume_items: 1b,
+					title: "2 cogwheels"
+				},
+				{
+					id: 6456439133756742453L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:goggles",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "Engineer's goggles"
+				}
+			],
+			dependencies: [3173767139962522032L]
+		},
+		{
+			id: 5620756611258444150L,
+			title: "Pump the Flat",
+			x: 6.0d,
+			y: 4.0d,
+			shape: "circle",
+			size: 1.0d,
+			description: [
+				"A water wheel, a pump and pipe. Water is the only currency here and you are about to start moving it by hand.",
+				"This is the machinery the beacon quests will ask you to install three more times."
+			],
+			tasks: [
+				{
+					id: 115550484132386228L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:water_wheel",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A water wheel"
+				},
+				{
+					id: 2842871939398606152L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:mechanical_pump",
+						Count: 1b
+					},
+					count: 1,
+					consume_items: 1b,
+					title: "A mechanical pump"
+				},
+				{
+					id: 7906855405371538252L,
+					type: "ftbquests:item",
+					item: {
+						id: "create:fluid_pipe",
+						Count: 8b
+					},
+					count: 8,
+					consume_items: 1b,
+					title: "Eight pipes"
+				}
+			],
+			dependencies: [6779834992738025594L]
+		}
+	]
+}

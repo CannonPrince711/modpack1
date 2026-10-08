@@ -78,7 +78,7 @@ These started on this list or were requested, so they are no longer optional.
 | Classes | Paladins & Priests, Rogues & Warriors, Wizards, Archers (RPG Series), with Spell Engine, Spell Power Attributes, Structure Pool API and Armor Model API. Villager Recruits. Ars Nouveau. |
 | Currency | Lightman's Currency, plus its Tech machines and Villager Tycoon addon. |
 | Performance | Embeddium, Entity Culling, ImmediatelyFast, Dynamic FPS (client); Clumps, Memory Leak Fix, spark (both); Async Locator, Noisium (server). |
-| Interface | Entity Model Features (with Entity Texture Features; client only), JourneyMap, Oculus, Mouse Tweaks, Controlling (with Searchables), Better Third Person. |
+| Interface | Entity Model Features (with Entity Texture Features; client only), JourneyMap, Oculus, Mouse Tweaks, Controlling (with Searchables), Betthttps://github.com/CannonPrince711/modpack1er Third Person. |
 | Immersion | AmbientSounds (with CreativeCore), Falling Leaves, Sodium Dynamic Lights (with Sodium Options API) on the client; Immersive Weathering and Visual Workbench on both sides. |
 | Content | Alex's Mobs (with Citadel), Dungeon Crawl, Immersive Armors, L2 Weaponry (with L2 Library and L2 Complements). Their gear went through `tools/gen_gear_rebalance.py`. |
 | Dimensions | Jaden's Nether Expansion (with Elysium API) and Incendium Legacy; Nullscape and Moog's End Structures (with Moog's Structure Lib). |
